@@ -7,8 +7,13 @@ export function Footer() {
         <GridPattern x="50%" />
       </div>
       <div className="relative text-center text-sm text-slate-600">
-        <p>Copyright &copy; {new Date().getFullYear()} Lindehoff Design, LLC</p>
-        <p>All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} ORIGIN INVESTIGATIONS, INC. ALL RIGHTS RESERVED.</p>
+        <p><a href="#terms-of-use">Terms of Use</a>
+        " | "
+        <a href="#privacy-policy">Privacy Policy</a>
+        " | "
+        <a href="#data-security">Data Security</a>
+        </p>
       </div>
     </footer>
   )

@@ -3,12 +3,16 @@ import { Expandable } from '@/components/Expandable'
 import { SectionHeading } from '@/components/SectionHeading'
 
 const tableOfContents = {
-  'Getting started': {
-    'Getting started': 1,
-    'Intro to Figma': 15,
-    'Setting up your first artboard': 20,
+  '(1) Government / Legal': {
+    'Origin investigators have extensive law enforcement training and experience. We contract with
+    attorneys and government agencies to provide comprehensive criminal investigative support services. 
+    While most private investigation agencies work primarily with private clients, we actively seek 
+    involvement in complex criminal investigations. Origin can help to supplement the limited time 
+    resources of government agencies or examine alternative scenarios for defense attorneys. In addition 
+    to detailed case management, we are able to canvass large areas, inverview witnesses, work with forensic 
+    investigators, and conduct undercover surveillance and high-level interrogation.',
   },
-  Fundamentals: {
+  'Fundamentals': {
     'Strokes and fills': 21,
     'End points': 22,
     'Bezier curves': 26,
@@ -40,13 +44,13 @@ export function TableOfContents() {
           Table of contents
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          Get a look at all of the content covered in the book. Everything you
-          need to know is inside.
+          Origin is a full-service private investigation and intelligence agency.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          “Everything Starts as a Square” is comprised of 240 tightly edited,
-          highly visual pages designed to teach you everything you need to know
-          about icon design with no unnecessary filler.
+          Our investigators specialize in matters related to criminal investigations, intelligence gathering,
+          corporate and insurance fraud, surveillance, background investigations, computer forensics, threat 
+          assessment, and missing persons. We maintain an extensive network of assets to assist with cases throughout
+          the United States and abroad.
         </p>
         <Expandable>
           {({ isExpanded }) => (

@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Button } from '@/components/Button'
 import { GridPattern } from '@/components/GridPattern'
 import { StarRating } from '@/components/StarRating'
-import coverImage from '@/images/cover.png'
+import coverImage from '@/images/Origin_Logo.png'
 
 function Testimonial() {
   return (
@@ -50,18 +50,18 @@ export function Hero() {
         <div className="bg-white pt-16 lg:col-span-7 lg:bg-transparent lg:pt-0 lg:pl-16 xl:pl-20">
           <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-0">
             <h1 className="font-display text-5xl font-extrabold text-slate-900 sm:text-6xl">
-              Get lost in the world of icon design.
+              ORIGIN
             </h1>
             <p className="mt-4 text-3xl text-slate-600">
-              A book and video course that teaches you how to design your own
-              icons from scratch.
+              Origin is a private investigation and intelligence agency<br>
+              We assist governments, corporations, law firms, and individuals
             </p>
             <div className="mt-8 flex gap-4">
               <Button href="#free-chapters" color="blue">
-                Get sample chapter
+                Schedule a consultation
               </Button>
               <Button href="#pricing" variant="outline" color="blue">
-                Buy book
+                Learn more
               </Button>
             </div>
           </div>
