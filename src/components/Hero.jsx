@@ -53,7 +53,7 @@ export function Hero() {
               ORIGIN
             </h1>
             <p className="mt-4 text-3xl text-slate-600">
-              Origin is a private investigation and intelligence agency<br>
+              Origin is a private investigation and intelligence agency<br/>
               We assist governments, corporations, law firms, and individuals
             </p>
             <div className="mt-8 flex gap-4">

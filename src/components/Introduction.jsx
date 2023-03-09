@@ -19,24 +19,17 @@ export function Introduction() {
           Our investigators and operatives have extensive knowledge and training acquired through law enforcement,
           intelligence, and private sector experience.
         </p>
-//       <p className="mt-4">
-//        But it turns out this isn’t how great icon designers work at all.
-//        </p>
-//        <p className="mt-4">
-//          In “Everything Starts as a Square”, you’ll learn the systems experts
-//          use to create pixel perfect icons, without relying on a steady hand.
-//        </p>
         <ul role="list" className="mt-8 space-y-3">
           {[
             'Origin works tirelessly to expose hidden or misunderstood evidence. 
-            With our uncommon depth of diligence, we find the answers that have eluded others.',
+            With our uncommon depth of diligence',' we find the answers that have eluded others.',
             'We focus on the details of every case. Our understanding of the real world injects our findings
             with authenticity to which clients and courts can relate.',
-            'Origin reports are clear, comprehensive, and decisive. We account for alternative explanations
+            'Origin reports are clear',' comprehensive',' and decisive. We account for alternative explanations
             and strive for definitive assessments whenever the facts allow.',
             'Our investigators are experienced professionals and are able to maintain critical focus during 
             high-profile investigations and contentions court proceedings.',
-            'Origin responds to what you think is urgent. We meet our deadlines, but maintain flexibility to serve
+            'Origin responds to what you think is urgent. We meet our deadlines',' but maintain flexibility to serve
             the constantly changing priorities and schedules of our clients.',
           ].map((feature) => (
             <li key={feature} className="flex">
