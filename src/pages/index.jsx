@@ -24,7 +24,7 @@ export default function Home() {
         </title>
         <meta
           name="description"
-          content="A book and video course that teaches you how to design your own icons from scratch. "
+          content="TEST A book and video course that teaches you how to design your own icons from scratch. "
         />
       </Head>
       <Hero />
