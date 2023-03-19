@@ -21,16 +21,11 @@ export function Introduction() {
         </p>
         <ul role="list" className="mt-8 space-y-3">
           {[
-            'Origin works tirelessly to expose hidden or misunderstood evidence. 
-            With our uncommon depth of diligence',' we find the answers that have eluded others.',
-            'We focus on the details of every case. Our understanding of the real world injects our findings
-            with authenticity to which clients and courts can relate.',
-            'Origin reports are clear',' comprehensive',' and decisive. We account for alternative explanations
-            and strive for definitive assessments whenever the facts allow.',
-            'Our investigators are experienced professionals and are able to maintain critical focus during 
-            high-profile investigations and contentions court proceedings.',
-            'Origin responds to what you think is urgent. We meet our deadlines',' but maintain flexibility to serve
-            the constantly changing priorities and schedules of our clients.',
+            'Origin works tirelessly to expose hidden or misunderstood evidence. With our uncommon depth of diligence',' we find the answers that have eluded others.',
+            'We focus on the details of every case. Our understanding of the real world injects our findings with authenticity to which clients and courts can relate.',
+            'Origin reports are clear',' comprehensive',' and decisive. We account for alternative explanations and strive for definitive assessments whenever the facts allow.',
+            'Our investigators are experienced professionals and are able to maintain critical focus during high-profile investigations and contentions court proceedings.',
+            'Origin responds to what you think is urgent. We meet our deadlines',' but maintain flexibility to serve the constantly changing priorities and schedules of our clients.',
           ].map((feature) => (
             <li key={feature} className="flex">
               <CheckIcon className="h-8 w-8 flex-none fill-blue-500" />

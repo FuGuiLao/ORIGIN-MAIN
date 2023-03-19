@@ -4,13 +4,7 @@ import { SectionHeading } from '@/components/SectionHeading'
 
 const tableOfContents = {
   '(1) Government / Legal': {
-    'Origin investigators have extensive law enforcement training and experience. We contract with
-    attorneys and government agencies to provide comprehensive criminal investigative support services. 
-    While most private investigation agencies work primarily with private clients, we actively seek 
-    involvement in complex criminal investigations. Origin can help to supplement the limited time 
-    resources of government agencies or examine alternative scenarios for defense attorneys. In addition 
-    to detailed case management, we are able to canvass large areas, inverview witnesses, work with forensic 
-    investigators, and conduct undercover surveillance and high-level interrogation.',
+    'Origin investigators have extensive law enforcement training and experience. We contract with attorneys and government agencies to provide comprehensive criminal investigative support services. While most private investigation agencies work primarily with private clients, we actively seek involvement in complex criminal investigations. Origin can help to supplement the limited time resources of government agencies or examine alternative scenarios for defense attorneys. In addition to detailed case management, we are able to canvass large areas, inverview witnesses, work with forensic investigators, and conduct undercover surveillance and high-level interrogation.',
   },
   'Fundamentals': {
     'Strokes and fills': 21,
@@ -47,10 +41,7 @@ export function TableOfContents() {
           Origin is a full-service private investigation and intelligence agency.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          Our investigators specialize in matters related to criminal investigations, intelligence gathering,
-          corporate and insurance fraud, surveillance, background investigations, computer forensics, threat 
-          assessment, and missing persons. We maintain an extensive network of assets to assist with cases throughout
-          the United States and abroad.
+          Our investigators specialize in matters related to criminal investigations, intelligence gathering, corporate and insurance fraud, surveillance, background investigations, computer forensics, threat assessment, and missing persons. We maintain an extensive network of assets to assist with cases throughout the United States and abroad.
         </p>
         <Expandable>
           {({ isExpanded }) => (
