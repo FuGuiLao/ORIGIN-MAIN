@@ -14,25 +14,19 @@ const videos = [
       'Origin can provide detailed case review and complete parallel investigations from arrest to trial.',
   },
   {
-    title: 'Setting up your artboard',
+    title: 'Surveillance',
     description:
-      'Learn how to create a new artboard and configure your grid and rulers for designing icons.',
-    image: gridsImage,
-    runtime: { minutes: 9, seconds: 12 },
+      'Our operatives are diverse, experienced, and highly skilled in contact and non=contact surveillance.',
   },
   {
-    title: 'Designing your first icon',
+    title: 'Locates',
     description:
-      'Using basic shapes and boolean operations, learn how to design your own notification icon from scratch.',
-    image: strokesImage,
-    runtime: { minutes: 23, seconds: 25 },
+      'Origin can find witnesses and other individuals that don\'t want to be found, through data driven and field investigations.',
   },
   {
-    title: 'Advanced design techniques',
+    title: 'Forensics',
     description:
-      'Learn the techniques you need to know to adapt your original icon to a modern duotone style.',
-    image: duotoneImage,
-    runtime: { minutes: 28, seconds: 44 },
+      'Origin has experts on staff in data forensics, to analyze devices and provide data recovery and retention services.',
   },
 ]
 
@@ -64,13 +58,10 @@ export function Screencasts() {
           Screencasts
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          Over an hour of high quality, step-by-step video content to sharpen
-          your icon design workflow.
+          It is always our goal to be your primary investigative agency.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          Learn how to design your very first icons in a series of screencasts
-          that will teach you everything you need to know to go from beginner to
-          pro in just over an hour.
+          We provide comprehensive services and have the investigative and administrative staff to respond quickly and get results.
         </p>
       </Container>
       <Container size="lg" className="mt-16">
