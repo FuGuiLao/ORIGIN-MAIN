@@ -50,11 +50,10 @@ export function Hero() {
         <div className="bg-white pt-16 lg:col-span-7 lg:bg-transparent lg:pt-0 lg:pl-16 xl:pl-20">
           <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-0">
             <h1 className="font-display text-5xl font-extrabold text-slate-900 sm:text-6xl">
-              ORIGIN
+              Origin is a private investigation and intelligence agency.
             </h1>
             <p className="mt-4 text-3xl text-slate-600">
-              Origin is a private investigation and intelligence agency<br/>
-              We assist governments, corporations, law firms, and individuals
+              We assist governments, corporations, law firms, and individuals.
             </p>
             <div className="mt-8 flex gap-4">
               <Button href="#free-chapters" color="blue">
