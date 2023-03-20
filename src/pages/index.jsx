@@ -33,29 +33,28 @@ export default function Home() {
       <TableOfContents />
       <Testimonial
         id="testimonial-from-tommy-stroman"
-        author={{
-          name: 'Tommy Stroman',
-          role: 'Front-end developer',
-          image: avatarImage1,
-        }}
       >
+      <title>
+          CA SUPERIOR COURT CASES
+        </title>
         <p>
-          “I didn’t know a thing about icon design until I read this book. Now I
-          can create any icon I need in no time. Great resource!”
+          Origin is a member of the Los Angeles County Court Investigator Panel. This means that we can provide criminal case investigative services at no costr to qualified defendants. We also offer thses services in partnership with law firms through our fully integrated case review process. Our highlay experienced investigators can help make the difference.
         </p>
+        <div className="mt-8 flex gap-4">
+              <Button href="#free-chapters" color="blue">
+                Schedule a Consultation
+              </Button>
+            </div>
       </Testimonial>
       <Screencasts />
       <Testimonial
         id="testimonial-from-gerardo-stark"
-        author={{
-          name: 'Gerardo Stark',
-          role: 'Creator of Pandemicons',
-          image: avatarImage2,
-        }}
       >
+       <title>
+          SPECIALIZED DATA
+        </title>
         <p>
-          “I’ve tried to create my own icons in the past but quickly got
-          frustrated and gave up. Now I sell my own custom icon sets online.”
+          Origin specialized in hard to get information, including bank and other asset searches, insurance policy information, employment data, medical records, travel information, and social media activity. Our specialized data services can help to uncover hidden information that can be valuable in civil proceedings. In addition to raw data, our experienced investigators and intelligence analysts can bring relevance to complex informaiton. 
         </p>
       </Testimonial>
       <Resources />

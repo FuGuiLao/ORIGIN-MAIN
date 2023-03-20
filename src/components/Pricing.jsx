@@ -105,35 +105,39 @@ export function Pricing() {
           Pick your package
         </p>
         <p className="mt-4 max-w-xl text-lg tracking-tight text-slate-600">
-          “Everything Starts as a Square” is available in two different packages
-          so you can pick the one that’s right for you.
+          Origin partners with our clients in a variety of ways.
+          Let us know your needs and we will figure out the
+          best way to work together to get the best results.
         </p>
       </Container>
       <div className="mx-auto mt-16 max-w-5xl lg:px-6">
         <div className="grid bg-slate-50 sm:px-6 sm:pb-16 md:grid-cols-2 md:rounded-6xl md:px-8 md:pt-16 lg:p-20">
           <Plan
-            name="Essential"
-            description="The perfect starting point if you’re on a budget."
-            price={15}
+            name="Standard"
+            description="The perfect starting point for criminal or civil investigations."
+            price={0}
             href="#"
             features={[
-              'The 240-page ebook',
-              'Figma icon templates',
-              'Community access',
+              'Free initial consultation',
+              'Access to our entire investigation staff',
+              'Specialized Data',
             ]}
           />
           <Plan
             featured
-            name="Complete"
-            description="Everything icon resource you could ever ask for."
+            name="Integrated"
+            description="When your firm wants a dedicated agency for criminal or civil investigaitons."
             price={229}
             href="#"
             features={[
-              'The 240-page ebook',
-              'Figma icon templates',
-              'Over an hour of screencasts',
-              'Weekly icon teardowns',
-              'Community access',
+              'Detailed case reviews',
+              'Free technology integration',
+              'Dedicated case Manager',
+              'Dedicated intelligence analyst',
+              'Access to our entire investigative staff',
+              'Discounted investigative fees',
+              'Discounted specialized data fees',
+              'No long term commitments',
             ]}
           />
         </div>
