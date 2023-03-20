@@ -3,14 +3,14 @@ import { Expandable } from '@/components/Expandable'
 import { SectionHeading } from '@/components/SectionHeading'
 
 const tableOfContents = {
-  '(1) Government / Legal': {
+  'Government / Legal': {
     'Origin investigators have extensive law enforcement training and experience. We contract with attorneys and government agencies to provide comprehensive criminal investigative support services. While most private investigation agencies work primarily with private clients, we actively seek involvement in complex criminal investigations. Origin can help to supplement the limited time resources of government agencies or examine alternative scenarios for defense attorneys. In addition to detailed case management, we are able to canvass large areas, inverview witnesses, work with forensic investigators, and conduct undercover surveillance and high-level interrogation.': 1,
   },
-  'FCorporate': {
-    'SOrigin works with companies of all sized to increase the efficiency of their business operations. Not only are our investigators trained law enforcement professional, but experienced private sector leaders. Our investigators know the difference between criminal activity and negligence, waste, and abuse. Having investigators with private sector experience makes a difference; our investigators know what to look for when examining employee files, financial statements, and regulatory compliance issues. Origin can help with a single incident or provide onging services to improve human resources, business operations, inventory management, and prevent corporate espionage.': 2,
+  'Corporate': {
+    'Origin works with companies of all sized to increase the efficiency of their business operations. Not only are our investigators trained law enforcement professional, but experienced private sector leaders. Our investigators know the difference between criminal activity and negligence, waste, and abuse. Having investigators with private sector experience makes a difference; our investigators know what to look for when examining employee files, financial statements, and regulatory compliance issues. Origin can help with a single incident or provide onging services to improve human resources, business operations, inventory management, and prevent corporate espionage.': ,
 
   },
-  'Commercials': {
+  'Commercial': {
     'Origin provides comprehensive commercial services to a wide range of entitiles. As one of our core competencies, we assist by exposing the facts necessary to build your case and prevent fraudulent activity. We can provide investigative services after an incident has occurred or implement preclusive measures to ensure adverse conditions are avoided altogether. These measures include comprehensive background investigations, threat assessment for venues or special events, and other intelligence gathering. Our team consists of highly trained professionals with years of law enforcement and private sector experience using sophisticated technology to meet the needs of our clients.': 3,
     Flattening: 78,
   },
