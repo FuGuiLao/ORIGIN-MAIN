@@ -9,11 +9,11 @@ import strokesImage from '@/images/screencasts/strokes.svg'
 
 const videos = [
   {
-    title: 'Getting started with Figma',
+    title: 'Criminal Investigations',
     description:
-      'Get familiar with the Figma UI, the different tools it offers, and the most important features.',
-    image: setupImage,
-    runtime: { minutes: 16, seconds: 54 },
+      'Origin can provide detailed case review and complete parallel investigations from arrest to trial.',
+    image: ,
+    runtime: {},
   },
   {
     title: 'Setting up your artboard',
