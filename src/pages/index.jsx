@@ -32,6 +32,12 @@ export default function Home() {
       <Introduction />
       <NavBar />
       <TableOfContents />
+      <Testimonial
+        id="testimonial-from-tommy-stroman"
+        author={{
+          
+        }}
+      >
       <title>
           CA SUPERIOR COURT CASES
         </title>
@@ -43,13 +49,21 @@ export default function Home() {
                 Schedule a Consultation
               </Button>
             </div>
+      </Testimonial>
       <Screencasts />
+      <Testimonial
+        id="testimonial-from-gerardo-stark"
+         author={{
+          
+        }}
+      >
        <title>
           SPECIALIZED DATA
         </title>
         <p>
           Origin specialized in hard to get information, including bank and other asset searches, insurance policy information, employment data, medical records, travel information, and social media activity. Our specialized data services can help to uncover hidden information that can be valuable in civil proceedings. In addition to raw data, our experienced investigators and intelligence analysts can bring relevance to complex informaiton. 
         </p>
+      </Testimonial>
       <Resources />
       <FreeChapters />
       <Pricing />
