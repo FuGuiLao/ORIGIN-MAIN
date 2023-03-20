@@ -13,15 +13,14 @@ function Testimonial() {
       </div>
       <blockquote className="mt-2">
         <p className="font-display text-xl font-medium text-slate-900">
-          “This method of designing icons is genius. I wish I had known this
-          method a lot sooner.”
+          “Origin is a differnt kind of private investiation agency. They have deep resources and are able to respond quickly to a wide variety of assignments..”
         </p>
       </blockquote>
       <figcaption className="mt-2 text-sm text-slate-500">
         <strong className="font-semibold text-blue-600 before:content-['—_']">
-          Stacey Solomon
+          Partner
         </strong>
-        , Founder at Retail Park
+        , Los Angeles-Based Law Firm
       </figcaption>
     </figure>
   )
@@ -39,7 +38,7 @@ export function Hero() {
               patternTransform="translate(112 64)"
             />
           </div>
-          <div className="relative z-10 mx-auto flex w-64 rounded-xl bg-slate-60 shadow-xl md:w-80 lg:w-auto">
+          <div className="relative z-10 mx-auto flex w-64 rounded-xl bg-slate-600 shadow-xl md:w-80 lg:w-auto">
             <Image className="w-full" src={coverImage} alt="" priority />
           </div>
         </div>
@@ -53,7 +52,7 @@ export function Hero() {
               Origin is a private investigation and intelligence agency.
             </h1>
             <p className="mt-4 text-3xl text-slate-600">
-              We assist governments, corporations, law firms, and individuals.
+              We assist governments, corporations, law firms, and individuals with criminal matters throughout the United States and abroad.
             </p>
             <div className="mt-8 flex gap-4">
               <Button href="#free-chapters" color="blue">
