@@ -13,7 +13,7 @@ function Testimonial() {
       </div>
       <blockquote className="mt-2">
         <p className="font-display text-xl font-medium text-slate-900">
-          “Origin is a differnt kind of private investiation agency. They have deep resources and are able to respond quickly to a wide variety of assignments..”
+          “Origin is a different kind of private investigation agency. They have deep resources and are able to respond quickly.”
         </p>
       </blockquote>
       <figcaption className="mt-2 text-sm text-slate-500">
@@ -52,7 +52,7 @@ export function Hero() {
               Origin is a private investigation and intelligence agency.
             </h1>
             <p className="mt-4 text-3xl text-slate-600">
-              We assist governments, corporations, law firms, and individuals with criminal matters throughout the United States and abroad.
+              We assist governments, corporations, law firms, and individuals with criminal and civil matters throughout the United States and abroad.
             </p>
             <div className="mt-8 flex gap-4">
               <Button href="#free-chapters" color="blue">
