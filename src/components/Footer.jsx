@@ -7,7 +7,7 @@ export function Footer() {
         <GridPattern x="50%" />
       </div>
       <div className="relative text-center text-sm text-slate-600">
-        <p>&copy; {new Date().getFullYear()} ORIGIN INVESTIGATIONS, INC. ALL RIGHTS RESERVED.</p>
+        <p>&copy; {new Date().getFullYear()} Origin Investigations Inc. All Rights Reserved.</p>
         <p><a href="#terms-of-use">Terms of Use</a>
         " | "
         <a href="#privacy-policy">Privacy Policy</a>
