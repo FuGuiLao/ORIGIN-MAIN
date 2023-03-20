@@ -12,12 +12,11 @@ export function Introduction() {
     >
       <Container className="text-lg tracking-tight text-slate-700">
         <p className="font-display text-4xl font-bold tracking-tight text-slate-900">
-          Origin is a full-service private investigation and intelligence agency. 
+          Origin is a different kind of private investigation agency. Our investigative team is comprised of experienced former law enforcment and 
+          intelligence professionals.
         </p>
         <p className="mt-4">
-          We provide services to governments, corporations, law firms, and individuals.
-          Our investigators and operatives have extensive knowledge and training acquired through law enforcement,
-          intelligence, and private sector experience.
+          TEMP
         </p>
         <ul role="list" className="mt-8 space-y-3">
           {[
