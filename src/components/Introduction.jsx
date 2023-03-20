@@ -16,8 +16,6 @@ export function Introduction() {
           intelligence professionals.
         </p>
         <p className="mt-4">
-          In addition to our field investigations, Origin developed and operates an industry-leading system to aggregate structured and unstructured data. 
-          We then use a combination of machine learning, artificial intelligence, and experienced human intelligence to process that data and monitor it in real-time.
         </p>
         <ul role="list" className="mt-8 space-y-3">
           {[
