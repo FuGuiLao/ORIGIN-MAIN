@@ -12,8 +12,6 @@ const videos = [
     title: 'Criminal Investigations',
     description:
       'Origin can provide detailed case review and complete parallel investigations from arrest to trial.',
-    image: ,
-    runtime: {},
   },
   {
     title: 'Setting up your artboard',
