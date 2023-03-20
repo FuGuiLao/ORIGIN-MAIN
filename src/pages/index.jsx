@@ -21,11 +21,11 @@ export default function Home() {
     <>
       <Head>
         <title>
-          Everything Starts as a Square - Get lost in the world of icon design
+          ORIGIN / Investigation / Intelligence
         </title>
         <meta
           name="description"
-          content="A book and video course that teaches you how to design your own icons from scratch. "
+          content="Origin is a private investigation and intelligence agency. We assist governments, corporations, law firms, and individuals."
         />
       </Head>
       <Hero />
@@ -42,7 +42,7 @@ export default function Home() {
           CA SUPERIOR COURT CASES
         </title>
         <p>
-          Origin is a member of the Los Angeles County Court Investigator Panel. This means that we can provide criminal case investigative services at no costr to qualified defendants. We also offer thses services in partnership with law firms through our fully integrated case review process. Our highlay experienced investigators can help make the difference.
+          Origin is a member of the California Superior Court Investigator Panel. This means that we can provide criminal case investigative services at no cost to qualified defendants. <p>We also offer thses services in partnership with law firms through our fully integrated case review process. Our highlay experienced investigators can help make the difference.
         </p>
         <div className="mt-8 flex gap-4">
               <Button href="#free-chapters" color="blue">
