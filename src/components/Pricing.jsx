@@ -11,7 +11,7 @@ function Plan({ name, description, price, features, href, featured }) {
     <div
       className={clsx(
         'relative px-4 py-16 sm:rounded-5xl sm:px-10 md:py-12 lg:px-12',
-        featured && 'bg-red-600 sm:shadow-lg'
+        featured && 'bg-gray-600 sm:shadow-lg'
       )}
     >
       {featured && (
