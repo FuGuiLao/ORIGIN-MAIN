@@ -33,7 +33,7 @@ export function Testimonial({ id, author, children }) {
               <div className="text-base font-medium leading-6 tracking-tight text-slate-900">
                 {author.name}
               </div>
-              <div className="mt-1 text-sm text-slate-600">{author.role}</div>
+             
             </div>
           </figcaption>
         </figure>
