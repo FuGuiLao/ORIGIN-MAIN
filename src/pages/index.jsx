@@ -32,7 +32,6 @@ export default function Home() {
       <Introduction />
       <NavBar />
       <TableOfContents />
-      <Screencasts />
       <Testimonial
         id="testimonial-from-tommy-stroman"
         author={{
