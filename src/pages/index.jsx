@@ -53,7 +53,7 @@ export default function Home() {
        <p>
         &nbsp;
         </p>
-              <Button href="#free-chapters" color="blue">
+              <Button href="#free-chapters" color="red">
                 Schedule a Consultation
               </Button>
         
@@ -82,7 +82,7 @@ export default function Home() {
  <p>
         &nbsp;
         </p>
-          <Button href="#free-chapters" color="blue">
+          <Button href="#free-chapters" color="red">
                 Order Specialized Data Now
               </Button>
       
