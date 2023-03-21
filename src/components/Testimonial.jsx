@@ -3,7 +3,6 @@ import Image from 'next/image'
 import { Container } from '@/components/Container'
 import { GridPattern } from '@/components/GridPattern'
 import { StarRating } from '@/components/StarRating'
-import { Button } from '@/components/Button'
 
 export function Testimonial({ id, author, children }) {
   return (
@@ -15,17 +14,25 @@ export function Testimonial({ id, author, children }) {
       <div className="text-slate-900/10">
         <GridPattern x="50%" patternTransform="translate(0 80)" />
       </div>
-      <Container size="s" className="relative">
+      <Container size="xs" className="relative">
         <figure>
           <blockquote className="mt-10 font-display text-4xl font-medium tracking-tight text-slate-900 sm:text-center">
             {children}
           </blockquote>
           <figcaption className="mt-10 flex items-center sm:justify-center">
-             
+            <div className="overflow-hidden rounded-full bg-slate-200">
+              <Image
+                className="h-12 w-12 object-cover"
+                src={author.image}
+                alt=""
+                width={48}
+                height={48}
+              />
+            </div>
             <div className="ml-4">
-               <Button href="#free-chapters" color="blue">
-                Schedule a Consultation
-              </Button>
+              <div className="text-base font-medium leading-6 tracking-tight text-slate-900">
+                {author.name}
+              </div>
               <div className="mt-1 text-sm text-slate-600">{author.role}</div>
             </div>
           </figcaption>
