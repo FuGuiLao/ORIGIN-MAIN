@@ -32,24 +32,7 @@ export default function Home() {
       <Introduction />
       <NavBar />
       <TableOfContents />
-      <Testimonial
-        id="testimonial-from-tommy-stroman"
-        author={{
-          
-        }}
-      >
-      <title>
-          CA SUPERIOR COURT CASES
-        </title>
-        <p>
-          Origin is a member of the California Superior Court Investigator Panel. This means that we can provide criminal case investigative services at no cost to qualified defendants. We also offer thses services in partnership with law firms through our fully integrated case review process. Our highlay experienced investigators can help make the difference.
-        </p>
-        <div className="mt-8 flex gap-4">
-              <Button href="#free-chapters" color="blue">
-                Schedule a Consultation
-              </Button>
-            </div>
-      </Testimonial>
+     
       <Screencasts />
       <Testimonial
         id="testimonial-from-gerardo-stark"
