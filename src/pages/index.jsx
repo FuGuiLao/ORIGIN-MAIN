@@ -32,7 +32,8 @@ export default function Home() {
       <Introduction />
       <NavBar />
       <TableOfContents />
-
+      <Screencasts />
+      <Testimonial />
       <Resources />
       <FreeChapters />
       <Pricing />
