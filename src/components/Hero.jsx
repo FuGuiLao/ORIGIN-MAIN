@@ -5,7 +5,26 @@ import { GridPattern } from '@/components/GridPattern'
 import { StarRating } from '@/components/StarRating'
 import coverImage from '@/images/Origin_Logo.png'
 
-
+function Testimonial() {
+  return (
+    <figure className="relative mx-auto max-w-md text-center lg:mx-0 lg:text-left">
+      <div className="flex justify-center text-red-800 lg:justify-start">
+        <StarRating />
+      </div>
+      <blockquote className="mt-2">
+        <p className="font-display text-xl font-medium text-slate-900">
+          “We use Origin for all of our investigations. After transitioning to their integrated case review, our intake process is super efficient.”
+        </p>
+      </blockquote>
+      <figcaption className="mt-2 text-sm text-slate-500">
+        <strong className="font-semibold text-red-800 before:content-['—_']">
+          Partner
+        </strong>
+        , Los Angeles-Based Law Firm
+      </figcaption>
+    </figure>
+  )
+}
 
 export function Hero() {
   return (
