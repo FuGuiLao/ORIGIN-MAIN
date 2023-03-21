@@ -58,7 +58,7 @@ export function Screencasts() {
           Screencasts
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          It is always our goal to be your primary investigative agency.
+          With our diverse team and uncommon resources, it is always our goal to be your primary investigative agency.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
           We provide comprehensive services and have the investigative and administrative staff to respond quickly and get results.
