@@ -21,7 +21,7 @@ const videos = [
   {
     title: 'Locates',
     description:
-      'Origin can find witnesses and other individuals who don\'t want to be found, through data driven and field investigations.',
+      'Origin can find witnesses and other subjects who don\'t want to be found, through data driven and field investigations.',
   },
   {
     title: 'Forensics',
