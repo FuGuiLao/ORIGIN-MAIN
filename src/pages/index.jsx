@@ -45,6 +45,8 @@ export default function Home() {
         <p>
           Origin is a member of the California Superior Court Investigator Panel. This means that we can provide criminal case investigative services at no cost to qualified defendants.
         </p>
+        <p>
+        </p>
        <p>
          We also offer thses services in partnership with law firms through our fully integrated case review process. Our highlay experienced investigators can help make the difference.
         </p>
@@ -66,7 +68,12 @@ export default function Home() {
           SPECIALIZED DATA
         </title>
         <p>
-          Origin specialized in hard to get information, including bank and other asset searches, insurance policy information, employment data, medical records, travel information, and social media activity. Our specialized data services can help to uncover hidden information that can be valuable in civil proceedings. In addition to raw data, our experienced investigators and intelligence analysts can bring relevance to complex informaiton. 
+          Origin specialized in hard to get information, including bank and other asset searches, insurance policy information, employment data, medical records, travel information, and social media activity.
+            </p>
+        <p>
+        </p>
+ <p>
+          Our specialized data services can help to uncover hidden information that can be valuable in civil proceedings. In addition to raw data, our experienced investigators and intelligence analysts can bring relevance to complex informaiton. 
         </p>
         <div className="mt-8 flex gap-4">
               <Button href="#free-chapters" color="blue">
