@@ -17,7 +17,7 @@ export function Testimonial({ id, author, children }) {
       <Container size="xs" className="relative">
         <figure>
           <blockquote className="mt-10 font-display text-4xl font-medium tracking-tight text-slate-900 sm:text-center">
-            {children}
+            {children}TEST
           </blockquote>
           <figcaption className="mt-10 flex items-center sm:justify-center">
             <div className="overflow-hidden rounded-full bg-slate-200">
