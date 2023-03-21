@@ -49,7 +49,7 @@ export function TableOfContents() {
                       </h3>
                       <ol
                         role="list"
-                        className="mt-8 divide-y divide-slate-300/30 rounded-2xl bg-slate-50 py-3 px-6 text-base tracking-tight sm:py-7 sm:px-8"
+                        className="mt-8 divide-y divide-slate-300/30 rounded-2xl bg-zinc-50 py-3 px-6 text-base tracking-tight sm:py-7 sm:px-8"
                       >
                         {Object.entries(pages).map(([title, pageNumber]) => (
                           <li
