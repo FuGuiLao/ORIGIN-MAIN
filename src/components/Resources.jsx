@@ -11,7 +11,7 @@ const resources = [
   {
     title: 'Expert Witnesses',
     description:
-      'Origin has leading experts available to consult in nearly every discipline and they are an integral part of our investigative process.',
+      'Origin has leading experts available to consult in nearly every discipline and they are always an integral part of our investigative process.',
     image: function FigmaImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
