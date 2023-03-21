@@ -118,25 +118,24 @@ export function Pricing() {
             price={0}
             href="#"
             features={[
-              'Free initial consultation',
-              'Access to our entire investigation staff',
-              'Specialized Data',
+              'Free consultations',
+              'Access to our entire staff',
+              'Access to specialized data',
             ]}
           />
           <Plan
             featured
             name="Integrated"
-            description="When your firm wants a dedicated agency for criminal or civil investigaitons."
-            price={229}
+            description="When your firm wants to partner with a dedicated agency."
+            price={0}
             href="#"
             features={[
               'Detailed case reviews',
-              'Free technology integration',
-              'Dedicated case Manager',
-              'Dedicated intelligence analyst',
-              'Access to our entire investigative staff',
+              'Free technology integrations',
               'Discounted investigative fees',
               'Discounted specialized data fees',
+              'Dedicated case manager',
+              'Dedicated intelligence analyst',
               'No long term commitments',
             ]}
           />
