@@ -8,7 +8,7 @@ import coverImage from '@/images/origin.png'
 function Testimonial() {
   return (
     <figure className="relative mx-auto max-w-md text-center lg:mx-0 lg:text-left">
-      <div className="flex justify-center text-red-800 lg:justify-start">
+      <div className="flex justify-center text-gray-800 lg:justify-start">
         <StarRating />
       </div>
       <blockquote className="mt-2">
