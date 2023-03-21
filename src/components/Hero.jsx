@@ -56,10 +56,10 @@ export function Hero() {
             </p>
             <div className="mt-8 flex gap-4">
               <Button href="#free-chapters" color="red">
-                Schedule a consultation
+                Schedule a Consultation
               </Button>
               <Button href="#pricing" variant="outline" color="red">
-                Learn more
+                Learn More
               </Button>
             </div>
           </div>
