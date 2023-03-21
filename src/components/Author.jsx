@@ -62,7 +62,7 @@ Jayden is a member of the California Association of Licensed Investigators, the 
                 href="#"
                 className="inline-flex items-center text-base font-medium tracking-tight text-blue-600"
               >
-                <LinkedInIcon className="h-10 w-10 fill-current" />
+                <TwitterIcon className="h-10 w-10 fill-current" />
                 <span className="ml-4">View on LinkedIn</span>
               </Link>
             </p>
