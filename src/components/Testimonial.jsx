@@ -20,9 +20,7 @@ export function Testimonial({ id, author, children }) {
             {children}
           </blockquote>
           <figcaption className="mt-10 flex items-center sm:justify-center">
-             <Button href="#free-chapters" color="blue">
-                Schedule a Consultation
-              </Button>
+             
             <div className="ml-4">
                <Button href="#free-chapters" color="blue">
                 Schedule a Consultation
