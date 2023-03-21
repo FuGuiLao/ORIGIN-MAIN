@@ -21,19 +21,11 @@ export function Testimonial({ id, author, children }) {
           </blockquote>
           <figcaption className="mt-10 flex items-center sm:justify-center">
             <div className="overflow-hidden rounded-full bg-slate-200">
-              <Image
-                className="h-12 w-12 object-cover"
-                src={author.image}
-                alt=""
-                width={48}
-                height={48}
-              />
+             TEST
             </div>
             <div className="ml-4">
-              <div className="text-base font-medium leading-6 tracking-tight text-slate-900">
-                {author.name}
-              </div>
-             
+              
+              <div className="mt-1 text-sm text-slate-600">{author.role}</div>
             </div>
           </figcaption>
         </figure>
