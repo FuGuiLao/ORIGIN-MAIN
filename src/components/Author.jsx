@@ -44,15 +44,15 @@ export function Author() {
 Throughout his career, Jayden has worked for the United States federal government in law enforcement and intelligence capacities. Jayden previously served as a Deputy Sheriff with the Los Angeles County Sheriff's Department. While there, he worked in field operations, custody, training bureau, and numerous special assignments within the department.
 </p><p>&nbsp</p><p>
 He has extensive knowledge, training, and experience in criminal investigation, interrogation, undercover surveillance, case management, evidence handling, and California and Federal law.
-
+</p><p>&nbsp</p><p>
 Jayden attained California Peace Officer Standards and Training (POST) Certification and completed POST Advanced Officer Training while with the LASD and continues to maintain certification. He also completed the challenging coursework for the POST Specialized Investigator Certification.
-
+</p><p>&nbsp</p><p>
 During his career, Jayden has worked with the LASD, LAPD, US Marshals Service, Diplomatic Security Service, US Secret Service, Federal Bureau of Investigation, Department of Homeland Security, US Immigration and Customs Enforcement, the Superior Court of California, as well as numerous local law enforcement agencies and independent investigators.
-
+</p><p>&nbsp</p><p>
 In addition to a law enforcement background, Jayden also has significant private sector experience. He has held leadership positions in the heavily regulated financial services industry not only overseeing operations of a Registered Investment Advisory Firm, but also conducting corporate due diligence and fraud investigations.
-
+</p><p>&nbsp</p><p>
 He has also provided regulatory compliance, security, and legal consulting for high-profile individuals and numerous companies across a wide variety of industries. Jayden attended Claremont McKenna College and studied computer engineering.
-
+</p><p>&nbsp</p><p>
 Jayden is a member of the California Association of Licensed Investigators, the United States Association of Professional Investigators, the Association of Former Intelligence Officers, and the International Association of Law Enforcement Intelligence Analysts.
 
 
@@ -62,7 +62,7 @@ Jayden is a member of the California Association of Licensed Investigators, the 
                 href="#"
                 className="inline-flex items-center text-base font-medium tracking-tight text-blue-600"
               >
-                <TwitterIcon className="h-10 w-10 fill-current" />
+                <LinkedInIcon className="h-10 w-10 fill-current" />
                 <span className="ml-4">View on LinkedIn</span>
               </Link>
             </p>
