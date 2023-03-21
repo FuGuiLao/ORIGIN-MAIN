@@ -14,7 +14,7 @@ const sections = [
     ),
   },
   { id: 'screencasts', title: 'Investigation' },
-  { id: 'resources', title: 'Specialized Data' },
+  { id: 'resources', title: 'Resources' },
   { id: 'pricing', title: 'Pricing' },
   { id: 'author', title: 'Our People' },
 ]
