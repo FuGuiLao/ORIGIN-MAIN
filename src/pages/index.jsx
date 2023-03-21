@@ -51,11 +51,13 @@ export default function Home() {
        <p>
          We also offer thses services in partnership with law firms through our <b>fully integrated case review</b> process. Our highly experienced investigators can help make the difference.
         </p>
-       <div className="mt-8 flex gap-4">
+       <p>
+        &nbsp;
+        </p>
               <Button href="#free-chapters" color="blue">
                 Schedule a Consultation
               </Button>
-            </div>
+        
       </Testimonial>
  
       <Screencasts />
