@@ -11,7 +11,7 @@ const videos = [
   {
     title: 'Criminal Investigations',
     description:
-      'Origin can provide detailed case review and complete parallel investigations from pre-arrest to trial, and even appellate cases.',
+      'Origin can provide detailed case review and complete parallel investigations from pre-arrest to trial, including appeals.',
   },
   {
     title: 'Surveillance',
