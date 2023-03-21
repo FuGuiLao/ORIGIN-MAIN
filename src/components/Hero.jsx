@@ -55,10 +55,10 @@ export function Hero() {
               We assist governments, corporations, law firms, and individuals with criminal and civil matters throughout the United States and abroad.
             </p>
             <div className="mt-8 flex gap-4">
-              <Button href="#free-chapters" color="blue">
+              <Button href="#free-chapters" color="red">
                 Schedule a consultation
               </Button>
-              <Button href="#pricing" variant="outline" color="blue">
+              <Button href="#pricing" variant="outline" color="red">
                 Learn more
               </Button>
             </div>
