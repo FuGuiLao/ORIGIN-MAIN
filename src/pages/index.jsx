@@ -42,13 +42,13 @@ export default function Home() {
           CA SUPERIOR COURT CASES
         </title>
         <p>
-          Origin is a member of the <b>California Superior Court Investigator Panel</b>. This means that we can provide criminal case investigative services at no cost to qualified defendants.
+          Origin is a member of the <b>California Superior Court Investigator Panel</b>. This means that we can provide comprehensive criminal case investigative services at no cost to qualified defendants.
         </p>
         <p>
         &nbsp;
         </p>
        <p>
-         We also offer these services in partnership with law firms through our <b>fully integrated case review</b> process. Our highly experienced investigators can help make the difference.
+         We also offer these services in partnership with law firms through our <b>fully integrated case review</b> process. Our highly experienced investigators can help make the difference in court.
         </p>
        <p>
         &nbsp;
@@ -70,7 +70,7 @@ export default function Home() {
           SPECIALIZED DATA
         </title>
         <p>
-          Origin's specialized data services can <b>uncover hidden informatio</b>n that can be valuable in criminal and civil proceedings. Our experienced intelligence analysts can bring relevance to complex information. 
+          Origin's specialized data services can <b>uncover hidden informatio</b>n that can be valuable in criminal and civil proceedings. Our intelligence analysts can bring relevance to complex information. 
 
             </p>
         <p>
