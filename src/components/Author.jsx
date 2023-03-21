@@ -35,25 +35,13 @@ export function Author() {
           </div>
           <div className="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
             <SectionHeading number="5" id="author-title">
-              Out People
+              Our People
             </SectionHeading>
             <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
               <span className="block text-blue-600">Jayden Brant –</span> <bold>I founded Origin to provide comprehensive private investigation and intelligence services utilizing years of law enforcement and critical private sector experience.
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
-   Throughout his career, Jayden has worked for the United States federal government in law enforcement and intelligence capacities. Jayden previously served as a Deputy Sheriff with the Los Angeles County Sheriff's Department. While there, he worked in field operations, custody, training bureau, and numerous special
-assianments within the department.
-He has extensive knowledge, training, and experience in criminal investigation, interrogation, undercover surveillance, case management, evidence handling, and California and Federal law.
-Jayden attained California Peace Officer Standards and Training (POST) Certification and completed POST
-Advanced Officer Training while with the LASD and continues to maintain certification. He also completed the challenging coursework for the POST Specialized Investigator Certification.
-During his career, Jayden has worked with the LASD, LAPD, US Marshals Service, Diplomatic Security Service,
-US Secret Service, Federal Bureau of Investigation, Department of Homeland Security, US Immigration and Customs Enforcement, the Superior Court of California, as well as numerous local law enforcement agencies and independent investigators.
-
-
-In addition to a law enforcement background, Jayden also has significant private sector experience. He has held leadership positions in the heavily regulated financial services industry not only overseeing operations of a Registered Investment Advisory Firm, but also conducting corporate due diligence and traud investigations.
-He has also provided regulatory compliance, security, and
-edal consulting for nign-orote marviquais and numerous companies across a wide variety of industries. Jayden attended Claremont McKenna College and studied computer engineering.
-Jayden is a member of the California Association of Licensed Investigators, the United States Association of Professional Investigators, the Association of Former Intelligence Officers, and the International Association of Law Enforcement Intelligence Analysts.
+              TEXT
             </p>
             <p className="mt-8">
               <Link
@@ -61,7 +49,7 @@ Jayden is a member of the California Association of Licensed Investigators, the 
                 className="inline-flex items-center text-base font-medium tracking-tight text-blue-600"
               >
                 <TwitterIcon className="h-10 w-10 fill-current" />
-                <span className="ml-4">Follow on Twitter</span>
+                <span className="ml-4">View on LinkedIn</span>
               </Link>
             </p>
           </div>
