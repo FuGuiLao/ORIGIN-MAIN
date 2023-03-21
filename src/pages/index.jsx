@@ -70,7 +70,7 @@ export default function Home() {
           SPECIALIZED DATA
         </title>
         <p>
-          Our specialized data services can help to <b>uncover hidden informatio</b>n that can be valuable in criminal and civil proceedings. In addition to raw data, our experienced investigators and intelligence analysts can bring relevance to complex information. 
+          Origin's specialized data services can help to <b>uncover hidden informatio</b>n that can be valuable in criminal and civil proceedings. In addition to raw data, our experienced investigators and intelligence analysts can bring relevance to complex information. 
 
             </p>
         <p>
