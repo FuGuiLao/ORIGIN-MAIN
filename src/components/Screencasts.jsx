@@ -55,7 +55,7 @@ export function Screencasts() {
     >
       <Container>
         <SectionHeading number="2" id="screencasts-title">
-          Screencasts
+          Investigation
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
           With our diverse team and uncommon resources, it is always our goal to be your primary investigative agency.
