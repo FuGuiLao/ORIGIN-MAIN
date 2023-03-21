@@ -51,7 +51,7 @@ export default function Home() {
               </Button>
             </div>
       </Testimonial>
-     <Testimonial />
+ 
       <Screencasts />
       <Testimonial
         id="testimonial-from-gerardo-stark"
