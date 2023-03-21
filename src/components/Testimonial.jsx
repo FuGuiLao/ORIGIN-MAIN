@@ -20,9 +20,7 @@ export function Testimonial({ id, author, children }) {
             {children}
           </blockquote>
           <figcaption className="mt-10 flex items-center sm:justify-center">
-            <div className="overflow-hidden rounded-full bg-slate-200">
-             TEST
-            </div>
+            
             <div className="ml-4">
               
               <div className="mt-1 text-sm text-slate-600">{author.role}</div>
