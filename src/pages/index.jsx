@@ -32,7 +32,7 @@ export default function Home() {
       <Introduction />
       <NavBar />
       <TableOfContents />
-     
+     <Testimonial />
       <Screencasts />
       <Testimonial
         id="testimonial-from-gerardo-stark"
