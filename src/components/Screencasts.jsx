@@ -11,7 +11,7 @@ const videos = [
   {
     title: 'Criminal Investigations',
     description:
-      'Origin can provide detailed case review and complete parallel investigations from arrest to trial.',
+      'Origin can provide detailed case review and complete parallel investigations from pre-arrest to trial, and even appellate cases.',
   },
   {
     title: 'Surveillance',
@@ -61,7 +61,7 @@ export function Screencasts() {
           With our diverse team and uncommon resources, it is always our goal to be your primary investigative agency.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          We provide comprehensive services and have the investigative and administrative staff to respond quickly and get results.
+          We provide comprehensive services and have the investigative and administrative staff to respond quickly and get results, even where others have failed. No task is too simple or case too complex.
         </p>
       </Container>
       <Container size="lg" className="mt-16">
