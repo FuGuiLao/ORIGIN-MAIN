@@ -49,7 +49,7 @@ export default function Home() {
         &nbsp;
         </p>
        <p>
-         We also offer thses services in partnership with law firms through our <b>fully integrated case review</b> process. Our highlay experienced investigators can help make the difference.
+         We also offer thses services in partnership with law firms through our <b>fully integrated case review</b> process. Our highly experienced investigators can help make the difference.
         </p>
        <div className="mt-8 flex gap-4">
               <Button href="#free-chapters" color="blue">
@@ -79,7 +79,7 @@ export default function Home() {
           Origin specialized in <b>difficult to get information</b>, including bank and other asset searches, insurance policy information, employment data, medical records, travel information, and social media activity.
            </p>
         <div className="mt-8 flex gap-4">
-              <Button href="#free-chapters" color="blue">
+              <Button href="#free-chapters" color="red">
                 Request Specialized Data Now
               </Button>
             </div>
