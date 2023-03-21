@@ -41,7 +41,7 @@ export function Author() {
               <span className="block text-blue-600">Jayden Brant –</span> <bold>I founded Origin to provide comprehensive private investigation and intelligence services utilizing years of law enforcement and critical private sector experience.
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
-Throughout his career, Jayden has worked for the United States federal government in law enforcement and intelligence capacities. Jayden previously served as a Deputy Sheriff with the Los Angeles County Sheriff's Department. While there, he worked in field operations, custody, training bureau, and numerous special assignments within the department.
+Throughout@@@ his career, Jayden has worked for the United States federal government in law enforcement and intelligence capacities. Jayden previously served as a Deputy Sheriff with the Los Angeles County Sheriff's Department. While there, he worked in field operations, custody, training bureau, and numerous special assignments within the department.
 <p>&nbsp</P>
 He has extensive knowledge, training, and experience in criminal investigation, interrogation, undercover surveillance, case management, evidence handling, and California and Federal law.
 <p>&nbsp</P>
