@@ -12,12 +12,12 @@ export function Testimonial({ id, author, children }) {
       className="relative bg-slate-100 py-16 sm:py-32"
     >
       <div className="text-slate-900/10">
-        <GridPattern x="50%" patternTransform="translate(0 80)" />
+        <GridPattern x="50%" patternTransform="translate(0 80)" />TEST1
       </div>
-      <Container size="xs" className="relative">
-        <figure>
+      <Container size="xs" className="relative">TEST2
+        <figure>TEST3
           <blockquote className="mt-10 font-display text-4xl font-medium tracking-tight text-slate-900 sm:text-center">
-            {children}TEST
+            {children}
           </blockquote>
           <figcaption className="mt-10 flex items-center sm:justify-center">
             <div className="overflow-hidden rounded-full bg-slate-200">
