@@ -69,14 +69,14 @@ export default function Home() {
           SPECIALIZED DATA
         </title>
         <p>
-          Our specialized data services can help to uncover hidden information that can be valuable in civil proceedings. In addition to raw data, our experienced investigators and intelligence analysts can bring relevance to complex informaiton. 
+          Our specialized data services can help to <b>uncover hidden informatio</b>n that can be valuable in criminal and civil proceedings. In addition to raw data, our experienced investigators and intelligence analysts can bring relevance to complex informaiton. 
 
             </p>
         <p>
         &nbsp;
         </p>
  <p>
-          Origin specialized in hard to get information, including bank and other asset searches, insurance policy information, employment data, medical records, travel information, and social media activity.
+          Origin specialized in <b>difficult to get information</b>, including bank and other asset searches, insurance policy information, employment data, medical records, travel information, and social media activity.
            </p>
         <div className="mt-8 flex gap-4">
               <Button href="#free-chapters" color="blue">
