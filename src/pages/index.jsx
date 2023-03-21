@@ -51,7 +51,7 @@ export default function Home() {
        <p>
          We also offer thses services in partnership with law firms through our <b>fully integrated case review</b> process. Our highlay experienced investigators can help make the difference.
         </p>
-       <div className="mt-8 flex gap-4" style:"text-align:center;">
+       <div className="mt-8 flex gap-4" style="text-align:center">
               <Button href="#free-chapters" color="blue">
                 Schedule a Consultation
               </Button>
