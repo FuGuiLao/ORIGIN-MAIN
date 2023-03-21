@@ -40,7 +40,7 @@ function Plan({ name, description, price, features, href, featured }) {
           <span
             className={clsx(
               'text-[1.75rem] leading-tight',
-              featured ? 'text-red-200' : 'text-slate-500'
+              featured ? 'text-red-600' : 'text-slate-500'
             )}
           >
             $
@@ -79,7 +79,7 @@ function Plan({ name, description, price, features, href, featured }) {
         </div>
         <Button
           href={href}
-          color={featured ? 'white' : 'slate'}
+          color={red ? 'white' : 'slate'}
           className="mt-8"
           aria-label={`Get started with the ${name} plan for $${price}`}
         >
