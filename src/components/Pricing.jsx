@@ -40,7 +40,7 @@ function Plan({ name, description, price, features, href, featured }) {
           <span
             className={clsx(
               'text-[1.75rem] leading-tight',
-              featured ? 'text-blue-200' : 'text-slate-500'
+              featured ? 'text-red-200' : 'text-slate-500'
             )}
           >
             $
@@ -111,7 +111,7 @@ export function Pricing() {
         </p>
       </Container>
       <div className="mx-auto mt-16 max-w-5xl lg:px-6">
-        <div className="grid bg-slate-50 sm:px-6 sm:pb-16 md:grid-cols-2 md:rounded-6xl md:px-8 md:pt-16 lg:p-20">
+        <div className="grid bg-zinc-50 sm:px-6 sm:pb-16 md:grid-cols-2 md:rounded-6xl md:px-8 md:pt-16 lg:p-20">
           <Plan
             name="Standard"
             description="The perfect starting point for criminal or civil investigations."
