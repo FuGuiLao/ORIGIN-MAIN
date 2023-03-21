@@ -77,13 +77,13 @@ export default function Home() {
         &nbsp;
         </p>
  <p>
-          Origin specialized in <b>difficult to get information</b>, including bank and other asset searches, insurance policy information, employment data, medical records, travel information, and social media activity.
+          We specialize in <b>difficult to get information</b>, including bank and other asset searches, insurance policy information, employment data, medical records, travel information, and social media activity.
            </p> 
  <p>
         &nbsp;
         </p>
           <Button href="#free-chapters" color="blue">
-                Request Specialized Data Now
+                Order Specialized Data Now
               </Button>
       
       </Testimonial>
