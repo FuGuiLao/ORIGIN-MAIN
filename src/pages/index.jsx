@@ -78,14 +78,13 @@ export default function Home() {
  <p>
           Origin specialized in <b>difficult to get information</b>, including bank and other asset searches, insurance policy information, employment data, medical records, travel information, and social media activity.
            </p> 
+ <p>
+        &nbsp;
+        </p>
           <Button href="#free-chapters" color="blue">
                 Request Specialized Data Now
               </Button>
-        <div className="mt-8 flex gap-4">
-              <Button href="#free-chapters" color="blue">
-                Request Specialized Data Now
-              </Button>
-            </div>
+      
       </Testimonial>
       <Resources />
       <FreeChapters />
