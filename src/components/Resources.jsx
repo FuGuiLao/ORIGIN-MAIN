@@ -9,9 +9,9 @@ import videoPlayerImage from '@/images/resources/video-player.svg'
 
 const resources = [
   {
-    title: 'Figma icon templates',
+    title: 'Expert Witnesses',
     description:
-      'Pefectly structured templates for quickly designing new icons at dozens of common sizes.',
+      'Origin has leading experts available in nearly everv discipline and they are an integral part of our investigative process.',
     image: function FigmaImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
@@ -21,9 +21,9 @@ const resources = [
     },
   },
   {
-    title: 'Weekly icon teardowns',
+    title: 'Administrative Staff',
     description:
-      'Weekly videos where we dissect and recreate beautiful icons we find on the web.',
+      'Origin provides unparalleled support through our client relations and case management staff for routine inquires to emergency services.',
     image: function VideoPlayerImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center">
@@ -44,9 +44,9 @@ const resources = [
     },
   },
   {
-    title: 'Community of icon designers',
+    title: 'Technology',
     description:
-      "A private Discord server where you can get help and give feedback on each others' work.",
+      "With our online case management system and industry leading collaboration tools, we use innovative technology to enhance our connection with our clients.",
     image: function DiscordImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center bg-[#6366F1]">
@@ -73,9 +73,7 @@ export function Resources() {
           progress even further.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          Design assets, icon teardowns, and a community of fellow icon
-          designers where you can ask questions, get feedback, and accelerate
-          your learning.
+         Specialized training and experience, three offices operating 24 hours a day - 365 days a year, and tools to make sure our clients always have access to the resources they need.
         </p>
       </Container>
       <Container size="lg" className="mt-16">
