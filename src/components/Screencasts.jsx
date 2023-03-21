@@ -21,10 +21,10 @@ const videos = [
   {
     title: 'Locates',
     description:
-      'Origin can find subjects who don\'t want to be found, through data driven analysis and field investigations.',
+      'Origin can find subjects who don\'t want to be found, through data-driven analysis and field investigations.',
   },
   {
-    title: 'Forensics',
+    title: 'Digital Forensics',
     description:
       'Origin has experts on staff in data forensics, to analyze devices and provide data recovery and retention services.',
   },
