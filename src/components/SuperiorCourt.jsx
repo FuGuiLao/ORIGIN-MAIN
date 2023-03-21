@@ -4,7 +4,7 @@ import { Container } from '@/components/Container'
 import { GridPattern } from '@/components/GridPattern'
 import { StarRating } from '@/components/StarRating'
 
-export function Testimonial({ id, author, children }) {
+export function SuperiorCourt({ id, author, children }) {
   return (
     <aside
       id={id}
