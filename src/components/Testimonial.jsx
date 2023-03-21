@@ -18,7 +18,6 @@ export function Testimonial({ id, author, children }) {
         <figure>
           <blockquote className="mt-10 font-display text-4xl font-medium tracking-tight text-slate-900 sm:text-center">
             {children}
-            Origin is a member of the California Superior Court Investigator Panel. This means that we can provide criminal case investigative services at no cost to qualified defendants. We also offer thses services in partnership with law firms through our fully integrated case review process. Our highlay experienced investigators can help make the difference.
           </blockquote>
           <figcaption className="mt-10 flex items-center sm:justify-center">
             <div className="overflow-hidden rounded-full bg-slate-200">
