@@ -38,7 +38,7 @@ export function Author() {
               Our People
             </SectionHeading>
             <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
-              <span className="block text-blue-600">Jayden Brant –</span> <bold>Hey there, I am the founder and managing partner of Origin Investigations</bold>
+              <span className="block text-blue-600">Jayden R. Brant –</span> <bold>Hey there, I am the founder and managing partner of Origin Investigations</bold>
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
 Throughout his career, Jayden has worked for the United States federal government in law enforcement and intelligence capacities. Jayden previously served as a Deputy Sheriff with the Los Angeles County Sheriff's Department. While there, he worked in field operations, custody, training bureau, and numerous special assignments within the department.
