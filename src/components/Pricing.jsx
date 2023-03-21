@@ -126,7 +126,7 @@ export function Pricing() {
           <Plan
             featured
             name="Integrated"
-            description="When your firm wants to partner with a dedicated agency."
+            description="When you want to partner with a dedicated agency."
             price={0}
             href="#"
             features={[
