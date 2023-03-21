@@ -21,7 +21,7 @@ export default function Home() {
     <>
       <Head>
         <title>
-          ORIGIN / Investigation / Intelligence
+          ORIGIN / Investigation / Intelligenc
         </title>
         <meta
           name="description"
