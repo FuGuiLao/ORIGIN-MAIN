@@ -19,7 +19,7 @@ const videos = [
       'Our operatives are diverse, experienced, and highly skilled in contact and non=contact surveillance.',
   },
   {
-    title: 'Locates',
+    title: 'Difficult Locates',
     description:
       'Origin can find subjects who don\'t want to be found, through data-driven analysis and field investigations.',
   },
