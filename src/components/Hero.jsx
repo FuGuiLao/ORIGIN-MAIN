@@ -33,12 +33,12 @@ export function Hero() {
         <div className="relative flex items-end lg:col-span-5 lg:row-span-2">
           <div className="absolute -top-20 -bottom-12 left-0 right-1/2 z-10 rounded-br-6xl bg-zinc-700 text-white/10 md:bottom-8 lg:-inset-y-32 lg:right-full lg:left-[-100vw] lg:-mr-40">
             <GridPattern
-              x="100%"
-              y="100%"
+              x="10%"
+              y="10%"
               patternTransform="translate(112 64)"
             />
           </div>
-          <div className="z-10 mx-auto mb-auto flex w-64 md:w-80 lg:w-auto">
+          <div className="relative z-10 mx-auto mb-auto flex w-64 md:w-80 lg:w-auto">
             <Image className="w-full" src={coverImage} alt="" priority />
           </div>
         </div>
