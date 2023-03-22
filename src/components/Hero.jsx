@@ -38,8 +38,8 @@ export function Hero() {
               patternTransform="translate(112 64)"
             />
           </div>
-          <div className="relative z-10 -ml-8 mb-auto flex w-64 md:w-80 lg:w-auto">
-            <Image className="w-full" src={coverImage} alt="" priority />
+          <div className="relative z-10 mx-auto mb-auto flex w-64 md:w-80 lg:w-auto">
+            <Image src={coverImage} alt="" priority />
           </div>
         </div>
         <div className="relative px-4 sm:px-6 lg:col-span-7 lg:pr-0 lg:pb-14 lg:pl-16 xl:pl-20">
