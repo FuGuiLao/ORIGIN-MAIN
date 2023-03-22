@@ -38,7 +38,7 @@ export function Hero() {
               patternTransform="translate(112 64)"
             />
           </div>
-          <div>
+          <div className="relative z-10">
             <Image className="w-full" src={coverImage} alt="" priority />
           </div>
         </div>
