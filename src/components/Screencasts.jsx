@@ -80,7 +80,7 @@ export function Screencasts() {
           {videos.map((video) => (
             <li key={video.title} className="[counter-increment:video]">
               <div
-                className="relative flex h-44 items-center justify-center rounded-2xl px-0 shadow-lg"
+                className="relative h-44 items-center justify-center rounded-2xl px-0 shadow-lg"
                 
               >
               
