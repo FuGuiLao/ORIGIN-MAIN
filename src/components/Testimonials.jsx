@@ -46,7 +46,7 @@ const testimonials = [
   [
     {
       content:
-        'Integer tincidunt dignissim neque sit amet fringilla. Curabitur nisi neque, convallis ut sollicitudin vel, fermentum eget ipsum.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet.`',
       author: {
         name: 'Cameron Considine',
         role: 'Entrepreneur',
@@ -55,7 +55,7 @@ const testimonials = [
     },
     {
       content:
-        'Cras eu ullamcorper velit. Donec eu quam in dolor pharetra vestibulum et eu sem.',
+        'Cras eu ullamcorper velit. Donec eu quam in dolor pharetra vestibulum et eu sem. Donec eu quam in dolor pharetra vestibulum et eu sem.',
       author: {
         name: 'Regina Wisoky',
         role: 'Partner',
@@ -64,7 +64,7 @@ const testimonials = [
     },
     {
       content:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       author: {
         name: 'Vernon Cummerata',
         role: 'In-House Council',
