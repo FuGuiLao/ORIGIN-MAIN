@@ -31,7 +31,7 @@ export function TableOfContents() {
           Our Services
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          Origin is a full-service private investigation and intelligence agency.
+          Origin is a full-service Los Angeles-based private investigation and intelligence agency.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
           Our investigators specialize in matters related to criminal investigations, intelligence gathering, corporate and insurance fraud, surveillance, background investigations, computer forensics, threat assessment, and missing persons. We maintain an extensive network of assets to assist with cases throughout the United States and abroad.
