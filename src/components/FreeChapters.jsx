@@ -42,7 +42,7 @@ export function FreeChapters() {
               </div>
               <Button
                 type="submit"
-                color="red"
+                color="white"
                 className="mt-4 w-full sm:relative sm:z-10 sm:mt-0 sm:w-auto sm:flex-none"
               >
                 Learn more
