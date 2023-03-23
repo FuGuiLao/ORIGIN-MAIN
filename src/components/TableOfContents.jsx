@@ -52,7 +52,11 @@ export function TableOfContents() {
                         className="mt-8 divide-y divide-slate-300/30 rounded-2xl bg-zinc-50 py-3 px-6 text-base tracking-tight sm:py-7 sm:px-8"
                       >
                         {Object.entries(pages).map(([title, pageNumber]) => (
-                        
+                          <li
+                            key={title}
+                            className="flex justify-between py-3"
+                            aria-label={`${title} on page ${pageNumber}`}
+                          >
                             <span
                               className="font-medium text-slate-900"
                               aria-hidden="true"
