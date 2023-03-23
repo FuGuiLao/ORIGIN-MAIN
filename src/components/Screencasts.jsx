@@ -80,11 +80,11 @@ export function Screencasts() {
           {videos.map((video) => (
             <li key={video.title} className="[counter-increment:video]">
               <div
-                className="relative h-44 items-center justify-center rounded-2xl px-0 shadow-lg"
+                className="relative flex h-44 items-center justify-center rounded-2xl px-0 shadow-lg"
                 
               >
               
-                  <Image src={video.image} alt="" unoptimized />
+                  <Image  className="relative flex h-44 items-center justify-center rounded-2xl px-0 shadow-lg" src={video.image} alt="" unoptimized />
               
               </div>
               <h3 className="mt-8 text-base font-medium tracking-tight text-slate-900 before:mb-2 before:block before:font-mono before:text-sm before:text-slate-500 before:content-[counter(video,decimal-leading-zero)]">
