@@ -80,15 +80,15 @@ export function Screencasts() {
           {videos.map((video) => (
             <li key={video.title} className="[counter-increment:video]">
               <div
-                className="relative flex h-44 items-center justify-center rounded-2xl px-0 shadow-lg"
+                className="relative flex h-44 items-center justify-center rounded-2xl px-6 shadow-lg"
                 style={{
                   backgroundImage:
                     'conic-gradient(from -49.8deg at 50% 50%, #7331FF 0deg, #00A3FF 59.07deg, #4E51FF 185.61deg, #39DBFF 284.23deg, #B84FF1 329.41deg, #7331FF 360deg)',
                 }}
               >
-                <div className="flex overflow-hidden rounded shadow-sm rounded-2xl">
+              
                   <Image src={video.image} alt="" unoptimized />
-                </div>
+              
               </div>
               <h3 className="mt-8 text-base font-medium tracking-tight text-slate-900 before:mb-2 before:block before:font-mono before:text-sm before:text-slate-500 before:content-[counter(video,decimal-leading-zero)]">
                 {video.title}
