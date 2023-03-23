@@ -64,7 +64,7 @@ export function TableOfContents() {
                               {title}
                             </span>
                             <span
-                              className="font-mono text-slate-400"
+                              className="font-mono text-zinc-50"
                               aria-hidden="true"
                             >
                               {pageNumber}
