@@ -19,7 +19,7 @@ export function FreeChapters() {
             <h2 className="font-display text-5xl font-extrabold tracking-tight text-white sm:w-3/4 sm:text-6xl md:w-2/3 lg:w-auto">
               Get more information now
             </h2>
-            <p className="mt-4 text-lg tracking-tight text-gray-200">
+            <p className="mt-4 text-lg tracking-tight text-zinc`-200">
               Enter your email address and we will send you detailed information, including our marketing book.
             </p>
           </div>
