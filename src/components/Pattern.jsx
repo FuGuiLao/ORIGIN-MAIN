@@ -20,7 +20,7 @@ export function Pattern({
     <svg aria-hidden="true" width={width} height={height} {...props}>
       <defs>
         <symbol id={`${id}-0`} width={size} height={size}>
-          <rect className="fill-zinc-800" width={size} height={size} />
+          <rect className="fill-red-800" width={size} height={size} />
           <circle
             className="fill-red-800"
             cx={size / 2}
@@ -30,7 +30,7 @@ export function Pattern({
         </symbol>
         <symbol id={`${id}-1`} width={size} height={size}>
           <circle
-            className="fill-red-800"
+            className="fill-zinc-800"
             cx={size / 2}
             cy={size / 2}
             r={size / 2}
