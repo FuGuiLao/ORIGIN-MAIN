@@ -48,7 +48,7 @@ function Plan({ name, description, price, features, href, featured }) {
           <span
             className={clsx(
               'ml-1 mt-1 text-7xl tracking-tight',
-              featured ? 'text-white' : 'text-slate-900'
+              featured ? 'text-slate-50' : 'text-slate-900'
             )}
           >
             {price}
