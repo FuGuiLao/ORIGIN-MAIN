@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 import { SectionHeading } from '@/components/SectionHeading'
-import ciminalImage from '@/images/screencasts/criminal-investigations.jpg'
+import criminalImage from '@/images/screencasts/criminal-investigations.jpg'
 import surveillanceImage from '@/images/screencasts/surveillance.jpg'
 import locatesImage from '@/images/screencasts/difficult-locates.jpg'
 import forensicsImage from '@/images/screencasts/digital-forensics.jpg'
