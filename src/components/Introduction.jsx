@@ -27,7 +27,7 @@ export function Introduction() {
             'Origin responds to what you think is urgent. We meet our deadlines, but maintain flexibility to serve the constantly changing priorities and schedules of our clients.',
           ].map((feature) => (
             <li key={feature} className="flex">
-              <CheckIcon className="h-8 w-8 flex-none fill-red-500" />
+              <CheckIcon className="h-8 w-8 flex-none fill-red-800" />
               <span className="ml-4">{feature}</span>
             </li>
           ))}
