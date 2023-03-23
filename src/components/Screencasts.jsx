@@ -2,31 +2,39 @@ import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 import { SectionHeading } from '@/components/SectionHeading'
-import duotoneImage from '@/images/screencasts/criminal-investigations.jpg'
-import gridsImage from '@/images/screencasts/surveillance.jpg'
-import setupImage from '@/images/screencasts/difficult-locates.jpg'
-import strokesImage from '@/images/screencasts/digital-forensics.jpg'
+import ciminalImage from '@/images/screencasts/criminal-investigations.jpg'
+import surveillanceImage from '@/images/screencasts/surveillance.jpg'
+import locatesImage from '@/images/screencasts/difficult-locates.jpg'
+import forensicsImage from '@/images/screencasts/digital-forensics.jpg'
 
 const videos = [
   {
     title: 'Criminal Investigations',
     description:
       'Origin can provide detailed case review and complete parallel investigations from pre-arrest to trial, including appeals.',
+     image: criminalImage,
+    runtime: { minutes: 23, seconds: 25 },
   },
   {
     title: 'Surveillance',
     description:
       'Our operatives are diverse, experienced, and highly skilled in contact and non=contact surveillance.',
+     image: surveillanceImage,
+    runtime: { minutes: 23, seconds: 25 },
   },
   {
     title: 'Difficult Locates',
     description:
       'Origin can find subjects who don\'t want to be found, through data-driven analysis and field investigations.',
+     image: locatesImage,
+    runtime: { minutes: 23, seconds: 25 },
   },
   {
     title: 'Digital Forensics',
     description:
       'Origin has experts on staff in data forensics, to analyze devices and provide data recovery and retention services.',
+     image: forensicsImage,
+    runtime: { minutes: 23, seconds: 25 },
   },
 ]
 
@@ -73,7 +81,10 @@ export function Screencasts() {
             <li key={video.title} className="[counter-increment:video]">
               <div
                 className="relative flex h-44 items-center justify-center rounded-2xl px-6 shadow-lg"
-                
+                style={{
+                  backgroundImage:
+                    'conic-gradient(from -49.8deg at 50% 50%, #7331FF 0deg, #00A3FF 59.07deg, #4E51FF 185.61deg, #39DBFF 284.23deg, #B84FF1 329.41deg, #7331FF 360deg)',
+                }}
               >
                 <div className="flex overflow-hidden rounded shadow-sm">
                   <Image src={video.image} alt="" unoptimized />
