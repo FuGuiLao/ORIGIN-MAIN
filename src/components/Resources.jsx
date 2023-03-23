@@ -70,7 +70,7 @@ export function Resources() {
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
           Tools and resources you can use to get started even faster and
-          progress even further.
+          progress even further, even on the most complex cases.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
          Specialized training and experience, three offices operating 24 hours a day - 365 days a year, and tools to make sure our clients always have access to the resources they need.
