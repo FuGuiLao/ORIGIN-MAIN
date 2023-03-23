@@ -49,7 +49,7 @@ const testimonials = [
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet.`',
       author: {
         name: 'Cameron Considine',
-        role: 'Entrepreneur',
+        role: 'Government Agency Representative',
         image: avatarImage7,
       },
     },
@@ -140,7 +140,7 @@ export function Testimonials() {
           Some kind words from our clients...
         </h2>
         <p className="mt-4 text-lg tracking-tight text-slate-600">
-          We have worked with a variety of clients including law firms, government agencies, high-profile individuals, and companies. Hear is what
+          We have worked with a variety of clients including law firms, government agencies, corporations, and high-profile individuals. Hear is what
           they had to say about our agency.
         </p>
       </Container>
