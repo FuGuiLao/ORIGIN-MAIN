@@ -156,8 +156,8 @@ export function NavBar() {
                 className={clsx(
                   'flex w-full flex-col items-center justify-center border-b-2 before:mb-2 before:font-mono before:text-sm before:content-[counter(section,decimal-leading-zero)]',
                   sectionIndex === activeIndex
-                    ? 'border-zinc-600 bg-zinc-50 text-zinc-600 before:text-zinc-600'
-                    : 'border-transparent before:text-slate-500 hover:bg-zinc-50/40 hover:before:text-slate-900'
+                    ? 'border-red-600 bg-red-100 text-red-600 before:text-red-600'
+                    : 'border-transparent before:text-slate-500 hover:bg-red-50/40 hover:before:text-slate-900'
                 )}
               >
                 {section.title}
