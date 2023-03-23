@@ -130,7 +130,7 @@ export function Pricing() {
             price={0}
             href="#"
             features={[
-              'Detailed case reviews',
+              'Comprehensive case reviews',
               'Free technology integrations',
               'Discounted investigative fees',
               'Discounted specialized data fees',
