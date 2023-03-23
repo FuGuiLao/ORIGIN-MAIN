@@ -39,7 +39,7 @@ export function Introduction() {
         <p className="mt-10">
           <Link
             href="#free-chapters"
-            className="text-base font-medium text-red-600 hover:text-red-800"
+            className="text-base font-medium text-red-800 hover:text-red-700"
           >
             Get more information, including our marketing book, straight to your inbox{' '}
             <span aria-hidden="true">&rarr;</span>
