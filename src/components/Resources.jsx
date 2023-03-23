@@ -15,7 +15,7 @@ const resources = [
     image: function FigmaImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
-          <Image src={figmaImage} alt="" unoptimized />
+          <Image src={} alt="" unoptimized />
         </div>
       )
     },
