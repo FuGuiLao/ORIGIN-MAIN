@@ -5,7 +5,7 @@ export function SectionHeading({ number, children, className, ...props }) {
     <h2
       className={clsx(
         className,
-        'inline-flex items-center rounded-full py-1 px-4 text-red-800 ring-1 ring-inset ring-blue-600'
+        'inline-flex items-center rounded-full py-1 px-4 text-red-800 ring-1 ring-inset ring-red-800'
       )}
       {...props}
     >
