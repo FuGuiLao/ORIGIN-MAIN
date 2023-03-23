@@ -2,10 +2,10 @@ import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 import { SectionHeading } from '@/components/SectionHeading'
-import duotoneImage from '@/images/screencasts/duotone.svg'
-import gridsImage from '@/images/screencasts/grids.svg'
-import setupImage from '@/images/screencasts/setup.svg'
-import strokesImage from '@/images/screencasts/strokes.svg'
+import duotoneImage from '@/images/screencasts/criminal-investigations.jpg'
+import gridsImage from '@/images/screencasts/surveillance.jpg'
+import setupImage from '@/images/screencasts/difficult-locates'
+import strokesImage from '@/images/screencasts/digital-forensics.jpg'
 
 const videos = [
   {
