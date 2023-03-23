@@ -17,28 +17,28 @@ const testimonials = [
   [
     {
       content:
-        'Mira’s teaching style is second to none. Everything was easy to follow every step of the way.',
+        'Morbi et sapien iaculis, vulputate magna vitae, convallis purus. Integer placerat et enim non accumsan. Aenean nec malesuada turpis.',
       author: {
         name: 'Antonio Littel',
-        role: 'Frontend Developer',
+        role: 'Attorney',
         image: avatarImage3,
       },
     },
     {
       content:
-        'Even though I was excited to learn, I was pessimistic that I wouldn’t actually ever get good enough to design my own icons. I was wrong — this book is all I needed.',
+        'Mauris aliquet, risus vulputate laoreet aliquet, neque ipsum bibendum orci, quis congue ligula nisl eget turpis.',
       author: {
         name: 'Lynn Nolan',
-        role: 'Growth Marketer',
+        role: 'Pro-Per Defendant',
         image: avatarImage4,
       },
     },
     {
       content:
-        'I’ve been employed as a professional icon designer for years and still learned tons of new tricks that have made my work even better',
+        'Aenean nec malesuada turpis. Integer tincidunt dignissim neque sit amet fringilla. Curabitur nisi neque.',
       author: {
         name: 'Krista Prosacco',
-        role: 'Professional Designer',
+        role: 'Senior Litigator',
         image: avatarImage9,
       },
     },
@@ -46,7 +46,7 @@ const testimonials = [
   [
     {
       content:
-        'I run an ecommerce store selling rare vintage gummy bears and could never find a good gummy bear icon. Now I can design my own in minutes.',
+        'Integer tincidunt dignissim neque sit amet fringilla. Curabitur nisi neque, convallis ut sollicitudin vel, fermentum eget ipsum.',
       author: {
         name: 'Cameron Considine',
         role: 'Entrepreneur',
@@ -55,19 +55,19 @@ const testimonials = [
     },
     {
       content:
-        'The complete package is worth it for the weekly teardown videos alone. I’ve learned so much watching Mira take apart other icons and recreate them from scratch.',
+        'Cras eu ullamcorper velit. Donec eu quam in dolor pharetra vestibulum et eu sem.',
       author: {
         name: 'Regina Wisoky',
-        role: 'Design Student',
+        role: 'Partner',
         image: avatarImage11,
       },
     },
     {
       content:
-        'I didn’t expect to find a lot of value in the community but now I’m in there for at least an hour every day picking up tips from other designers.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet.',
       author: {
         name: 'Vernon Cummerata',
-        role: 'UI Engineer',
+        role: 'In-House Council',
         image: avatarImage8,
       },
     },
@@ -75,28 +75,28 @@ const testimonials = [
   [
     {
       content:
-        'I couldn’t believe how fast Mira moved in Figma compared to my own workflow. I’m designing icons more accurately in half the time with the shortcuts I learned from her videos.',
+        'Integer tincidunt dignissim neque sit amet fringilla. Curabitur nisi neque, convallis ut sollicitudin vel, fermentum eget ipsum.',
       author: {
         name: 'Steven Hackett',
-        role: 'Bootcamp Instructor',
+        role: 'Senior Attorney',
         image: avatarImage5,
       },
     },
     {
       content:
-        'I never thought I would enjoy designing icons but using the ideas in this book, it’s become a great way for me to relax while still being creative.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet.',
       author: {
         name: 'Carla Schoen',
-        role: 'Startup Founder',
+        role: 'Business Owner',
         image: avatarImage10,
       },
     },
     {
       content:
-        'All I can say is wow — this is easily the best icon design resource I’ve ever encountered.',
+        'Integer tincidunt dignissim neque sit amet fringilla. Curabitur nisi neque.',
       author: {
         name: 'Leah Kiehn',
-        role: 'Creative Director',
+        role: 'Attorney',
         image: avatarImage6,
       },
     },
@@ -137,12 +137,11 @@ export function Testimonials() {
     <section className="py-8 sm:py-10 lg:py-16">
       <Container className="text-center">
         <h2 className="font-display text-4xl font-bold tracking-tight text-slate-900">
-          Some kind words from early customers...
+          Some kind words from our clients...
         </h2>
         <p className="mt-4 text-lg tracking-tight text-slate-600">
-          I worked with a small group of early access customers to make sure all
-          of the content in the book was exactly what they needed. Hears what
-          they had to say about the finished product.
+          We have worked with a variety of clients including law firms, government agencies, high-profile individuals, and companies. Hear is what
+          they had to say about our agency.
         </p>
       </Container>
       <Expandable>
