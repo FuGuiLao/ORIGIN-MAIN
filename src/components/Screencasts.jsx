@@ -86,7 +86,7 @@ export function Screencasts() {
                     'conic-gradient(from -49.8deg at 50% 50%, #7331FF 0deg, #00A3FF 59.07deg, #4E51FF 185.61deg, #39DBFF 284.23deg, #B84FF1 329.41deg, #7331FF 360deg)',
                 }}
               >
-                <div className="flex overflow-hidden rounded shadow-sm">
+                <div className="flex overflow-hidden rounded shadow-sm rounded-2xl">
                   <Image src={video.image} alt="" unoptimized />
                 </div>
               </div>
