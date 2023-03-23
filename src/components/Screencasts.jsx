@@ -75,13 +75,16 @@ export function Screencasts() {
       <Container size="lg" className="mt-16">
         <ol
           role="list"
-          className="grid grid-cols-1 gap-y-10 gap-x-8 [counter-reset:video] sm:grid-cols-2 lg:grid-cols-4"
+          className="grid grid-cols-1 gap-y-0 gap-x-0 [counter-reset:video] sm:grid-cols-2 lg:grid-cols-4"
         >
           {videos.map((video) => (
             <li key={video.title} className="[counter-increment:video]">
               <div
                 className="relative flex h-44 items-center justify-center rounded-2xl px-6 shadow-lg"
-                
+                style={{
+                  backgroundImage:
+                    'conic-gradient(from -49.8deg at 50% 50%, #7331FF 0deg, #00A3FF 59.07deg, #4E51FF 185.61deg, #39DBFF 284.23deg, #B84FF1 329.41deg, #7331FF 360deg)',
+                }}
               >
                 <div className="flex overflow-hidden rounded shadow-sm">
                   <Image src={video.image} alt="" unoptimized />
