@@ -20,9 +20,10 @@ const variantStyles = {
   },
   outline: {
     slate:
-      'border-slate-200 text-slate-900 hover:border-slate-300 hover:bg-slate-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-600 active:border-slate-200 active:bg-slate-50 active:text-slate-900/70 disabled:opacity-40 disabled:hover:border-slate-200 disabled:hover:bg-transparent',
+      'border-zinc-200 text-zinc-900 hover:border-zinc-300 hover:bg-zinc-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-600 active:border-zinc-200 active:bg-zinc-50 active:text-zinc-900/70 disabled:opacity-40 disabled:hover:border-zinc-200 disabled:hover:bg-transparent',
     blue: 'border-blue-300 text-blue-600 hover:border-blue-400 hover:bg-blue-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 active:text-blue-600/70 disabled:opacity-40 disabled:hover:border-blue-300 disabled:hover:bg-transparent',
     red: 'border-red-300 text-red-600 hover:border-red-400 hover:bg-red-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 active:text-red-600/70 disabled:opacity-40 disabled:hover:border-red-300 disabled:hover:bg-transparent',
+    white: 'border-red-800 text-red-800 hover:border-red-300 hover:bg-red-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 active:text-red-600/70 disabled:opacity-40 disabled:hover:border-red-300 disabled:hover:bg-transparent',
   },
 }
 
