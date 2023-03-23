@@ -12,7 +12,7 @@ const tableOfContents = {
   },
   'Commercial': {
     'Origin provides comprehensive commercial services to a wide range of entitiles. As one of our core competencies, we assist by exposing the facts necessary to build your case and prevent fraudulent activity. We can provide investigative services after an incident has occurred or implement preclusive measures to ensure adverse conditions are avoided altogether. These measures include comprehensive background investigations, threat assessment for venues or special events, and other intelligence gathering. Our team consists of highly trained professionals with years of law enforcement and private sector experience using sophisticated technology to meet the needs of our clients.': 3,
-    Flattening: 78,
+    
   },
   'Individual': {
     'Origin\'s experienced investigators are trianed to deal with sensitive and urgent private matters. Whether it is a domestic affair, a lawsuit, or a criminal matter so private that it precludes the immediate involvement of law enforcement; Origin can help answer the questions that you need answered. No case is too simple or too complex. Our clear, comprehensive, and decisive reports wil present evidence that will either support your instincts or account for alternative explanation. Origin will ensure that your case will be handled with unparalleled professionalism, confidentiality, and attention to detail.': 3,
@@ -52,11 +52,7 @@ export function TableOfContents() {
                         className="mt-8 divide-y divide-slate-300/30 rounded-2xl bg-zinc-50 py-3 px-6 text-base tracking-tight sm:py-7 sm:px-8"
                       >
                         {Object.entries(pages).map(([title, pageNumber]) => (
-                          <li
-                            key={title}
-                            className="flex justify-between py-3"
-                            aria-label={`${title} on page ${pageNumber}`}
-                          >
+                        
                             <span
                               className="font-medium text-slate-900"
                               aria-hidden="true"
