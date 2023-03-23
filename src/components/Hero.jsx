@@ -58,7 +58,7 @@ export function Hero() {
               <Button href="#free-chapters" color="red">
                 Schedule a Consultation
               </Button>
-              <Button href="#free-chapters" variant="outline" color="">
+              <Button href="#free-chapters" variant="outline" color="white">
                 Learn More
               </Button>
             </div>
