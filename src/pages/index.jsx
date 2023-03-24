@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-import { Ourpeople } from '@/components/Ourpeople'
+import { OurPeople } from '@/components/OurPeople'
 import { Footer } from '@/components/Footer'
 import { FreeChapters } from '@/components/FreeChapters'
 import { Hero } from '@/components/Hero'
