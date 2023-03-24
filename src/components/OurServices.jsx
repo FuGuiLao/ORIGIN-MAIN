@@ -19,11 +19,11 @@ const tableOfContents = {
   },
 }
 
-export function TableOfContents() {
+export function OurServices() {
   return (
     <section
-      id="table-of-contents"
-      aria-labelledby="table-of-contents-title"
+      id="our-services"
+      aria-labelledby="our-services-title"
       className="scroll-mt-14 py-16 sm:scroll-mt-32 sm:py-20 lg:py-32"
     >
       <Container>
