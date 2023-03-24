@@ -31,7 +31,7 @@ export default function Home() {
       <Hero />
       <Introduction />
       <NavBar />
-      <TableOfContents />
+      <OurServices />
       <Testimonial
         id="testimonial-from-tommy-stroman"
         author={{
@@ -59,7 +59,7 @@ export default function Home() {
         
       </Testimonial>
  
-      <Screencasts />
+      <Investigations />
       <Testimonial
         id="testimonial-from-gerardo-stark"
          author={{
@@ -91,7 +91,7 @@ export default function Home() {
       <FreeChapters />
       <Pricing />
       <Testimonials />
-      <Author />
+      <OurPeople />
       <Footer />
     </>
   )
