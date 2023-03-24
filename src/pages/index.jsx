@@ -59,7 +59,7 @@ export default function Home() {
         
       </Testimonial>
  
-      <Investigations />
+      <Investigation />
       <Testimonial
         id="testimonial-from-gerardo-stark"
          author={{
