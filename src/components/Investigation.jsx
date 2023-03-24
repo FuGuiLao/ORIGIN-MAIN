@@ -2,10 +2,10 @@ import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 import { SectionHeading } from '@/components/SectionHeading'
-import criminalImage from '@/images/screencasts/criminal-investigations.jpg'
-import surveillanceImage from '@/images/screencasts/surveillance.jpg'
-import locatesImage from '@/images/screencasts/difficult-locates.jpg'
-import forensicsImage from '@/images/screencasts/digital-forensics.jpg'
+import criminalImage from '@/images/investigation/criminal-investigations.jpg'
+import surveillanceImage from '@/images/investigation/surveillance.jpg'
+import locatesImage from '@/images/investigation/difficult-locates.jpg'
+import forensicsImage from '@/images/investigation/digital-forensics.jpg'
 
 const videos = [
   {
