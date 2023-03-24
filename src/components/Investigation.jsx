@@ -54,10 +54,10 @@ function PlayIcon(props) {
   )
 }
 
-export function Screencasts() {
+export function Investigation() {
   return (
     <section
-      id="screencasts"
+      id="investigation"
       aria-labelledby="screencasts-title"
       className="scroll-mt-14 py-16 sm:scroll-mt-32 sm:py-20 lg:py-32"
     >
