@@ -1,4 +1,5 @@
 import { SectionHeading } from '@/components/SectionHeading'
+import { Container } from '@/components/Container'
 
 export function Contact() {
   return (
@@ -7,6 +8,7 @@ export function Contact() {
       aria-labelledby="contact-title"
       className="relative scroll-mt-14 pb-3 pt-8 sm:scroll-mt-32 sm:pb-16 sm:pt-10 lg:pt-16"
     >
+   <container>
     <SectionHeading number="6" id="contact-title">
           Contact Us
         </SectionHeading>
@@ -55,6 +57,6 @@ export function Contact() {
         </div>
       </div>
     </div>
-   
+   </container>
   )
 }
