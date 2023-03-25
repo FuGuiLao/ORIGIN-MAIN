@@ -58,5 +58,6 @@ export function Contact() {
       </div>
     </div>
    </container>
+  </section>
   )
 }
