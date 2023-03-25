@@ -9,13 +9,14 @@ export function Contact() {
       className="relative scroll-mt-14 pb-3 pt-8 sm:scroll-mt-32 sm:pb-16 sm:pt-10 lg:pt-16"
     >
    <container>
-    <SectionHeading number="6" id="contact-title">
-          Contact Us
-        </SectionHeading>
+   
     <div className="bg-zinc-800 py-12 sm:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-zinc-50">Contact Us</h2>
+     <SectionHeading number="6" id="contact-title">
+          Contact Us
+        </SectionHeading>
           <p className="mt-6 text-lg leading-8 text-zinc-100">
            Our offices are open 24 hours a day - 365 days a year to serve our clients. Connect with us on social media to learn more.
           </p>
