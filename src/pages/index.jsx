@@ -33,7 +33,6 @@ export default function Home() {
       </Head>
       <Hero />
       <Introduction />
-      <LogoCloud />
       <NavBar />
       <OurServices />
       <Testimonial
@@ -94,6 +93,7 @@ export default function Home() {
       <Resources />
       <FreeChapters />
       <Pricing />
+      <LogoCloud />
       <Testimonials />
       <OurPeople />
       <Team />
