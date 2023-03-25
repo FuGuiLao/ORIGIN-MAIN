@@ -139,10 +139,6 @@ export function Testimonials() {
         <h2 className="font-display text-4xl font-bold tracking-tight text-slate-900">
           Some kind words from our clients...
         </h2>
-        <p className="mt-4 text-lg tracking-tight text-slate-600">
-          We have worked with a variety of clients including law firms, government agencies, corporations, and high-profile individuals. Hear is what
-          they had to say about our agency.
-        </p>
      <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
           <img
             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
@@ -180,6 +176,10 @@ export function Testimonials() {
             height={48}
           />
         </div>
+        <p className="mt-4 text-lg tracking-tight text-slate-600">
+          We have worked with a variety of clients including law firms, government agencies, corporations, and high-profile individuals. Hear is what
+          they had to say about our agency.
+        </p>
       </Container>
       <Expandable>
         {({ isExpanded }) => (
