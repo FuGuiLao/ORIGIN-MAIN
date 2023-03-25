@@ -19,7 +19,7 @@ const people = [
 export function Team() {
   return (
     <div className="bg-white py-6 sm:py-6">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-12 lg:px-16">
                 <ul
           role="list"
           className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none"
