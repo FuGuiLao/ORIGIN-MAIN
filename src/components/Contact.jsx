@@ -2,6 +2,11 @@ import { SectionHeading } from '@/components/SectionHeading'
 
 export function Contact() {
   return (
+      <section
+      id="contact"
+      aria-labelledby="contact-title"
+      className="relative scroll-mt-14 pb-3 pt-8 sm:scroll-mt-32 sm:pb-16 sm:pt-10 lg:pt-16"
+    >
     <div className="bg-zinc-800 py-12 sm:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
