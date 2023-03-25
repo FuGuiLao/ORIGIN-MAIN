@@ -1,9 +1,10 @@
 export function Contact() {
   return (
+   <center>
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900">Contact Uss</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900">Contact Us</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
            Our offices are open 24 hours a day - 365 days a year to serve our clients. Connect with us on social media to learn more.
           </p>
@@ -44,6 +45,7 @@ export function Contact() {
           </div>
         </div>
       </div>
+  </center>
     </div>
   )
 }
