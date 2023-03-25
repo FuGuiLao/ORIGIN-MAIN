@@ -1,17 +1,17 @@
 import teamImage1 from '@/images/avatars/avatar-brant.png'
+import teamImage2 from '@/images/avatars/avatar-brant.png'
 
 const people = [
   {
     name: 'John Smith',
     role: 'Investigator',
-    image: teamImage1,
+    imageUrl: {teamImage1},
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
   },
   {
     name: 'John Smith',
     role: 'Investigator',
-    imageUrl:
-    '../src/images/avatars/avatar-brant.png',
+    image: teamImage2,
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
   },
   // More people...
