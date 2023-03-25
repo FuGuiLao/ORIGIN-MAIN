@@ -1,4 +1,4 @@
-const people = [
+const team = [
   {
     name: 'Leonard Krasner',
     role: 'Senior Designer',
