@@ -13,7 +13,7 @@ export function Contact() {
     <div className="bg-zinc-800 py-12 sm:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-     <SectionHeading number="6" id="contact-title" style="background:white">
+     <SectionHeading number="6" id="contact-title">
           Contact Us
         </SectionHeading>
           <p className="mt-6 text-lg leading-8 text-zinc-100">
