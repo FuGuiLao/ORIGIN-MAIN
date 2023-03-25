@@ -1,3 +1,5 @@
+import { SectionHeading } from '@/components/SectionHeading'
+
 export function Contact() {
   return (
     <div className="bg-zinc-800 py-12 sm:py-16">
