@@ -3,14 +3,14 @@ const people = [
     name: 'John Smith',
     role: 'Investigator',
     imageUrl:
-      '@/images/avatars/avatar-brant.png',
+      '/src/images/avatars/avatar-brant.png',
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
   },
   {
     name: 'John Smith',
     role: 'Investigator',
     imageUrl:
-      '@/images/avatars/avatar-brant.png',
+      '/src/images/avatars/avatar-brant.png',
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
   },
   // More people...
