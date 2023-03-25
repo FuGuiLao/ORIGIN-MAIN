@@ -66,7 +66,7 @@ export function Contact() {
   />
 </svg>
 <svg
-  class="w-6 h-6 text-blue-500 fill-current"
+  class="w-6 h-6 text-red-200 fill-current"
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 448 512">
   <path
