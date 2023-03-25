@@ -1,12 +1,5 @@
 export function Contact() {
   return (
-    
-    <section
-      id="contact"
-      aria-label="Contact Us"
-      className="pt-20 pb-16 sm:pb-20 md:pt-36 lg:py-32"
-    >
-    
     <div className="bg-zinc-800 py-12 sm:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
