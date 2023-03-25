@@ -13,7 +13,6 @@ export function Contact() {
     <div className="bg-zinc-800 py-12 sm:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-tight text-zinc-50">Contact Us</h2>
      <SectionHeading number="6" id="contact-title">
           Contact Us
         </SectionHeading>
