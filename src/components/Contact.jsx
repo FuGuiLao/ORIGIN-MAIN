@@ -6,7 +6,7 @@ export function Contact() {
       <section
       id="contact"
       aria-labelledby="contact-title"
-      className="relative scroll-mt-14 pb-3 pt-8 sm:scroll-mt-32 sm:pb-16 sm:pt-10 lg:pt-16 bg-white"
+      className="relative scroll-mt-14 pb-3 pt-8 sm:scroll-mt-32 sm:pb-16 sm:pt-10 lg:pt-16"
     >
    <container>
    
