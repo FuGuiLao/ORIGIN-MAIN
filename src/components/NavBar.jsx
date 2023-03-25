@@ -17,6 +17,7 @@ const sections = [
   { id: 'resources', title: 'Resources' },
   { id: 'pricing', title: 'Pricing' },
   { id: 'ourpeople', title: 'Our People' },
+   { id: 'contact', title: 'Contact Us' },
 ]
 
 function MenuIcon({ open, ...props }) {
