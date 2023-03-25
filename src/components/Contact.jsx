@@ -6,14 +6,14 @@ export function Contact() {
       <section
       id="contact"
       aria-labelledby="contact-title"
-      className="relative scroll-mt-14 pb-3 pt-8 sm:scroll-mt-32 sm:pb-16 sm:pt-10 lg:pt-16 bg-white"
+      className="relative scroll-mt-14 pb-3 pt-8 sm:scroll-mt-32 sm:pb-16 sm:pt-10 lg:pt-16"
     >
    <container>
    
     <div className="bg-zinc-800 py-12 sm:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-     <SectionHeading number="6" id="contact-title">
+     <SectionHeading number="6" id="contact-title" style="bg-white">
           Contact Us
         </SectionHeading>
           <p className="mt-6 text-lg leading-8 text-zinc-100">
