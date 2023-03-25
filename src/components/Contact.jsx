@@ -46,7 +46,7 @@ export function Contact() {
             </address>
           </div>
           <div>
-            <address className="border-l border-red-800 pl-6 pt-0 not-italic text-zinc-50 flex justify-center space-x-2">
+            <address className="border-l border-red-800 pl-6 pt-0 not-italic text-zinc-50 space-y-2">
             <svg
     xmlns="http://www.w3.org/2000/svg"
     class="h-5 w-5"
