@@ -45,7 +45,7 @@ export function Contact() {
           </div>
         </div>
       </div>
-  </center>
     </div>
+    </center>
   )
 }
