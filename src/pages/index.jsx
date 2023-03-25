@@ -93,7 +93,7 @@ export default function Home() {
       <Resources />
       <FreeChapters />
       <Pricing />
-      <LogoCloud />
+     // <LogoCloud />
       <Testimonials />
       <OurPeople />
       <Team />
