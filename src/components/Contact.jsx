@@ -30,7 +30,7 @@ export function Contact() {
             </address>
           </div>
           <div>
-            <h3 className="border-l border-red-800 pl-6 font-semibold text-gray-100">New York</h3>
+            <h3 className="border-l border-red-800 pl-6 font-semibold text-zinc-100">New York</h3>
             <address className="border-l border-zinc-200 pt-2 pl-6 not-italic text-zinc-50">
               <p>287 Park Avenue South 2nd Floor</p>
               <p>New York, NY 10010</p>
@@ -46,7 +46,6 @@ export function Contact() {
             </address>
           </div>
           <div>
-            <h3 className="border-l border-red-800 pl-6 font-semibold text-zinc-100">Social Media</h3>
             <address className="border-l border-zinc-200 pl-6 pt-2 not-italic text-zinc-50">
               <p>Instagram</p>
               <p>Facebook</p>
