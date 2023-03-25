@@ -46,7 +46,7 @@ export function Contact() {
             </address>
           </div>
           <div>
-            <address className="border-l border-zinc-200 pl-6 pt-2 not-italic text-zinc-50">
+            <address className="border-l border-zinc-200 pl-6 pt-0 not-italic text-zinc-50">
               <p>LinkedIn</p>
               <p>Instagram</p>
               <p>Facebook</p>
