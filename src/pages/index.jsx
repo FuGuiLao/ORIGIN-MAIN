@@ -90,8 +90,11 @@ export default function Home() {
       <Resources />
       <FreeChapters />
       <Pricing />
+      <LogoCloud />
       <Testimonials />
       <OurPeople />
+      <Team />
+      <Contact /> 
       <Footer />
     </>
   )
