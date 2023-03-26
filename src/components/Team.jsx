@@ -1,6 +1,8 @@
 import teamImage1 from '@/images/avatars/avatar-brant.png'
 import teamImage2 from '@/images/avatars/avatar-brant.png'
 
+import { Expandable } from '@/components/Expandable'
+
 const people = [
   {
     name: 'John Smith',
