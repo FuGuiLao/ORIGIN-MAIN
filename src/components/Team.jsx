@@ -54,7 +54,7 @@ export function Team() {
                              ))}
                       </ul>
           </ul>
-        <Expandable.Button>Learn more of our team</Expandable.Button>
+        <Expandable.Button>Read more testimonials</Expandable.Button>
         </>
         )}
       </Expandable>
