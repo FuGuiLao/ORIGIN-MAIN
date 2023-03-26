@@ -43,7 +43,7 @@ function Plan({ name, description, price, features, href, featured }) {
               featured ? 'text-slate-100' : 'text-slate-500'
             )}
           >
-            $
+            
           </span>
           <span
             className={clsx(
@@ -115,7 +115,7 @@ export function Pricing() {
           <Plan
             name="Standard"
             description="The perfect starting point for criminal or civil investigations."
-            price={0}
+            price="Hourly Rate"
             href="#"
             features={[
               'Free consultations',
@@ -127,7 +127,7 @@ export function Pricing() {
             featured
             name="Integrated"
             description="When you want to partner with a dedicated agency."
-            price="Free"
+            price="Flat Rate"
             href="#"
             features={[
               'Comprehensive case reviews',
