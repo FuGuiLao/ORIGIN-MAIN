@@ -26,7 +26,6 @@ export function Team() {
           role="list"
           className="mx-auto mt-0 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none"
         >
-         </Container>
       <Expandable>
         {({ isExpanded }) => (
           <>
