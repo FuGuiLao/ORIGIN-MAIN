@@ -23,7 +23,7 @@ function Plan({ name, description, price, features, href, featured }) {
         <h3
           className={clsx(
             'mt-7 text-lg font-semibold tracking-tight',
-            featured ? 'text-white' : 'text-slate-900'
+            featured ? 'text-white' : 'text-zinc-900'
           )}
         >
           {name}
@@ -31,7 +31,7 @@ function Plan({ name, description, price, features, href, featured }) {
         <p
           className={clsx(
             'mt-2 text-lg tracking-tight',
-            featured ? 'text-white' : 'text-slate-600'
+            featured ? 'text-white' : 'text-zinc-600'
           )}
         >
           {description}
@@ -40,7 +40,7 @@ function Plan({ name, description, price, features, href, featured }) {
           <span
             className={clsx(
               'text-[1.75rem] leading-tight',
-              featured ? 'text-slate-100' : 'text-slate-500'
+              featured ? 'text-zinc-100' : 'text-zinc-500'
             )}
           >
             
@@ -48,7 +48,7 @@ function Plan({ name, description, price, features, href, featured }) {
           <span
             className={clsx(
               'ml-0 mt-1 text-5xl tracking-tight',
-              featured ? 'text-white' : 'text-slate-900'
+              featured ? 'text-white' : 'text-zinc-900'
             )}
           >
             {price}
@@ -61,7 +61,7 @@ function Plan({ name, description, price, features, href, featured }) {
               '-my-2 divide-y text-base tracking-tight',
               featured
                 ? 'divide-white/10 text-white'
-                : 'divide-slate-200 text-slate-900'
+                : 'divide-zinc-200 text-zinc-900'
             )}
           >
             {features.map((feature) => (
@@ -69,7 +69,7 @@ function Plan({ name, description, price, features, href, featured }) {
                 <CheckIcon
                   className={clsx(
                     'h-8 w-8 flex-none',
-                    featured ? 'fill-white' : 'fill-slate-600'
+                    featured ? 'fill-white' : 'fill-zinc-600'
                   )}
                 />
                 <span className="ml-4">{feature}</span>
@@ -79,7 +79,7 @@ function Plan({ name, description, price, features, href, featured }) {
         </div>
         <Button
           href={href}
-          color={featured ? 'white' : 'slate'}
+          color={featured ? 'white' : 'zinc'}
           className="mt-8"
           aria-label={`Get started with the ${name} plan for $${price}`}
         >
@@ -101,10 +101,10 @@ export function Pricing() {
         <SectionHeading number="4" id="pricing-title">
           Pricing
         </SectionHeading>
-        <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
+        <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-zinc-900 sm:text-6xl">
           Pick your package
         </p>
-        <p className="mt-4 max-w-xl text-lg tracking-tight text-slate-600">
+        <p className="mt-4 max-w-xl text-lg tracking-tight text-zinc-600">
           Origin partners with our clients in a variety of ways.
           Let us know your needs and we will figure out the
           best way to work together to get the best results.
