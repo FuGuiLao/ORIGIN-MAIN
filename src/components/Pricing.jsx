@@ -127,7 +127,7 @@ export function Pricing() {
             featured
             name="Integrated"
             description="When you want to partner with a dedicated agency."
-            price='Free'
+            price="Free"
             href="#"
             features={[
               'Comprehensive case reviews',
