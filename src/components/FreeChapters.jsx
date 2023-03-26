@@ -38,7 +38,7 @@ export function FreeChapters() {
                   placeholder="Email address"
                   className="peer relative z-10 w-full appearance-none bg-transparent px-4 py-2 text-base text-white placeholder:text-white/70 focus:outline-none sm:py-3"
                 />
-                <div className="absolute inset-0 rounded-md border border-white/20 peer-focus:border-red-300 peer-focus:bg-zinc-800 peer-focus:ring-1 peer-focus:ring-red-800 sm:rounded-xl" />
+                <div className="absolute inset-0 rounded-md border border-white/20 peer-focus:border-red-800 peer-focus:bg-zinc-800 peer-focus:ring-1 peer-focus:ring-red-800 sm:rounded-xl" />
               </div>
               <Button
                 type="submit"
