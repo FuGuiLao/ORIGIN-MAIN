@@ -27,12 +27,18 @@ export function Team() {
       <Expandable>
         {({ isExpanded }) => (
           <>
+          <ol role="list" className="mt-16 space-y-10 sm:space-y-16">
+                {Object.entries(people)
+                  .slice(0, isExpanded ? undefined : 0)
+                  .map(([title, pages]) => (
+                    <li key={title}>
+                      <h3 className="font-display text-3xl font-bold tracking-tight text-slate-900">
+                        {title}
+                      </h3>
 
         <ul
           role="list"
-          className="mx-auto mt-0 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none"
-        >
-
+          className="mx-auto mt-0 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none">
           {people.map((person) => (
             <li key={person.name} className="flex flex-col gap-6 xl:flex-row">
               <img className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover" src={person.image} alt="" />
