@@ -32,7 +32,7 @@ export function Team() {
           <>
           <ol role="list" className="mt-16 space-y-10 sm:space-y-16">
             {Object.entries(people)
-              .slice(0, isExpanded ? undefined : 0)
+              .slice(0, isExpanded ? undefined : 'hidden lg:list-item')
                .map(([title, pages]) => (
                  <li key={title}>
                    <h3 className="font-display text-3xl font-bold tracking-tight text-slate-900">
@@ -50,18 +50,6 @@ export function Team() {
                                    <p className="text-base leading-7 text-gray-600">{person.role}</p>
                                    <p className="mt-6 text-base leading-7 text-gray-600">{person.bio}</p>
                                 </div>
-                                <span
-                              className="font-medium text-slate-900"
-                              aria-hidden="true"
-                            >
-                              {title}
-                            </span>
-                            <span
-                              className="font-mono text-zinc-50"
-                              aria-hidden="true"
-                            >
-                              {pageNumber}
-                            </span>
                               </li>
                              ))}
                       </ul>
