@@ -31,13 +31,7 @@ export function Team() {
         {({ isExpanded }) => (
           <>
           <ul role="list" className="mt-16 space-y-10 sm:space-y-16">
-            {Object.entries(people)
-              .slice(0, isExpanded ? undefined : 0)
-               .map(([title, pages]) => (
-                 <li key={title}>
-                   <h3 className="font-display text-3xl font-bold tracking-tight text-slate-900">
-                    {title}
-                    </h3>
+
 
                      <ul
                        role="list"
