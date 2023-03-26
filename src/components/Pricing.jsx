@@ -125,7 +125,7 @@ export function Pricing() {
           />
           <Plan
             featured
-            name="Flat Rate"
+            name="Hourly & Flat Rate Options"
             description="When you want to partner with a dedicated agency."
             price="Integrated"
             href="#"
