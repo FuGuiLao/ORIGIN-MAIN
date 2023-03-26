@@ -26,13 +26,7 @@ export function Team() {
           role="list"
           className="mx-auto mt-0 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none"
         >
-      <Expandable>
-        {({ isExpanded }) => (
-          <>
-            <ul
-              role="list"
-              className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 px-4 lg:max-w-7xl lg:grid-cols-3 lg:px-8"
-            >
+
           {people.map((person) => (
             <li key={person.name} className="flex flex-col gap-6 xl:flex-row">
               <img className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover" src={person.imageUrl} alt="" />
@@ -44,12 +38,6 @@ export function Team() {
             </li>
           ))}
         </ul>
-        
-            <Expandable.Button>View More</Expandable.Button>
-          </>
-        )}
-      </Expandable>
-    </section>
       </div>
     </div>
   )
