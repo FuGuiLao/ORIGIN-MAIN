@@ -115,7 +115,7 @@ export function Pricing() {
           <Plan
             name="Standard"
             description="The perfect starting point for criminal or civil investigations."
-            price={0}
+            price={Hourly Rate}
             href="#"
             features={[
               'Free consultations',
@@ -127,7 +127,7 @@ export function Pricing() {
             featured
             name="Integrated"
             description="When you want to partner with a dedicated agency."
-            price={0}
+            price={Flat Rate}
             href="#"
             features={[
               'Comprehensive case reviews',
