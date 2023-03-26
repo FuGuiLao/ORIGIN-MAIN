@@ -9,13 +9,13 @@ const people = [
   {
     name: 'John Smith',
     role: 'Investigator',
-    image: 'teamImage1',
+    image: teamImage1,
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
   },
   {
     name: 'Steve Jones',
     role: 'Investigator',
-    image: 'teamImage2',
+    image: teamImage2,
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
   },
   // More people...
