@@ -12,6 +12,7 @@ import avatarImage8 from '@/images/avatars/avatar-8.png'
 import avatarImage9 from '@/images/avatars/avatar-9.png'
 import avatarImage10 from '@/images/avatars/avatar-10.png'
 import avatarImage11 from '@/images/avatars/avatar-11.png'
+import seal-doj from '@/images/seal-doj.png'
 
 const testimonials = [
   [
@@ -142,7 +143,7 @@ export function Testimonials() {
      <div className="mx-auto mt-8 mb-8 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
           <img
             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg"
+            image:sealdoj
             alt="Transistor"
             width={158}
             height={48}
