@@ -113,9 +113,9 @@ export function Pricing() {
       <div className="mx-auto mt-16 max-w-5xl lg:px-6">
         <div className="grid bg-zinc-50 sm:px-6 sm:pb-16 md:grid-cols-2 md:rounded-6xl md:px-8 md:pt-16 lg:p-20">
           <Plan
-            name="Standard"
+            name="Hourly Rate"
             description="The perfect starting point for criminal or civil investigations."
-            price="Hourly Rate"
+            price="Standard"
             href="#"
             features={[
               'Free consultations',
@@ -125,9 +125,9 @@ export function Pricing() {
           />
           <Plan
             featured
-            name="Integrated"
+            name="Flat Rate"
             description="When you want to partner with a dedicated agency."
-            price="Flat Rate"
+            price="Integrated"
             href="#"
             features={[
               'Comprehensive case reviews',
