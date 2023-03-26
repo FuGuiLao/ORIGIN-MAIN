@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 import teamImage1 from '@/images/avatars/avatar-brant.png'
 import teamImage2 from '@/images/avatars/avatar-brant.png'
 
