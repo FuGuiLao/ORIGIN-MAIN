@@ -22,7 +22,7 @@ function Plan({ name, description, price, features, href, featured }) {
       <div className="relative flex flex-col">
         <h3
           className={clsx(
-            'mt-7 text-lg font-semibold tracking-tight',
+            'mt-7 text-xl font-semibold tracking-tight',
             featured ? 'text-white' : 'text-zinc-900'
           )}
         >
