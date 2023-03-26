@@ -1,9 +1,10 @@
 import Image from 'next/image'
 
+import { Expandable } from '@/components/Expandable'
 import teamImage1 from '@/images/avatars/avatar-brant.png'
 import teamImage2 from '@/images/avatars/avatar-brant.png'
 
-import { Expandable } from '@/components/Expandable'
+
 
 const people = [
   {
@@ -43,7 +44,7 @@ export function Team() {
                          className="mx-auto mt-0 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none">
                            {people.map((person) => (
                              <li key={person.name} className="flex flex-col gap-6 xl:flex-row">
-                               <Image className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover" src={people.image} alt="" />
+                               <Image className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover" src={person.image} alt="" />
                                 <div className="flex-auto">
                                    <h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900">{person.name}</h3>
                                    <p className="text-base leading-7 text-gray-600">{person.role}</p>
