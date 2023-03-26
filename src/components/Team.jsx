@@ -50,7 +50,7 @@ export function Team() {
             </li>
           ))}
         </ul>
-
+        </li>
          <Expandable.Button>Read more testimonials</Expandable.Button>
           </>
         )}
