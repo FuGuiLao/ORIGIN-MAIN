@@ -13,7 +13,7 @@ function Testimonial() {
       </div>
       <blockquote className="mt-2">
         <p className="font-display text-xl font-medium text-zinc-900">
-          “We use Origin for all of our investigations. After transitioning to their integrated case review, our intake process is super efficient.”
+          “We use Origin for all of our investigations. After transitioning to their integrated case reviews, our intake process is super efficient.”
         </p>
       </blockquote>
       <figcaption className="mt-2 text-sm text-zinc-500">
