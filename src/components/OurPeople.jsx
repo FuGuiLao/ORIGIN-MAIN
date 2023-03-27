@@ -5,13 +5,6 @@ import { GridPattern } from '@/components/GridPattern'
 import { SectionHeading } from '@/components/SectionHeading'
 import authorImage from '@/images/avatars/avatar-brant.png'
 
-function TwitterIcon(props) {
-  return (
-    <svg aria-hidden="true" viewBox="0 0 40 40" {...props}>
-      <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
-    </svg>
-  )
-}
 
 export function OurPeople() {
   return (
@@ -41,28 +34,27 @@ export function OurPeople() {
               <span className="block text-red-800">Jayden Brant –</span> <bold>Hi, I am the founder and managing partner of Origin Investigations Inc.</bold>
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
-Throughout his career, Jayden has worked for the United States federal government in law enforcement and intelligence capacities. Jayden previously served as a Deputy Sheriff with the Los Angeles County Sheriff's Department. While there, he worked in field operations, custody, training bureau, and numerous special assignments within the department.
-</p>
-<p className="mt-4 text-lg tracking-tight text-slate-700">
-He has extensive knowledge, training, and experience in criminal investigation, interrogation, undercover surveillance, case management, evidence handling, and California and Federal law.
-</p>
-<p className="mt-4 text-lg tracking-tight text-slate-700">
-Jayden attained California Peace Officer Standards and Training (POST) Certification and completed POST Advanced Officer Training while with the LASD and continues to maintain certification. He also completed the challenging coursework for the POST Specialized Investigator Certification.
-</p>
-<p className="mt-4 text-lg tracking-tight text-slate-700">
-During his career, Jayden has worked with the LASD, LAPD, US Marshals Service, Diplomatic Security Service, US Secret Service, Federal Bureau of Investigation, Department of Homeland Security, US Immigration and Customs Enforcement, the Superior Court of California, as well as numerous local law enforcement agencies and independent investigators.
-</p>
-<p className="mt-4 text-lg tracking-tight text-slate-700">
-In addition to a law enforcement background, Jayden also has significant private sector experience. He has held leadership positions in the heavily regulated financial services industry not only overseeing operations of a Registered Investment Advisory Firm, but also conducting corporate due diligence and fraud investigations.
-</p>
-<p className="mt-4 text-lg tracking-tight text-slate-700">
-He has also provided regulatory compliance, security, and legal consulting for high-profile individuals and numerous companies across a wide variety of industries. Jayden attended Claremont McKenna College and studied computer engineering.
-</p>
-<p className="mt-4 text-lg tracking-tight text-slate-700">
-Jayden is a member of the California Association of Licensed Investigators, the United States Association of Professional Investigators, the Association of Former Intelligence Officers, and the International Association of Law Enforcement Intelligence Analysts.
-
-
+            Throughout his career, Jayden has worked for the United States federal government in law enforcement and intelligence capacities. Jayden previously served as a Deputy Sheriff with the Los Angeles County Sheriff's Department. While there, he worked in field operations, custody, training bureau, and numerous special assignments within the department.
             </p>
+            <p className="mt-4 text-lg tracking-tight text-slate-700">
+            He has extensive knowledge, training, and experience in criminal investigation, interrogation, undercover surveillance, case management, evidence handling, and California and Federal law.
+            </p>
+            <p className="mt-4 text-lg tracking-tight text-slate-700">
+            Jayden attained California Peace Officer Standards and Training (POST) Certification and completed POST Advanced Officer Training while with the LASD and continues to maintain certification. He also completed the challenging coursework for the POST Specialized Investigator Certification.
+            </p>
+            <p className="mt-4 text-lg tracking-tight text-slate-700">
+            During his career, Jayden has worked with the LASD, LAPD, US Marshals Service, Diplomatic Security Service, US Secret Service, Federal Bureau of Investigation, Department of Homeland Security, US Immigration and Customs Enforcement, the Superior Court of California, as well as numerous local law enforcement agencies and independent investigators.
+            </p>
+            <p className="mt-4 text-lg tracking-tight text-slate-700">
+            In addition to a law enforcement background, Jayden also has significant private sector experience. He has held leadership positions in the heavily regulated financial services industry not only overseeing operations of a Registered Investment Advisory Firm, but also conducting corporate due diligence and fraud investigations.
+            </p>
+            <p className="mt-4 text-lg tracking-tight text-slate-700">
+            He has also provided regulatory compliance, security, and legal consulting for high-profile individuals and numerous companies across a wide variety of industries. Jayden attended Claremont McKenna College and studied computer engineering.
+            </p>
+            <p className="mt-4 text-lg tracking-tight text-slate-700">
+            Jayden is a member of the California Association of Licensed Investigators, the United States Association of Professional Investigators, the Association of Former Intelligence Officers, and the International Association of Law Enforcement Intelligence Analysts.
+            </p>
+
             <p className="mt-8">
               <Link
                 href="#"
