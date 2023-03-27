@@ -1,5 +1,6 @@
 import Head from 'next/head'
 
+import { Banner } from '@/components/Banner' 
 import { OurPeople } from '@/components/OurPeople'
 import { Footer } from '@/components/Footer'
 import { FreeChapters } from '@/components/FreeChapters'
@@ -32,6 +33,7 @@ export default function Home() {
         />
       </Head>
    
+    <Banner />
     <Hero />
       <Introduction />
       <NavBar />
