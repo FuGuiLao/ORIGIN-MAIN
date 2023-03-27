@@ -7,13 +7,7 @@ export function Banner() {
     const [show, setShow] = useState(true)
 
   return (
-         <Transition
-            show={show}
 
-            leave="transition ease-in duration-100"
-            leaveFrom="opacity-100"
-            leaveTo="opacity-0"
-          >
     <div className="flex items-center gap-x-6 bg-gray-900 py-2.5 px-6 sm:px-3.5 sm:before:flex-1">
  
       <p className="text-sm leading-6 text-white">
@@ -37,6 +31,6 @@ export function Banner() {
       </div>
    
     </div>
-       </Transition>
+
   )
 }
