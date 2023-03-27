@@ -45,7 +45,7 @@ Expandable.Button = function Button({ children }) {
       <div className="mt-10 flex justify-center">
         <button
           type="button"
-          className="flex items-center text-base font-medium tracking-tight text-slate-900 hover:text-slate-700"
+          className="flex items-center text-base font-medium tracking-tight text-zinc-900 hover:text-zinc-700"
           onClick={expand}
         >
           {children}
