@@ -65,10 +65,10 @@ export function Investigation() {
         <SectionHeading number="2" id="screencasts-title">
           Investigation
         </SectionHeading>
-        <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
+        <p className="mt-8 font-display text-4xl font-bold tracking-tight text-zinc-900">
           With our diverse team and uncommon resources, it is always our goal to be your primary investigative agency.
         </p>
-        <p className="mt-4 text-lg tracking-tight text-slate-700">
+        <p className="mt-4 text-lg tracking-tight text-zinc-700">
           We provide comprehensive services and have the investigative and administrative staff to respond quickly and get results, even where others have failed. No task is too simple or case too complex.
         </p>
       </Container>
@@ -87,10 +87,10 @@ export function Investigation() {
                   <Image  className="relative flex h-44 items-center justify-center rounded-2xl px-0 shadow-lg" src={video.image} alt="" unoptimized />
               
               </div>
-              <h3 className="mt-8 text-base font-medium tracking-tight text-slate-900 before:mb-2 before:block before:font-mono before:text-sm before:text-slate-500 before:content-[counter(video,decimal-leading-zero)]">
+              <h3 className="mt-8 text-base font-medium tracking-tight text-zinc-900 before:mb-2 before:block before:font-mono before:text-sm before:text-zinc-500 before:content-[counter(video,decimal-leading-zero)]">
                 {video.title}
               </h3>
-              <p className="mt-2 text-sm text-slate-600">{video.description}</p>
+              <p className="mt-2 text-sm text-zinc-600">{video.description}</p>
             </li>
           ))}
         </ol>
