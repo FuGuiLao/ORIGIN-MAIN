@@ -148,21 +148,21 @@ export function Testimonials() {
             height={48}
           />
           <img
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
             src="http://www.origininvestigations.com/cdn/seal-doj.png"
             alt="Reform"
             width={158}
             height={158}
           />
           <img
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
             src="http://www.origininvestigations.com/cdn/seal-ic.png"
             alt="Tuple"
             width={158}
             height={158}
           />
           <img
-            className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
+            className="col-span-2 max-h-24 w-full object-contain sm:col-start-2 lg:col-span-1"
             src="http://www.origininvestigations.com/cdn/seal-state.png"
             alt="SavvyCal"
             width={158}
