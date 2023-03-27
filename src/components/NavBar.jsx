@@ -157,7 +157,7 @@ export function NavBar() {
                 className={clsx(
                   'flex w-full flex-col items-center justify-center border-b-2 before:mb-2 before:font-mono before:text-sm before:content-[counter(section,decimal-leading-zero)]',
                   sectionIndex === activeIndex
-                    ? 'border-red-800 bg-red-50 text-zinc-900 before:text-zinc-800'
+                    ? 'border-red-800 bg-red-50 text-zinc-900 before:text-red-800'
                     : 'border-transparent before:text-zinc-600 hover:bg-red-50/40 hover:before:text-red-800'
                 )}
               >
