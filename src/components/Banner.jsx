@@ -1,4 +1,4 @@
-import { xmark } from '@src/icon/xmark'
+import { XMarkIcon  } from '@heroicons/react/20/solid'
 
 export function Banner() {
   return (
@@ -15,7 +15,7 @@ export function Banner() {
       <div className="flex flex-1 justify-end">
         <button type="button" className="-m-3 p-3 focus-visible:outline-offset-[-4px]">
           <span className="sr-only">Dismiss</span>
-          <xmark className="h-5 w-5 text-white" aria-hidden="true" />
+          <XMarkIcon  className="h-5 w-5 text-white" aria-hidden="true" />
         </button>
       </div>
     </div>
