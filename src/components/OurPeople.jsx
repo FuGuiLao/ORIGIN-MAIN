@@ -55,7 +55,7 @@ export function OurPeople() {
             Jayden is a member of the California Association of Licensed Investigators, the United States Association of Professional Investigators, the Association of Former Intelligence Officers, and the International Association of Law Enforcement Intelligence Analysts.
             </p>
 
-            </p>
+            
             <p className="mt-8">
               <Link
                 href="#"
