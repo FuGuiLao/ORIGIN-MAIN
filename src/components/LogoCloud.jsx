@@ -1,11 +1,11 @@
 import Image from 'next/image'
 
-import seal-bh from @/images/seal-bh.png
-import seal-casc from @/images/seal-casc.png
-import seal-doj from @/images/seal-doj.png
-import seal-ic from @/images/seal-ic.png
-import seal-la from @/images/seal-la.png
-import seal-state from @/images/seal-state.png
+import seal_bh from @/images/seal-bh.png
+import seal_casc from @/images/seal-casc.png
+import seal_doj from @/images/seal-doj.png
+import seal_ic from @/images/seal-ic.png
+import seal_la from @/images/seal-la.png
+import seal_state from @/images/seal-state.png
 
 export function LogoCloud() {
   return (
@@ -17,42 +17,42 @@ export function LogoCloud() {
         <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
           <img
             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            src={seal-bh}
+            src={seal_bh}
             alt=""
             width={158}
             height={48}
           />
           <img
             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            src={seal-casc}
+            src={seal_casc}
             alt=""
             width={158}
             height={48}
           />
           <img
             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            src={seal-doj}
+            src={seal_doj}
             alt=""
             width={158}
             height={48}
           />
           <img
             className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-            src={seal-ic}
+            src={seal_ic}
             alt=""
             width={158}
             height={48}
           />
           <img
             className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-            src={seal-la}
+            src={seal_la}
             alt=""
             width={158}
             height={48}
           />
           <img
             className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-            src={seal-la}
+            src={seal_state}
             alt=""
             width={158}
             height={48}
