@@ -136,7 +136,7 @@ export function Pricing() {
               'Discounted specialized data fees',
               'Dedicated case manager',
               'Dedicated intelligence analyst',
-              'No long term commitments',
+              'No long-term commitments',
             ]}
           />
         </div>
