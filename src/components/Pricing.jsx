@@ -78,7 +78,7 @@ function Plan({ name, description, price, features, href, featured }) {
           </ul>
         </div>
         <Button
-          href={href}
+          href="{href} target="_blank""
           color={featured ? 'white' : 'slate'}
           className="mt-8"
           aria-label={`Get started with the ${name} plan for $${price}`}
@@ -116,7 +116,7 @@ export function Pricing() {
             name="Hourly Rate"
             description="The perfect starting point for criminal or civil investigations."
             price="Standard"
-            href="#"
+            href="https://origin.viewcases.com/case/request/new"
             features={[
               'Free consultations',
               'Access to our entire staff',
@@ -128,7 +128,7 @@ export function Pricing() {
             name="Hourly & Flat Rate Options"
             description="When you want to partner with a dedicated agency."
             price="Integrated"
-            href="#"
+            href="https://calendly.com/origin-investigation/client-consultation"
             features={[
               'Comprehensive case reviews',
               'Free technology integrations',
