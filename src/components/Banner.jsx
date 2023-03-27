@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 export function Banner() {
 
-    const [show, setShow] = useState(true);
+    const [show, setShow] = useState(true)
 
   return (
     <div className="flex items-center gap-x-6 bg-gray-900 py-2.5 px-6 sm:px-3.5 sm:before:flex-1">
@@ -18,8 +18,9 @@ export function Banner() {
       </p>
       <div className="flex flex-1 justify-end">
         <button type="button" className="-m-3 p-3 focus-visible:outline-offset-[-4px]"
-         onClick={() => {setShow(false)
-            }}
+         onClick={() => {
+                        setShow(false)
+                      }}
             >
           <span className="sr-only">Dismiss</span>
           <XMarkIcon  className="h-5 w-5 text-white" aria-hidden="true" />
