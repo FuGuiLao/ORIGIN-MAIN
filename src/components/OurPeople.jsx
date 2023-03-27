@@ -13,7 +13,7 @@ export function OurPeople() {
       aria-labelledby="author-title"
       className="relative scroll-mt-14 pb-3 pt-8 sm:scroll-mt-32 sm:pb-16 sm:pt-10 lg:pt-16"
     >
-      <div className="absolute inset-x-0 bottom-0 top-1/2 text-slate-900/10 [mask-image:linear-gradient(transparent,white)]">
+      <div className="absolute inset-x-0 bottom-0 top-1/2 text-zinc-900/10 [mask-image:linear-gradient(transparent,white)]">
         <GridPattern x="50%" y="100%" />
       </div>
       <div className="relative mx-auto max-w-5xl pt-16 sm:px-6">
@@ -30,7 +30,7 @@ export function OurPeople() {
             <SectionHeading number="5" id="author-title">
               Our People
             </SectionHeading>
-            <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
+            <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-zinc-900 sm:text-6xl">
               <span className="block text-red-800">Jayden Brant –</span> <bold>Hi, I am the founder and managing partner of Origin Investigations Inc.</bold>
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
@@ -55,13 +55,14 @@ export function OurPeople() {
             Jayden is a member of the California Association of Licensed Investigators, the United States Association of Professional Investigators, the Association of Former Intelligence Officers, and the International Association of Law Enforcement Intelligence Analysts.
             </p>
 
+            </p>
             <p className="mt-8">
               <Link
                 href="#"
                 className="inline-flex items-center text-base font-medium tracking-tight text-red-800"
               >
                
-                <span className="ml-0">View on LinkedIn</span>
+                <span className="ml-0"><a href="https://www.linkedin.com/in/jaydenbrant" target="_blank">View on LinkedIn</a></span>
               </Link>
             </p>
           </div>

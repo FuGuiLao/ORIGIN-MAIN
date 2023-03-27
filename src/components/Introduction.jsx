@@ -10,8 +10,8 @@ export function Introduction() {
       aria-label="Introduction"
       className="pt-20 pb-16 sm:pb-20 md:pt-36 lg:py-32"
     >
-      <Container className="text-lg tracking-tight text-slate-700">
-        <p className="font-display text-4xl font-bold tracking-tight text-slate-900">
+      <Container className="text-lg tracking-tight text-zinc-700">
+        <p className="font-display text-4xl font-bold tracking-tight text-zinc-900">
           Origin is a different kind of private investigation agency and our clients experience the difference on every case.
         </p>
         <p className="mt-4">

@@ -30,10 +30,10 @@ export function OurServices() {
         <SectionHeading number="1" id="table-of-contents-title">
           Our Services
         </SectionHeading>
-        <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
+        <p className="mt-8 font-display text-4xl font-bold tracking-tight text-zinc-900">
           Origin is a full-service Los Angeles-based private investigation and intelligence agency.
         </p>
-        <p className="mt-4 text-lg tracking-tight text-slate-700">
+        <p className="mt-4 text-lg tracking-tight text-zinc-700">
           Our investigators specialize in matters related to criminal investigations, intelligence gathering, corporate and insurance fraud, surveillance, background investigations, computer forensics, threat assessment, and missing persons. We maintain an extensive network of assets to assist with cases throughout the United States and abroad.
         </p>
         <Expandable>
@@ -44,12 +44,12 @@ export function OurServices() {
                   .slice(0, isExpanded ? undefined : 2)
                   .map(([title, pages]) => (
                     <li key={title}>
-                      <h3 className="font-display text-3xl font-bold tracking-tight text-slate-900">
+                      <h3 className="font-display text-3xl font-bold tracking-tight text-zinc-900">
                         {title}
                       </h3>
                       <ol
                         role="list"
-                        className="mt-8 divide-y divide-slate-300/30 rounded-2xl bg-zinc-50 py-3 px-6 text-base tracking-tight sm:py-7 sm:px-8"
+                        className="mt-8 divide-y divide-zinc-300/30 rounded-2xl bg-zinc-50 py-3 px-6 text-base tracking-tight sm:py-7 sm:px-8"
                       >
                         {Object.entries(pages).map(([title, pageNumber]) => (
                           <li
@@ -58,7 +58,7 @@ export function OurServices() {
                             aria-label={`${title} on page ${pageNumber}`}
                           >
                             <span
-                              className="font-medium text-slate-900"
+                              className="font-medium text-zinc-900"
                               aria-hidden="true"
                             >
                               {title}

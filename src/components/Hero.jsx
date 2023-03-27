@@ -12,11 +12,11 @@ function Testimonial() {
         <StarRating />
       </div>
       <blockquote className="mt-2">
-        <p className="font-display text-xl font-medium text-slate-900">
-          “We use Origin for all of our investigations. After transitioning to their integrated case review, our intake process is super efficient.”
+        <p className="font-display text-xl font-medium text-zinc-900">
+          “We use Origin for all of our investigations. After transitioning to their integrated case reviews, our intake process is super efficient.”
         </p>
       </blockquote>
-      <figcaption className="mt-2 text-sm text-slate-500">
+      <figcaption className="mt-2 text-sm text-zinc-500">
         <strong className="font-semibold text-red-800 before:content-['—_']">
           Partner
         </strong>
@@ -48,14 +48,14 @@ export function Hero() {
         </div>
         <div className="bg-white pt-16 lg:col-span-7 lg:bg-transparent lg:pt-0 lg:pl-16 xl:pl-20">
           <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-0">
-            <h1 className="font-display text-5xl font-extrabold text-slate-900 sm:text-6xl">
+            <h1 className="font-display text-5xl font-extrabold text-zinc-900 sm:text-6xl">
               Origin is a private investigation and intelligence agency.
             </h1>
-            <p className="mt-4 text-3xl text-slate-600">
+            <p className="mt-4 text-3xl text-zinc-600">
               We assist governments, corporations, law firms, and individuals with criminal and civil matters throughout the United States and abroad.
             </p>
             <div className="mt-8 flex gap-4">
-              <Button href="#free-chapters" color="red">
+              <Button href="https://calendly.com/origin-investigation/client-consultation" target="_blank" color="red">
                 Schedule a Consultation
               </Button>
               <Button href="#free-chapters" variant="outline" color="red">

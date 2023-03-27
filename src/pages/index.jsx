@@ -31,7 +31,8 @@ export default function Home() {
           content="Origin is a private investigation and intelligence agency. We assist governments, corporations, law firms, and individuals."
         />
       </Head>
-      <Hero />
+   
+    <Hero />
       <Introduction />
       <NavBar />
       <OurServices />
@@ -56,7 +57,7 @@ export default function Home() {
        <p>
         &nbsp;
         </p>
-              <Button href="#free-chapters" color="red">
+              <Button href="https://calendly.com/origin-investigation/client-consultation" target="_blank" color="red">
                 Schedule a Consultation
               </Button>
         
@@ -85,7 +86,7 @@ export default function Home() {
  <p>
         &nbsp;
         </p>
-          <Button href="#free-chapters" color="red">
+          <Button href="https://heyflow.id/specialized-data-request#start" target="_blank" color="red">
                 Order Specialized Data Now
               </Button>
       

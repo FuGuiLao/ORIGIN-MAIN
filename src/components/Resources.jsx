@@ -68,18 +68,18 @@ export function Resources() {
         <SectionHeading number="3" id="resources-title">
           Resources
         </SectionHeading>
-        <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
+        <p className="mt-8 font-display text-4xl font-bold tracking-tight text-zinc-900">
           Tools and resources you can use to get started even faster and
           progress even further, even on the most complex cases.
         </p>
-        <p className="mt-4 text-lg tracking-tight text-slate-700">
+        <p className="mt-4 text-lg tracking-tight text-zinc-700">
          Specialized training and experience, three offices operating 24 hours a day - 365 days a year, and tools to make sure our clients always have access to the resources they need.
         </p>
       </Container>
       <Container size="lg" className="mt-16">
         <ol
           role="list"
-          className="-mx-3 grid grid-cols-1 gap-y-10 lg:grid-cols-3 lg:text-center xl:-mx-12 xl:divide-x xl:divide-slate-400/20"
+          className="-mx-3 grid grid-cols-1 gap-y-10 lg:grid-cols-3 lg:text-center xl:-mx-12 xl:divide-x xl:divide-zinc-400/20"
         >
           {resources.map((resource) => (
             <li
@@ -90,10 +90,10 @@ export function Resources() {
                 <resource.image />
               </div>
               <div>
-                <h3 className="text-base font-medium tracking-tight text-slate-900">
+                <h3 className="text-base font-medium tracking-tight text-zinc-900">
                   {resource.title}
                 </h3>
-                <p className="mt-2 text-sm text-slate-600">
+                <p className="mt-2 text-sm text-zinc-600">
                   {resource.description}
                 </p>
               </div>

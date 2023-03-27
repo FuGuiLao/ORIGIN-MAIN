@@ -105,14 +105,14 @@ const testimonials = [
 
 function Testimonial({ author, children }) {
   return (
-    <figure className="rounded-4xl p-8 shadow-md ring-1 ring-slate-900/5">
+    <figure className="rounded-4xl p-8 shadow-md ring-1 ring-zinc-900/5">
       <blockquote>
-        <p className="text-lg tracking-tight text-slate-900 before:content-['“'] after:content-['”']">
+        <p className="text-lg tracking-tight text-zinc-900 before:content-['“'] after:content-['”']">
           {children}
         </p>
       </blockquote>
       <figcaption className="mt-6 flex items-center">
-        <div className="overflow-hidden rounded-full bg-slate-50">
+        <div className="overflow-hidden rounded-full bg-zinc-50">
           <Image
             className="h-12 w-12 object-cover"
             src={author.image}
@@ -122,10 +122,10 @@ function Testimonial({ author, children }) {
           />
         </div>
         <div className="ml-4">
-          <div className="text-base font-medium leading-6 tracking-tight text-slate-900">
+          <div className="text-base font-medium leading-6 tracking-tight text-zinc-900">
             {author.name}
           </div>
-          <div className="mt-1 text-sm text-slate-600">{author.role}</div>
+          <div className="mt-1 text-sm text-zinc-600">{author.role}</div>
         </div>
       </figcaption>
     </figure>
@@ -139,41 +139,41 @@ export function Testimonials() {
         <h2 className="font-display text-4xl font-bold tracking-tight text-zinc-900">
           Some kind words from our clients...
         </h2>
-     <div className="mx-auto mt-8 mb-8 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+     <div className="mx-auto mt-4 mb-4 grid max-w-lg grid-cols-4 items-center gap-x-7 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
           <img
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg"
-            alt="Transistor"
+            className="col-span-2 max-h-28 w-full object-contain lg:col-span-1"
+            src="http://www.origininvestigations.com/cdn/seal-casc.png"
+            alt="CA Superior Court"
             width={158}
-            height={48}
+            height={158}
           />
           <img
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg"
-            alt="Reform"
+            className="col-span-2 max-h-28 w-full object-contain lg:col-span-1"
+            src="http://www.origininvestigations.com/cdn/seal-doj.png"
+            alt="CA DOJ"
             width={158}
-            height={48}
+            height={158}
           />
           <img
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg"
-            alt="Tuple"
+            className="col-span-2 max-h-28 w-full object-contain lg:col-span-1"
+            src="http://www.origininvestigations.com/cdn/seal-ic.png"
+            alt="US Intelligence Community"
             width={158}
-            height={48}
+            height={158}
           />
           <img
-            className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg"
-            alt="SavvyCal"
+            className="col-span-2 max-h-28 w-full object-contain sm:col-start-2 lg:col-span-1"
+            src="http://www.origininvestigations.com/cdn/seal-state.png"
+            alt="State Department"
             width={158}
-            height={48}
+            height={158}
           />
           <img
-            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg"
-            alt="Statamic"
+            className="col-span-2 col-start-2 max-h-28 w-full object-contain sm:col-start-auto lg:col-span-1"
+            src="http://www.origininvestigations.com/cdn/seal-bh.png"
+            alt="City of Beverly Hills"
             width={158}
-            height={48}
+            height={158}
           />
         </div>
         <p className="mt-4 text-lg tracking-tight text-zinc-600">
