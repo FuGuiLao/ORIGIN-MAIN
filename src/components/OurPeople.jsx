@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { Container } from '@/components/Container'
+import { Expandable } from '@/components/Expandable'
 
 import { GridPattern } from '@/components/GridPattern'
 import { SectionHeading } from '@/components/SectionHeading'
@@ -68,6 +70,49 @@ export function OurPeople() {
           </div>
         </div>
       </div>
+ <Expandable>
+          {({ isExpanded }) => (
+            <>
+              <ol role="list" className="mt-16 space-y-10 sm:space-y-16">
+                {Object.entries(tableOfContents)
+                  .slice(0, isExpanded ? undefined : 2)
+                  .map(([title, pages]) => (
+                    <li key={title}>
+                      <h3 className="font-display text-3xl font-bold tracking-tight text-zinc-900">
+                        {title}
+                      </h3>
+                      <ol
+                        role="list"
+                        className="mt-8 divide-y divide-zinc-300/30 rounded-2xl bg-zinc-50 py-3 px-6 text-base tracking-tight sm:py-7 sm:px-8"
+                      >
+                        {Object.entries(pages).map(([title, pageNumber]) => (
+                          <li
+                            key={title}
+                            className="flex justify-between py-3"
+                            aria-label={`${title} on page ${pageNumber}`}
+                          >
+                            <span
+                              className="font-medium text-zinc-900"
+                              aria-hidden="true"
+                            >
+                              {title}
+                            </span>
+                            <span
+                              className="font-mono text-zinc-50"
+                              aria-hidden="true"
+                            >
+                              {pageNumber}
+                            </span>
+                          </li>
+                        ))}
+                      </ol>
+                    </li>
+                  ))}
+              </ol>
+              <Expandable.Button>See more</Expandable.Button>
+            </>
+          )}
+        </Expandable>
     </section>
   )
 }
