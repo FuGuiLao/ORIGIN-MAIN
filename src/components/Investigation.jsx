@@ -18,7 +18,7 @@ const videos = [
   {
     title: 'Surveillance',
     description:
-      'Our operatives are diverse, experienced, and highly skilled in both non-contact and contact surveillance.',
+      'Our operatives are diverse, experienced, and highly skilled in both non-contact and covert contact surveillance.',
      image: surveillanceImage,
     runtime: { minutes: 23, seconds: 25 },
   },
