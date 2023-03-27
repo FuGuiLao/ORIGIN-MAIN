@@ -105,14 +105,14 @@ const testimonials = [
 
 function Testimonial({ author, children }) {
   return (
-    <figure className="rounded-4xl p-8 shadow-md ring-1 ring-slate-900/5">
+    <figure className="rounded-4xl p-8 shadow-md ring-1 ring-zinc-900/5">
       <blockquote>
-        <p className="text-lg tracking-tight text-slate-900 before:content-['“'] after:content-['”']">
+        <p className="text-lg tracking-tight text-zinc-900 before:content-['“'] after:content-['”']">
           {children}
         </p>
       </blockquote>
       <figcaption className="mt-6 flex items-center">
-        <div className="overflow-hidden rounded-full bg-slate-50">
+        <div className="overflow-hidden rounded-full bg-zinc-50">
           <Image
             className="h-12 w-12 object-cover"
             src={author.image}
@@ -122,10 +122,10 @@ function Testimonial({ author, children }) {
           />
         </div>
         <div className="ml-4">
-          <div className="text-base font-medium leading-6 tracking-tight text-slate-900">
+          <div className="text-base font-medium leading-6 tracking-tight text-zinc-900">
             {author.name}
           </div>
-          <div className="mt-1 text-sm text-slate-600">{author.role}</div>
+          <div className="mt-1 text-sm text-zinc-600">{author.role}</div>
         </div>
       </figcaption>
     </figure>
