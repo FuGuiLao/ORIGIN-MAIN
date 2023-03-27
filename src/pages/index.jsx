@@ -56,7 +56,7 @@ export default function Home() {
        <p>
         &nbsp;
         </p>
-              <Button href="https://calendly.com/origin-investigation/client-consultation" color="red">
+              <Button href="https://calendly.com/origin-investigation/client-consultation" target="_blank" color="red">
                 Schedule a Consultation
               </Button>
         
@@ -85,7 +85,7 @@ export default function Home() {
  <p>
         &nbsp;
         </p>
-          <Button href="https://heyflow.id/specialized-data-request#start" color="red">
+          <Button href="https://heyflow.id/specialized-data-request#start" target="_blank" color="red">
                 Order Specialized Data Now
               </Button>
       
