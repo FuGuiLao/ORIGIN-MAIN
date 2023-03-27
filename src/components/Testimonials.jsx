@@ -134,18 +134,18 @@ function Testimonial({ author, children }) {
 
 export function Testimonials() {
   return (
-    <section className="py-8 sm:py-10 lg:py-16">
+    <section className="py-8 sm:py-1 lg:py-16">
       <Container className="text-center">
         <h2 className="font-display text-4xl font-bold tracking-tight text-zinc-900">
           Some kind words from our clients...
         </h2>
-     <div className="mx-auto mt-4 mb-4 grid max-w-lg grid-cols-4 items-center gap-x-1 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-1 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+     <div className="mx-auto mt-4 mb-4 grid max-w-lg grid-cols-4 items-center gap-x-7 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
           <img
             className="col-span-2 max-h-28 w-full object-contain lg:col-span-1"
             src="http://www.origininvestigations.com/cdn/seal-casc.png"
             alt="CA Superior Court"
             width={158}
-            height={48}
+            height={158}
           />
           <img
             className="col-span-2 max-h-28 w-full object-contain lg:col-span-1"
