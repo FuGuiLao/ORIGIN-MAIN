@@ -145,7 +145,7 @@ export function Testimonials() {
         <h2 className="font-display text-4xl font-bold tracking-tight text-zinc-900">
           Some kind words from our clients...
         </h2>
-     <div className="mx-auto mt-4 mb-4 grid max-w-lg grid-cols-4 items-center gap-x-7 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+     <div className="mx-auto mt-4 mb-4 grid max-w-lg grid-cols-4 items-center gap-x-7 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-6">
           <Image
             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
             src={seal_bh}
