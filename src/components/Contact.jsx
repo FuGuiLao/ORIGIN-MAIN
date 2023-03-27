@@ -48,7 +48,7 @@ export function Contact() {
           <div>
             <address className="border-l border-red-800 pl-6 pt-0 not-italic text-zinc-50 space-y-0">
 <p>LinkedIn</p>
-  <p>Instagram</p>
+  <p><a href="laksjdflkj" target="_blank">Instagram</a></p>
   <p>Facebook</p>
   <p>Twitter</p>
   <p>TikTok</p>
