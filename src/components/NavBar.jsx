@@ -148,7 +148,7 @@ export function NavBar() {
       <div className="hidden sm:flex sm:h-32 sm:justify-center sm:border-b sm:border-zinc-200 sm:bg-white/95 sm:[@supports(backdrop-filter:blur(0))]:bg-white/80 sm:[@supports(backdrop-filter:blur(0))]:backdrop-blur">
         <ol
           role="list"
-          className="mb-[-2px] grid auto-cols-[minmax(0,15rem)] grid-flow-col text-base font-medium text-blue-800 [counter-reset:section]"
+          className="mb-[-2px] grid auto-cols-[minmax(0,15rem)] grid-flow-col text-base font-medium text-yellow-800 [counter-reset:section]"
         >
           {sections.map((section, sectionIndex) => (
             <li key={section.id} className="flex [counter-increment:section]">
