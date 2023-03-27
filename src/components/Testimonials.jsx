@@ -150,43 +150,43 @@ export function Testimonials() {
             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
             src={seal_bh}
             alt=""
-            width={48}
-            height={48}
+            width={auto}
+            height={auto}
           />
           <Image
             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
             src={seal_casc}
             alt=""
-            width={48}
-            height={48}
+            width={auto}
+            height={auto}
           />
           <Image
             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
             src={seal_doj}
             alt=""
-            width={48}
-            height={48}
+            width={auto}
+            height={auto}
           />
           <Image
             className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
             src={seal_ic}
             alt=""
-            width={48}
-            height={48}
+            width={auto}
+            height={auto}
           />
           <Image
             className="col-span-2  max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
             src={seal_la}
             alt=""
-            width={48}
-            height={48}
+            width={auto}
+            height={auto}
           />
           <Image
             className="col-span-2  max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
             src={seal_state}
             alt=""
-            width={128}
-            height={128}
+            width={auto}
+            height={auto}
           />
         </div>
         <p className="mt-4 text-lg tracking-tight text-zinc-600">
