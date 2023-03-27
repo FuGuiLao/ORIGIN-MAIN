@@ -143,35 +143,35 @@ export function Testimonials() {
           <img
             className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
             src="http://www.origininvestigations.com/cdn/seal-casc.png"
-            alt="Transistor"
+            alt="CA Superior Court"
             width={158}
             height={48}
           />
           <img
             className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
             src="http://www.origininvestigations.com/cdn/seal-doj.png"
-            alt="Reform"
+            alt="CA DOJ"
             width={158}
             height={158}
           />
           <img
             className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
             src="http://www.origininvestigations.com/cdn/seal-ic.png"
-            alt="Tuple"
+            alt="US Intelligence Community"
             width={158}
             height={158}
           />
           <img
             className="col-span-2 max-h-24 w-full object-contain sm:col-start-2 lg:col-span-1"
             src="http://www.origininvestigations.com/cdn/seal-state.png"
-            alt="SavvyCal"
+            alt="State Department"
             width={158}
             height={158}
           />
           <img
-            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+            className="col-span-2 col-start-2 max-h-24 w-full object-contain sm:col-start-auto lg:col-span-1"
             src="http://www.origininvestigations.com/cdn/seal-bh.png"
-            alt="Statamic"
+            alt="City of Beverly Hills"
             width={158}
             height={158}
           />
