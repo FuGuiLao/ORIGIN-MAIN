@@ -32,8 +32,8 @@ export function Banner() {
           <span className="sr-only">Close</span>
           <XMarkIcon  className="h-5 w-5 text-white" aria-hidden="true" />
         </button>
-        </Transition>
       </div>
+      </Transition>
     </div>
   )
 }
