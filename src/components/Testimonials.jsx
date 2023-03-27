@@ -12,6 +12,12 @@ import avatarImage8 from '@/images/avatars/avatar-8.png'
 import avatarImage9 from '@/images/avatars/avatar-9.png'
 import avatarImage10 from '@/images/avatars/avatar-10.png'
 import avatarImage11 from '@/images/avatars/avatar-11.png'
+import seal_bh from '@/images/seal_bh.png'
+import seal_casc from '@/images/seal_casc.png'
+import seal_doj from '@/images/seal_doj.png'
+import seal_ic from '@/images/seal_ic.png'
+import seal_la from '@/images/seal_la.png'
+import seal_state from '@/images/seal_state.png'
 
 const testimonials = [
   [
@@ -141,39 +147,46 @@ export function Testimonials() {
         </h2>
      <div className="mx-auto mt-4 mb-4 grid max-w-lg grid-cols-4 items-center gap-x-7 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
           <img
-            className="col-span-2 max-h-28 w-full object-contain lg:col-span-1"
-            src="http://www.origininvestigations.com/cdn/seal-casc.png"
-            alt="CA Superior Court"
+            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            src={seal_bh}
+            alt=""
             width={158}
-            height={158}
+            height={48}
           />
           <img
-            className="col-span-2 max-h-28 w-full object-contain lg:col-span-1"
-            src="http://www.origininvestigations.com/cdn/seal-doj.png"
-            alt="CA DOJ"
+            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            src={seal_casc}
+            alt=""
             width={158}
-            height={158}
+            height={48}
           />
           <img
-            className="col-span-2 max-h-28 w-full object-contain lg:col-span-1"
-            src="http://www.origininvestigations.com/cdn/seal-ic.png"
-            alt="US Intelligence Community"
+            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            src={seal_doj}
+            alt=""
             width={158}
-            height={158}
+            height={48}
           />
           <img
-            className="col-span-2 max-h-28 w-full object-contain sm:col-start-2 lg:col-span-1"
-            src="http://www.origininvestigations.com/cdn/seal-state.png"
-            alt="State Department"
+            className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
+            src={seal_ic}
+            alt=""
             width={158}
-            height={158}
+            height={48}
           />
           <img
-            className="col-span-2 col-start-2 max-h-28 w-full object-contain sm:col-start-auto lg:col-span-1"
-            src="http://www.origininvestigations.com/cdn/seal-bh.png"
-            alt="City of Beverly Hills"
+            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+            src={seal_la}
+            alt=""
             width={158}
-            height={158}
+            height={48}
+          />
+          <img
+            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+            src={seal_state}
+            alt=""
+            width={158}
+            height={48}
           />
         </div>
         <p className="mt-4 text-lg tracking-tight text-zinc-600">
