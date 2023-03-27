@@ -9,7 +9,7 @@ export function Testimonial({ id, author, children }) {
     <aside
       id={id}
       aria-label={`Testimonial from ${author.name}`}
-      className="relative bg-zinc-100 py-16 sm:py-32"
+      className="relative bg-zinc-100 py-1 sm:py-1"
     >
       <div className="text-slate-900/10">
         <GridPattern x="50%" patternTransform="translate(0 80)" />
