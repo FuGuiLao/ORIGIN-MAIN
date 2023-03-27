@@ -55,7 +55,7 @@ export function Hero() {
               We assist governments, corporations, law firms, and individuals with criminal and civil matters throughout the United States and abroad.
             </p>
             <div className="mt-8 flex gap-4">
-              <Button href="https://heyflow.id/specialized-data-request#start target='_blank'" color="red">
+              <Button href="https://heyflow.id/specialized-data-request#start" target="_blank" color="red">
                 Schedule a Consultation
               </Button>
               <Button href="#free-chapters" variant="outline" color="red">
