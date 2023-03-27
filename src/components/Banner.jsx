@@ -1,5 +1,6 @@
 import { XMarkIcon  } from '@heroicons/react/20/solid'
 import { Fragment, useState } from 'react'
+import { Transition } from '@headlessui/react'
 
 export function Banner() {
 
