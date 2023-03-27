@@ -18,14 +18,14 @@ const videos = [
   {
     title: 'Surveillance',
     description:
-      'Our operatives are diverse, experienced, and highly skilled in contact and non=contact surveillance.',
+      'Our operatives are diverse, experienced, and highly skilled in both non-contact and contact surveillance.',
      image: surveillanceImage,
     runtime: { minutes: 23, seconds: 25 },
   },
   {
     title: 'Difficult Locates',
     description:
-      'Origin can find subjects who don\'t want to be found, through data-driven analysis and field investigations.',
+      'Origin can find subjects who don\'t want to be found, through data-driven analysis and comprehensive field investigations.',
      image: locatesImage,
     runtime: { minutes: 23, seconds: 25 },
   },
