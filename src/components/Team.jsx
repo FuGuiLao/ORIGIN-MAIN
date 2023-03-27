@@ -37,7 +37,7 @@ export function Team() {
         {({ isExpanded }) => (
           <>
           <ul role="list" className="mt-16 space-y-10 sm:space-y-16">
-
+   <Expandable.Button>Read more testimonials</Expandable.Button>
 
                      <ul
                        role="list"
@@ -54,7 +54,7 @@ export function Team() {
                              ))}
                       </ul>
           </ul>
-        <Expandable.Button>Read more testimonials</Expandable.Button>
+     
         </>
         )}
       </Expandable>
