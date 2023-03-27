@@ -1,11 +1,11 @@
 import Image from 'next/image'
 
-import seal_bh from '@/images/seal-bh.png'
-import seal_casc from '@/images/seal-casc.png'
-import seal_doj from '@/images/seal-doj.png'
-import seal_ic from '@/images/seal-ic.png'
-import seal_la from '@/images/seal-la.png'
-import seal_state from '@/images/seal-state.png'
+import seal_bh from '@/images/seal_bh.png'
+import seal_casc from '@/images/seal_casc.png'
+import seal_doj from '@/images/seal_doj.png'
+import seal_ic from '@/images/seal_ic.png'
+import seal_la from '@/images/seal_la.png'
+import seal_state from '@/images/seal_state.png'
 
 export function LogoCloud() {
   return (
