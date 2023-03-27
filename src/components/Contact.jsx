@@ -47,11 +47,11 @@ export function Contact() {
           </div>
           <div>
             <address className="border-l border-red-800 pl-6 pt-0 not-italic text-zinc-50 space-y-0">
-<p>a href="https://www.linkedin.com/company/origin-investigations" target="_blank">LinkedIn</a></p>
+  <p><a href="https://www.linkedin.com/company/origin-investigations" target="_blank">LinkedIn</a></p>
   <p><a href="https://www.instagram.com/origininvestigations" target="_blank">Instagram</a></p>
-  <p>a href="https://www.facebook.com/origininvestigations" target="_blank">Facebook</a></p>
-  <p>a href="https://twitter.com/origin_inv" target="_blank">Twitter</a></p>
-  <p>a href="https://www.tiktok.com/origininvestigations" target="_blank">TikTok</a></p>
+  <p><a href="https://www.facebook.com/origininvestigations" target="_blank">Facebook</a></p>
+  <p><a href="https://twitter.com/origin_inv" target="_blank">Twitter</a></p>
+  <p><a href="https://www.tiktok.com/@origininvestigations" target="_blank">TikTok</a></p>
 
   </address>
           </div>
