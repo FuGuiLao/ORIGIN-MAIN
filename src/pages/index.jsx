@@ -1,7 +1,6 @@
 import Head from 'next/head'
 
 import { OurPeople } from '@/components/OurPeople'
-import { Banner } from '@/components/Banner'
 import { Footer } from '@/components/Footer'
 import { FreeChapters } from '@/components/FreeChapters'
 import { Hero } from '@/components/Hero'
@@ -32,7 +31,7 @@ export default function Home() {
           content="Origin is a private investigation and intelligence agency. We assist governments, corporations, law firms, and individuals."
         />
       </Head>
-     <Banner /> 
+   
     <Hero />
       <Introduction />
       <NavBar />
