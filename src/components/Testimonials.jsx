@@ -175,14 +175,14 @@ export function Testimonials() {
             height={48}
           />
           <Image
-            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
+            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
             src={seal_la}
             alt=""
             width={158}
             height={48}
           />
           <Image
-            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
+            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
             src={seal_state}
             alt=""
             width={158}
