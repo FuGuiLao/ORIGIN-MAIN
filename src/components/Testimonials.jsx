@@ -134,7 +134,7 @@ function Testimonial({ author, children }) {
 
 export function Testimonials() {
   return (
-    <section className="py-8 sm:py-1 lg:py-16">
+    <section className="py-8 sm:py-10 lg:py-16">
       <Container className="text-center">
         <h2 className="font-display text-4xl font-bold tracking-tight text-zinc-900">
           Some kind words from our clients...
