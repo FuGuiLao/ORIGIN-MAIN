@@ -15,7 +15,7 @@ const tableOfContents = {
     
   },
   'Individual': {
-    'Origin\'s experienced investigators are trained to deal with sensitive and urgent private matters. Whether it is a domestic affair, a lawsuit, or a criminal matter so private that it precludes the immediate involvement of law enforcement; Origin can help answer the questions that you need answered. No case is too simple or too complex. Our clear, comprehensive, and decisive reports wil present evidence that will either support your instincts or account for an alternative explanation. Origin will ensure that your case will be handled with unparalleled professionalism, confidentiality, and attention to detail.': 3,
+    'Origin\'s experienced investigators are trained to deal with sensitive and urgent private matters. Whether it is a domestic affair, a lawsuit, or a criminal matter so private that it precludes the immediate involvement of law enforcement; Origin can help answer the questions that you need answered. No case is too simple or too complex. Our clear, comprehensive, and decisive reports wil present evidence that will either support your instincts or account for an alternate explanation. Origin will ensure that your case will be handled with unparalleled professionalism, confidentiality, and attention to detail.': 3,
   },
 }
 
