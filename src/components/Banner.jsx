@@ -9,12 +9,12 @@ export function Banner() {
     <div className="flex items-center gap-x-6 bg-zinc-900 py-2.5 px-6 sm:px-3.5 sm:before:flex-1">
 
       <p className="text-sm leading-6 text-white">
-        <a href="#">
+        <a href="http://www.originintelligence.org target="_blank">
           <strong className="font-semibold">Continuous Evaluation Backgrounds</strong>
           <svg viewBox="0 0 2 2" className="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true">
             <circle cx={1} cy={1} r={1} />
           </svg>
-          <a href="http://www.originintelligence.org" target="_blank">Learn more about our new AI powered intelligence platform&nbsp;<span aria-hidden="true">&rarr;</a></span>
+          Learn more about our new AI powered intelligence platform&nbsp;<span aria-hidden="true">&rarr;</span>
         </a>
       </p>
       <div className="flex flex-1 justify-end">
