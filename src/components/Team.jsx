@@ -1,5 +1,6 @@
 import Image from 'next/image'
 
+import { Container } from '@/components/Container'
 import { Expandable } from '@/components/Expandable'
 import teamImage1 from '@/images/avatars/avatar-brant.png'
 import teamImage2 from '@/images/avatars/avatar-brant.png'
@@ -32,7 +33,8 @@ export function Team() {
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-       
+       <container>
+    </container>
       <Expandable>
         {({ isExpanded }) => (
           <>
