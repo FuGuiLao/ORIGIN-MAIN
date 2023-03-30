@@ -32,14 +32,14 @@ const people = [
 export function Team() {
   return (
     <section className="bg-white py-24 sm:py-32">
-    
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
        <container>
     </container>
       <Expandable>
         {({ isExpanded }) => (
           <>
           <ul role="list" className="mt-16 space-y-10 sm:space-y-16">
-   <Expandable.Button>Read more testimonials</Expandable.Button>
+  
 
                      <ul
                        role="list"
@@ -56,11 +56,11 @@ export function Team() {
                              ))}
                       </ul>
           </ul>
-     
+     <Expandable.Button>Read more testimonials</Expandable.Button>
         </>
         )}
       </Expandable>
-     
-    </section>
+      </div>
+    </section
   )
 }
