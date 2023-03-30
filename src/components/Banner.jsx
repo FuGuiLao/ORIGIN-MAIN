@@ -14,7 +14,7 @@ export function Banner() {
           <svg viewBox="0 0 2 2" className="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true">
             <circle cx={1} cy={1} r={1} />
           </svg>
-          Learn more about our new AI powered intelligence platform&nbsp;<span aria-hidden="true"><a href="http://www.originintelligence.org" target="_blank">&rarr;</a></span>
+          <a href="http://www.originintelligence.org" target="_blank">Learn more about our new AI powered intelligence platform&nbsp;<span aria-hidden="true">&rarr;</a></span>
         </a>
       </p>
       <div className="flex flex-1 justify-end">
