@@ -3,15 +3,15 @@ import { SectionHeading } from '@/components/SectionHeading'
 import { Button } from '@/components/Button'
 
 
-export function SlideShow() { 
+export function SlideShow() {
     return (
-      <section
-        id="slideshow"
-        aria-labelledby="slideshow-title"
+        <section
+            id="slideshow"
+            aria-labelledby="slideshow-title"
             className="scroll-mt-14 py-16 sm:scroll-mt-32 sm:py-20 lg:py-32"
             data-te-carousel-init
             data-te-carousel-slide
-      >
+        >
             <Container>
                 <SectionHeading number="6" id="table-of-contents-title">
                     SlideShow
@@ -95,7 +95,7 @@ export function SlideShow() {
                 </Button>
 
 
-     </Container>
-   </section>
-  )
+            </Container>
+        </section>
+    )
 }
