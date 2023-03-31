@@ -15,7 +15,7 @@ export function SlideShow() {
         >
 
                 <SectionHeading number="6" id="table-of-contents-title">
-                    SlideShow v1
+                    SlideShow v2
                 </SectionHeading>
 
                 <div
