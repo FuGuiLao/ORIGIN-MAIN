@@ -86,7 +86,6 @@ export function SlideShow() {
                         >Next</span
                         >
                     </button>
-                </div>
      </Container>
    </section>
   )
