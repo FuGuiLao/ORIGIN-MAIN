@@ -98,7 +98,6 @@ export default function Home() {
       <Pricing />
       <Testimonials />
       <OurPeople />
-      <Team />
       <Contact /> 
       <Footer />
       </>
