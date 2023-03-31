@@ -20,8 +20,6 @@ import avatarImage1 from '@/images/avatars/avatar-1.png'
 import avatarImage2 from '@/images/avatars/avatar-2.png'
 import { Button } from '@/components/Button'
 
-<script> ( function( a , b , c , d , e , f , g ) { c[d] = c[d] || function() { (c[d].q = c[d].q || []).push(arguments); }; c[ '_lsAlias' ] = c[ d ]; e = a.createElement(b); e.type = 'text/javascript'; e.async = true; e.src = 'https://app.chatsupport.co/api/client/get/script/LS-42bf8cb7'; f = function() { g = a.getElementsByTagName(b)[0]; g.parentNode.insertBefore( e , g ); }; c.addEventListener( 'load' , f ); } )( document , 'script' , window , '_ls' ); _ls( 'init' , { 'projectId' : 'LS-42bf8cb7' } ); </script>
-
 export default function Home() {
   return (
     <>
