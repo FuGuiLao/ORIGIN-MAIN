@@ -14,7 +14,10 @@ export function OurPeople() {
     >
       <div className="absolute inset-x-0 bottom-0 top-1/2 text-zinc-900/10 [mask-image:linear-gradient(transparent,white)]">
         <GridPattern x="50%" y="100%" />
-      </div>
+          </div>
+
+
+
       <div className="relative mx-auto max-w-5xl pt-16 sm:px-6">
         <div className="bg-zinc-50 pt-px sm:rounded-6xl">
           <div className="relative mx-auto -mt-16 h-44 w-44 overflow-hidden rounded-full bg-zinc-300 md:float-right md:h-64 md:w-64 md:[shape-outside:circle(40%)] lg:mr-20 lg:h-72 lg:w-72">
@@ -53,8 +56,7 @@ export function OurPeople() {
             <p className="mt-4 text-lg tracking-tight text-zinc-700">
             Jayden is a member of the California Association of Licensed Investigators, the United States Association of Professional Investigators, the Association of Former Intelligence Officers, and the International Association of Law Enforcement Intelligence Analysts.
             </p>
-
-            
+  
             <p className="mt-8">
               <Link
                 href="#"
@@ -66,7 +68,9 @@ export function OurPeople() {
             </p>
           </div>
         </div>
-          </div>
+       </div>
+
+
 
           <div className="relative mx-auto max-w-5xl pt-16 sm:px-6">
               <div className="bg-zinc-50 pt-px sm:rounded-6xl">
@@ -107,7 +111,6 @@ export function OurPeople() {
                           Jayden is a member of the California Association of Licensed Investigators, the United States Association of Professional Investigators, the Association of Former Intelligence Officers, and the International Association of Law Enforcement Intelligence Analysts.
                       </p>
 
-
                       <p className="mt-8">
                           <Link
                               href="#"
@@ -120,6 +123,7 @@ export function OurPeople() {
                   </div>
               </div>
           </div>
+
 
 
     </section>
