@@ -4,7 +4,8 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   content: [
       './src/**/*.{html,js,jsx}',
-      '/src/pages/index.jsx',
+        '/src/pages/index.jsx',
+        "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     boxShadow: {
@@ -40,5 +41,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+    plugins: [
+        require('flowbite/plugin')
+    ],
 }
