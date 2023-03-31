@@ -14,7 +14,7 @@ export function SlideShow() {
         >
             <Container>
                 <SectionHeading number="6" id="table-of-contents-title">
-                    SlideShow
+                    SlideShow v1
                 </SectionHeading>
 
                 <div
