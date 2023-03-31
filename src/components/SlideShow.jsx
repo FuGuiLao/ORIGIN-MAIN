@@ -1,3 +1,7 @@
+import { Container } from '@/components/Container'
+import { SectionHeading } from '@/components/SectionHeading'
+
+
 export function SlideShow() { 
     return (
       <section
@@ -5,6 +9,7 @@ export function SlideShow() {
         aria-labelledby="slideshow-title"
         className="scroll-mt-14 py-16 sm:scroll-mt-32 sm:py-20 lg:py-32"
       >
+            <Container>
                 <SectionHeading number="6" id="table-of-contents-title">
                     SlideShow
                 </SectionHeading>
@@ -85,6 +90,7 @@ export function SlideShow() {
                         >Next</span
                         >
                     </button>
+     </Container>
    </section>
   )
 }
