@@ -5,7 +5,6 @@ export function SlideShow() {
         aria-labelledby="slideshow-title"
         className="scroll-mt-14 py-16 sm:scroll-mt-32 sm:py-20 lg:py-32"
       >
-            <Container>
                 <SectionHeading number="6" id="table-of-contents-title">
                     SlideShow
                 </SectionHeading>
@@ -19,7 +18,7 @@ export function SlideShow() {
                             <img
                                 src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
                                 class="block w-full"
-                                alt="Wild Landscape" />
+                                alt="" />
                         </div>
                         <div
                             class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
@@ -27,7 +26,7 @@ export function SlideShow() {
                             <img
                                 src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
                                 class="block w-full"
-                                alt="Camera" />
+                                alt="" />
                         </div>
                         <div
                             class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
@@ -35,7 +34,7 @@ export function SlideShow() {
                             <img
                                 src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
                                 class="block w-full"
-                                alt="Exotic Fruits" />
+                                alt="" />
                         </div>
                     </div>
                     <button
@@ -86,7 +85,6 @@ export function SlideShow() {
                         >Next</span
                         >
                     </button>
-     </Container>
    </section>
   )
 }
