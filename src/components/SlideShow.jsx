@@ -8,7 +8,9 @@ export function SlideShow() {
       <section
         id="slideshow"
         aria-labelledby="slideshow-title"
-        className="scroll-mt-14 py-16 sm:scroll-mt-32 sm:py-20 lg:py-32"
+            className="scroll-mt-14 py-16 sm:scroll-mt-32 sm:py-20 lg:py-32"
+            data-te-carousel-init
+            data-te-carousel-slide
       >
             <Container>
                 <SectionHeading number="6" id="table-of-contents-title">
