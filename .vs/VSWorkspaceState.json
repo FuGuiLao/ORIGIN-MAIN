@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\pages"
   ],
-  "SelectedNode": "\\D:\\Origin Webpage\\New folder\\primer",
+  "SelectedNode": "\\src\\components\\OurPeople.jsx",
   "PreviewInSolutionExplorer": false
 }
