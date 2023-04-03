@@ -1,7 +1,7 @@
 ﻿import React, { useState } from 'react';
 import { ArrowLeftCircleIcon, ArrowRightCircleIcon } from '@heroicons/react/24/solid';
 
-export default function SlideShow() {
+export function SlideShow() {
   const [slides, setSlides] = useState([
     'First slide',
     'Second slide',
