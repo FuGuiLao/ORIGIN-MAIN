@@ -6,7 +6,6 @@ module.exports = {
       './src/**/*.{html,js,jsx}',
         '/src/pages/index.jsx',
         './src/**/*.{js,jsx,ts,tsx}',
-        'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
     boxShadow: {
@@ -43,6 +42,5 @@ module.exports = {
     },
   },
     plugins: [
-        require('flowbite/plugin')
     ],
 }
