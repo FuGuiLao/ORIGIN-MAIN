@@ -1,7 +1,7 @@
 ﻿import React, { useState, useEffect } from 'react';
 import { ArrowNarrowLeftIcon, ArrowNarrowRightIcon } from '@heroicons/react/solid';
 
-export function Slideshow() {
+export function SlideShow() {
     const [slides, setSlides] = useState([
         'First slide',
         'Second slide',
