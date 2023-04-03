@@ -95,7 +95,7 @@ export default function Home() {
       <Pricing />
       <Testimonials />
       <OurPeople />
-      <Slideshow.jsx />
+      <SlideShow />
       <Contact /> 
       <Footer />
       </>
