@@ -1,7 +1,9 @@
-﻿import React, { useState } from 'react';
-import { ArrowLeftCircleIcon, ArrowRightCircleIcon } from '@heroicons/react/24/solid';
+﻿import React, { useState } from 'react'
+import { ArrowLeftCircleIcon, ArrowRightCircleIcon } from '@heroicons/react/24/solid'
+import { GridPattern } from '@/components/GridPattern'
+import { SectionHeading } from '@/components/SectionHeading'
 
-export default function SlideShow() {
+export function SlideShow() {
     const [slides, setSlides] = useState([
         'First slide',
         'Second slide',
