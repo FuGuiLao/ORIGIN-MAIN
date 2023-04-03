@@ -31,12 +31,12 @@ export function SlideShow() {
         <div id="slideshow">
             <div className="absolute inset-y-0 left-0 flex items-center">
                 <button className="p-4" onClick={handlePrevClick}>
-                    <ArrowNarrowLeftIcon className="h-6 w-6 text-white" />
+                    <ArrowLeftCircleIcon className="h-6 w-6 text-white" />
                 </button>
             </div>
             <div className="absolute inset-y-0 right-0 flex items-center">
                 <button className="p-4" onClick={handleNextClick}>
-                    <ArrowNarrowRightIcon className="h-6 w-6 text-white" />
+                    <ArrowRightCircleIcon className="h-6 w-6 text-white" />
                 </button>
             </div>
             <div className="relative">
