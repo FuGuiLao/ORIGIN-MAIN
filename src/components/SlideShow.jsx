@@ -1,7 +1,7 @@
 ﻿import React, { useState, useEffect } from 'react';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/solid';
 
-function SlideShow() {
+export function SlideShow() {
     const [slides, setSlides] = useState([
         'First slide',
         'Second slide',
@@ -67,4 +67,3 @@ function SlideShow() {
     );
 }
 
-export default SlideShow;
