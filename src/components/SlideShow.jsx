@@ -1,5 +1,5 @@
 ﻿import React, { useState, useEffect } from 'react';
-import { ArrowNarrowLeftIcon, ArrowNarrowRightIcon } from '@heroicons/react/solid';
+import { ArrowLeftCircleIcon, ArrowRightCircleIcon } from '@heroicons/react/solid';
 
 export function SlideShow() {
     const [slides, setSlides] = useState([
