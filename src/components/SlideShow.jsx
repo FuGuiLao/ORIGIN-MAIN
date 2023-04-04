@@ -126,7 +126,23 @@ export function SlideShow() {
             aria-labelledby="author-title"
             className="relative scroll-mt-14 pb-3 pt-8 sm:scroll-mt-32 sm:pb-16 sm:pt-10 lg:pt-16"
         >
-
+    <div className="relative h-screen">
+      <div className="absolute inset-y-0 left-0 flex items-center">
+        <button
+          className="p-4 text-white hover:text-gray-400 focus:outline-none focus:text-gray-400 transition ease-in-out duration-150"
+          onClick={handlePrevClick}
+        >
+          <ArrowLeftCircleIcon className="h-6 w-6" />
+        </button>
+      </div>
+      <div className="absolute inset-y-0 right-0 flex items-center">
+        <button
+          className="p-4 text-white hover:text-gray-400 focus:outline-none focus:text-gray-400 transition ease-in-out duration-150"
+          onClick={handleNextClick}
+        >
+          <ArrowRightCircleIcon className="h-6 w-6" />
+        </button>
+      </div>
       <div className="absolute inset-x-0 bottom-0 top-1/2 text-zinc-900/10 [mask-image:linear-gradient(transparent,white)]">
         <GridPattern x="50%" y="100%" />
         {slides.map((slide, index) => (
@@ -157,7 +173,7 @@ export function SlideShow() {
           </button>
         </div>
       </div>
-
-  </section>
- )
+    </div>
+        </section>
+    )
 }
