@@ -132,7 +132,7 @@ export function SlideShow() {
         {slides.map((slide, index) => (
           <p
             key={index}
-            className={`relative top-0 left-0 w-full h-full flex items-center justify-center text-white transition-opacity duration-500 ${
+                className={`absulote top-0 left-0 w-full h-full flex items-center justify-center text-white transition-opacity duration-500 ${
               index === currentSlide ? 'opacity-100' : 'opacity-0'
             }`}
             style={{ backgroundColor: '#333' }}
@@ -141,7 +141,7 @@ export function SlideShow() {
           </p>
         ))}
       </div>
-      <div className="relative inset-x-0 bottom-0 flex justify-center pb-8">
+            <div className="absulote inset-x-0 bottom-0 flex justify-center pb-8">
         <div className="flex space-x-4">
           <button
             className="p-2 text-red-500 hover:text-gray-400 focus:outline-none focus:text-gray-400 transition ease-in-out duration-150"
