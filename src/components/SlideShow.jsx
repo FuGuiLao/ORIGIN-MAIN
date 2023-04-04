@@ -121,6 +121,11 @@ export function SlideShow() {
     setCurrentSlide((currentSlide + 1) % slides.length);
 
     return (
+        <section
+            id="slideshow"
+            aria-labelledby="author-title"
+            className="relative scroll-mt-14 pb-3 pt-8 sm:scroll-mt-32 sm:pb-16 sm:pt-10 lg:pt-16"
+        >
     <div className="relative h-screen">
       <div className="absolute inset-y-0 left-0 flex items-center">
         <button
@@ -169,5 +174,6 @@ export function SlideShow() {
         </div>
       </div>
     </div>
-  );
+  </section>
+ )
 }
