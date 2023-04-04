@@ -127,9 +127,8 @@ export function SlideShow() {
             className="relative scroll-mt-14 pb-3 pt-8 sm:scroll-mt-32 sm:pb-16 sm:pt-10 lg:pt-16"
         >
 
-      <div className="relative inset-x-0 bottom-0 top-1/2 text-zinc-900/10 [mask-image:linear-gradient(transparent,white)]">
-                <GridPattern x="50%" y="100%" />
-            </div>
+      <div className="absolute inset-x-0 bottom-0 top-1/2 text-zinc-900/10 [mask-image:linear-gradient(transparent,white)]">
+        <GridPattern x="50%" y="100%" />
         {slides.map((slide, index) => (
           <p
             key={index}
@@ -141,7 +140,7 @@ export function SlideShow() {
             {slide}
           </p>
         ))}
-      
+      </div>
       <div className="absolute inset-x-0 bottom-0 flex justify-center pb-8">
         <div className="flex space-x-4">
           <button
