@@ -1,5 +1,7 @@
-﻿import React, { useState } from 'react';
-import { ArrowLeftCircleIcon, ArrowRightCircleIcon } from '@heroicons/react/24/solid';
+﻿import Image from 'next/image'
+import Link from 'next/link'
+import React, { useState } from 'react'
+import { ArrowLeftCircleIcon, ArrowRightCircleIcon } from '@heroicons/react/24/solid'
 import { GridPattern } from '@/components/GridPattern'
 import { SectionHeading } from '@/components/SectionHeading'
 import authorImage from '@/images/avatars/avatar-brant.png'
