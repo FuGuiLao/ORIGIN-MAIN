@@ -131,11 +131,11 @@ export function SlideShow() {
         {slides.map((slide, index) => (
             <div
                 key={index}
-                className={`${activeSlideIndex === index ? 'opacity-100' : 'hidden opacity-0'
+                className={`${currentSlide === index ? 'opacity-100' : 'hidden opacity-0'
                     } transition-all duration-500 absolute inset-0`}
             >
             {slide}
-            </div>
+          </div>
         ))}
 
       <div className="absulote inset-x-0 bottom-0 flex justify-center pb-8">
