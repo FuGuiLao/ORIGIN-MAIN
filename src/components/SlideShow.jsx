@@ -60,7 +60,7 @@ export function SlideShow() {
           </div>
       </div>,
     'Second slide',
-      <div className="absulote mx-auto max-w-5xl pt-16 sm:px-6">
+      <div className="relative mx-auto max-w-5xl pt-16 sm:px-6">
           <div className="bg-zinc-50 pt-px sm:rounded-6xl">
               <div className="relative mx-auto -mt-16 h-44 w-44 overflow-hidden rounded-full bg-zinc-300 md:float-right md:h-64 md:w-64 md:[shape-outside:circle(40%)] lg:mr-20 lg:h-72 lg:w-72">
                   <Image
