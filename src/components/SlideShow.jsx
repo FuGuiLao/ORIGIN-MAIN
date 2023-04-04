@@ -138,7 +138,8 @@ export function SlideShow() {
           <ArrowRightCircleIcon className="h-6 w-6" />
         </button>
       </div>
-      <div className="relative h-full">
+      <div className="absolute inset-x-0 bottom-0 top-1/2 text-zinc-900/10 [mask-image:linear-gradient(transparent,white)]">
+        <GridPattern x="50%" y="100%" />
         {slides.map((slide, index) => (
           <p
             key={index}
