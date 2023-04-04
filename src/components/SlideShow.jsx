@@ -136,7 +136,7 @@ export function SlideShow() {
                 {slides.map((slide, index) => (
                     <p
                         key={index}
-                        className={`absolute top-0 left-0 w-full h-full flex items-center justify-center text-white transition-opacity duration-500 ${index === currentSlide ? 'opacity-100' : 'opacity-0'
+                        className={`relative top-0 left-0 w-full h-full flex items-center justify-center text-white transition-opacity duration-500 ${index === currentSlide ? 'opacity-100' : 'opacity-0'
                             }`}
                         style={{ backgroundColor: '#333' }}
                     >
