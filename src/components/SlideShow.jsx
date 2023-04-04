@@ -157,22 +157,7 @@ export function SlideShow() {
           </p>
         ))}
       </div>
-      <div className="absolute inset-x-0 bottom-0 flex justify-center pb-8">
-        <div className="flex space-x-4">
-          <button
-            className="p-2 text-white hover:text-gray-400 focus:outline-none focus:text-gray-400 transition ease-in-out duration-150"
-            onClick={handlePrevClick}
-          >
-            <ArrowLeftCircleIcon className="h-6 w-6" />
-          </button>
-          <button
-            className="p-2 text-white hover:text-gray-400 focus:outline-none focus:text-gray-400 transition ease-in-out duration-150"
-            onClick={handleNextClick}
-          >
-            <ArrowRightCircleIcon className="h-6 w-6" />
-          </button>
-        </div>
-      </div>
+
     </div>
   </section>
  )
