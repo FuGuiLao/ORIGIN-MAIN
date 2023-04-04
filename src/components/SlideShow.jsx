@@ -137,7 +137,7 @@ export function SlideShow() {
                 {slides.map((slide, index) => (
                     <p
                         key={index}
-                        className={`relative scroll-mt-14 pb-3 pt-8 sm:scroll-mt-32 sm:pb-16 sm:pt-10 lg:pt-16 ${index === currentSlide ? 'opacity-100' : 'opacity-0'
+                        className={`relative scroll-mt-14 pb-3 pt-8 sm:scroll-mt-32 sm:pb-16 sm:pt-10 lg:pt-16 ${index === currentSlide ? 'opacity-100' : 'hidden opacity-0'
                             }`}
                         style={{ backgroundColor: '#333' }}
                     >
