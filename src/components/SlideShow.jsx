@@ -122,7 +122,7 @@ export function SlideShow() {
 
     return (
 
-        <div className="relative h-screen">
+        <div className="absolute h-screen">
             <div className="absolute inset-x-0 bottom-0 flex justify-center pb-8">
                 <div className="flex space-x-4">
                     <button
