@@ -45,7 +45,7 @@ export function Team() {
                 <section id="team" aria-labelledby="author-title" className="relative scroll-mt-14 pb-3 pt-8 sm:scroll-mt-32 sm:pb-16 sm:pt-10 lg:pt-16">
 
 
-<div className="bg-white py-24 sm:py-32">
+<div className="bg-white py-0 sm:py-0">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                  
 
