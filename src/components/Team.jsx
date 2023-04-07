@@ -39,8 +39,8 @@ const people = [
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
   },
   {
-    name: 'Temp Person',
-    role: 'Director / Marketing',
+    name: 'Vanessa Sarco',
+    role: 'Accounting',
     image: teamImage2,
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
   },
