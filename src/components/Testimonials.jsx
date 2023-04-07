@@ -23,7 +23,7 @@ const testimonials = [
   [
     {
       content:
-        'Morbi et sapien iaculis, vulputate magna vitae, convallis purus. Integer placerat et enim non accumsan. Aenean nec malesuada turpis.',
+        'Origin investigators helped us to develop a defense strategy based on their law enforcement perspective. Our client was facing 40 years and took a single misdemeanor plea.',
       author: {
         name: 'Antonio Littel',
         role: 'Attorney',
@@ -32,7 +32,7 @@ const testimonials = [
     },
     {
       content:
-        'Mauris aliquet, risus vulputate laoreet aliquet, neque ipsum bibendum orci, quis congue ligula nisl eget turpis.',
+        'Origin’s case review and accident reconstruction decisively proved our client was not at fault. LAPD agreed and promptly amended their report.',
       author: {
         name: 'Lynn Nolan',
         role: 'Pro-Per Defendant',
@@ -41,7 +41,7 @@ const testimonials = [
     },
     {
       content:
-        'Aenean nec malesuada turpis. Integer tincidunt dignissim neque sit amet fringilla. Curabitur nisi neque.',
+        'We have used several process service companies that promise results, but if we really need someone served, we always call Origin. They have the experience to quickly locate and serve even the most difficult to serve subjects.',
       author: {
         name: 'Krista Prosacco',
         role: 'Senior Litigator',
@@ -52,7 +52,7 @@ const testimonials = [
   [
     {
       content:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet.`',
+        'Unlike most private investigators, Origin has a diverse team and always finds the right person for each assignment. This can make the difference when working challenging cases.',
       author: {
         name: 'Cameron Considine',
         role: 'Government Agency Representative',
@@ -61,7 +61,7 @@ const testimonials = [
     },
     {
       content:
-        'Cras eu ullamcorper velit. Donec eu quam in dolor pharetra vestibulum et eu sem. Donec eu quam in dolor pharetra vestibulum et eu sem.',
+        'Origin always seems to have the best data. Before, we were always getting outdated subject information. I don’t know how they do it, but their addresses and other contact information is always spot-on and saves us a ton of time.',
       author: {
         name: 'Regina Wisoky',
         role: 'Partner',
@@ -70,7 +70,7 @@ const testimonials = [
     },
     {
       content:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        'We often use Origin for our low-income clients through court appointment and they always provide a very high quality of service.',
       author: {
         name: 'Vernon Cummerata',
         role: 'In-House Council',
@@ -81,7 +81,8 @@ const testimonials = [
   [
     {
       content:
-        'Integer tincidunt dignissim neque sit amet fringilla. Curabitur nisi neque, convallis ut sollicitudin vel, fermentum eget ipsum.',
+        'Our client was facing a felony DUI. But, during case review, the investigator noticed significant issues with the field sobriety tests and the case was dismissed.
+',
       author: {
         name: 'Steven Hackett',
         role: 'Senior Attorney',
@@ -90,7 +91,7 @@ const testimonials = [
     },
     {
       content:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet.',
+        'Origin’s digital forensics team analyzed over 40 employee computers and were able to locate evidence of corporate espionage and theft of trade secrets.',
       author: {
         name: 'Carla Schoen',
         role: 'Business Owner',
@@ -99,7 +100,7 @@ const testimonials = [
     },
     {
       content:
-        'Integer tincidunt dignissim neque sit amet fringilla. Curabitur nisi neque.',
+        'Origin was able to quickly recover our client’s rare Porsche. They liaised with several law enforcement agencies and navigated a super complex case. ',
       author: {
         name: 'Leah Kiehn',
         role: 'Attorney',
