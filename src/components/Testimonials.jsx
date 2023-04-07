@@ -208,7 +208,7 @@ export function Testimonials() {
                     <Testimonial author={testimonial.author}>
                       {testimonial.content}
                     </Testimonial>
-                  </li>TEST5
+                  </li>
                 ))}
               {testimonials.map((column, columnIndex) => (
                 <li
