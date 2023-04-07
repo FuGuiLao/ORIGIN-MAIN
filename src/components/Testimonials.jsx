@@ -230,10 +230,10 @@ export function Testimonials() {
                           <Testimonial author={testimonial.author}>
                             {testimonial.content}
                           </Testimonial>
-                        </li>TEST7
+                        </li>
                       ))}
-                  </ul>TEST8
-                </li>TEST9
+                  </ul>
+                </li>
               ))}
               
             </ul>
