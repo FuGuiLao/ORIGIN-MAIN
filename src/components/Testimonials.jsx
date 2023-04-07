@@ -41,7 +41,7 @@ const testimonials = [
     },
     {
       content:
-        'We have used several process service companies that promise results, but if we really need someone served, we always call Origin. They have the experience to quickly locate and serve even the most difficult to serve subjects.',
+        'We have used several process service companies that promise results, but if we really need someone served, we always call Origin. They have the experience to quickly locate and serve even the most difficult-to-serve subjects.',
       author: {
         name: 'Krista Prosacco',
         role: 'Senior Litigator',
@@ -81,7 +81,7 @@ const testimonials = [
   [
     {
       content:
-        'Our client was facing a felony DUI. During case review, the investigator noticed significant issues with the field sobriety tests and the case was dismissed.',
+        'Our client was facing a felony DUI. During the initial case review, the investigator noticed significant issues with the field sobriety tests and the case was dismissed.',
       author: {
         name: 'Steven Hackett',
         role: 'Senior Attorney',
@@ -99,7 +99,7 @@ const testimonials = [
     },
     {
       content:
-        'Origin was able to quickly recover our client’s rare Porsche. They liaised with several law enforcement agencies and navigated a super complex case. ',
+        'Origin was able to quickly recover our client’s rare Porsche out of state. They liaised with several law enforcement agencies and navigated a super complex case. ',
       author: {
         name: 'Leah Kiehn',
         role: 'Attorney',
