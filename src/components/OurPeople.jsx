@@ -28,7 +28,7 @@ export function OurPeople() {
               sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
             />
           </div>
-          <div className="px-4 pt-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
+          <div className="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
             <SectionHeading number="5" id="author-title">
               Our People
             </SectionHeading>
