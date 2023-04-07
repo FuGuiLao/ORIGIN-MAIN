@@ -3,45 +3,49 @@ import Image from 'next/image'
 import { Expandable } from '@/components/Expandable'
 import { useState } from "react"
 import teamImage1 from '@/images/avatars/avatar-brant.png'
-import teamImage2 from '@/images/avatars/avatar-brant.png'
-
+import teamImage2 from '@/images/avatars/avatar-passas.png'
+import teamImage3 from '@/images/avatars/avatar-passas.png'
+import teamImage4 from '@/images/avatars/avatar-vannoy.png'
+import teamImage5 from '@/images/avatars/avatar-wise.png'
+import teamImage6 from '@/images/avatars/avatar-temp.png'
+import teamImage7 from '@/images/avatars/avatar-sarco.png'
 
 
 const people = [
   {
     name: 'Joshua Passas',
     role: 'Director / Investigation',
-    image: teamImage1,
+    image: teamImage2,
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
   },
   {
     name: 'Yi Min',
     role: 'Director / Intelligence',
-    image: teamImage2,
+    image: teamImage3,
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
   },
   {
     name: 'Victoria Vannoy',
     role: 'Chief Analyst',
-    image: teamImage2,
+    image: teamImage4,
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
   },
   {
     name: 'Jaclyn Wise',
-    role: 'Lead Case Manager',
-    image: teamImage2,
+    role: 'Lead / Case Management',
+    image: teamImage5,
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
   },
   {
     name: 'Temp Person',
     role: 'Director / Client Relations',
-    image: teamImage2,
+    image: teamImage6,
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
   },
   {
     name: 'Vanessa Sarco',
-    role: 'Accounting',
-    image: teamImage2,
+    role: 'Administration / Accounting',
+    image: teamImage7,
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
   },
   // More people...
