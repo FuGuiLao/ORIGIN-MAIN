@@ -3,8 +3,9 @@
     "",
     "\\src",
     "\\src\\components",
-    "\\src\\pages"
+    "\\src\\pages",
+    "\\src\\styles"
   ],
-  "SelectedNode": "\\src\\components\\OurPeople.jsx",
+  "SelectedNode": "\\src\\components\\OurServices.jsx",
   "PreviewInSolutionExplorer": false
 }

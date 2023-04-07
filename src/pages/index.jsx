@@ -14,7 +14,7 @@ import { OurServices } from '@/components/OurServices'
 import { Testimonial } from '@/components/Testimonial'
 import { Testimonials } from '@/components/Testimonials'
 import { Contact } from '@/components/Contact'
-import { SlideShow } from '@/components/SlideShow'
+import { Team } from '@/components/Team'
 import { Button } from '@/components/Button'
 
 export default function Home() {
@@ -95,7 +95,7 @@ export default function Home() {
       <Pricing />
       <Testimonials />
       <OurPeople />
-      <SlideShow />
+      <Team />
       <Contact /> 
       <Footer />
       </>
