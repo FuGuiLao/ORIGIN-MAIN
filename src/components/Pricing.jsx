@@ -118,7 +118,7 @@ export function Pricing() {
             price="Standard"
             href="https://origin.viewcases.com/case/request/new"
             features={[
-              'Free consultations',
+              'Free case consultations',
               'Access to our entire staff',
               'Access to specialized data',
             ]}
@@ -131,11 +131,11 @@ export function Pricing() {
             href="https://calendly.com/origin-investigation/client-consultation"
             features={[
               'Comprehensive case reviews',
-              'Free technology integrations',
               'Discounted investigative fees',
               'Discounted specialized data fees',
               'Dedicated case manager',
               'Dedicated intelligence analyst',
+              'Free technology integrations',
               'No long-term commitments',
             ]}
           />
