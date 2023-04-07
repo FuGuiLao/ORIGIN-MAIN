@@ -37,7 +37,7 @@ export function Team() {
     }
     return (
         <div class="mt-10 flex justify-center">
-            <button class="flex items-center text-base font-medium tracking-tight text-zinc-900 hover:text-zinc-700"  onClick={toggleExpand}>Expand Our People</button>
+            <button class="absolute bottom-0 items-center text-base font-medium tracking-tight text-zinc-900 hover:text-zinc-700"  onClick={toggleExpand}>Expand Our People</button>
             <div style={{ display: isExpanded ? "block" : "none" }}>
                 <section id="team" aria-labelledby="author-title" className="relative scroll-mt-14 pb-3 pt-8 sm:scroll-mt-32 sm:pb-16 sm:pt-10 lg:pt-16">
 
