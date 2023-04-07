@@ -81,8 +81,7 @@ const testimonials = [
   [
     {
       content:
-        'Our client was facing a felony DUI. But, during case review, the investigator noticed significant issues with the field sobriety tests and the case was dismissed.
-',
+        'Our client was facing a felony DUI. But, during case review, the investigator noticed significant issues with the field sobriety tests and the case was dismissed.',
       author: {
         name: 'Steven Hackett',
         role: 'Senior Attorney',
