@@ -9,14 +9,38 @@ import teamImage2 from '@/images/avatars/avatar-brant.png'
 
 const people = [
   {
-    name: 'John Smith1',
-    role: 'Investigator',
+    name: 'Joshua Passas',
+    role: 'Director / Investigation',
     image: teamImage1,
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
   },
   {
-    name: 'Steve Jones2',
-    role: 'Investigator',
+    name: 'Yi Min',
+    role: 'Director / Intelligence',
+    image: teamImage2,
+    bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
+  },
+  {
+    name: 'Victoria Vannoy',
+    role: 'Chief Analyst',
+    image: teamImage2,
+    bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
+  },
+  {
+    name: 'Jaclyn Wise',
+    role: 'Lead Case Manager',
+    image: teamImage2,
+    bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
+  },
+  {
+    name: 'Temp Person',
+    role: 'Director / Client Relations',
+    image: teamImage2,
+    bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
+  },
+  {
+    name: 'Temp Person',
+    role: 'Director / Marketing',
     image: teamImage2,
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
   },
