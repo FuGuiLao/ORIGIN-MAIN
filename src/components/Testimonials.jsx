@@ -61,8 +61,8 @@ const testimonials = [
     },
     {
       content:
-        'Origin always seems to have the best data. Before, we were always getting outdated subject information. I don’t know how they do it, but their addresses and other contact information is always spot-on and saves us a ton of time.',
-      author: {
+          'Origin’s digital forensics team analyzed over 40 employee computers and were able to locate evidence of corporate espionage and theft of trade secrets.',
+       author: {
         name: 'Regina Wisoky',
         role: 'Partner',
         image: avatarImage11,
@@ -81,7 +81,7 @@ const testimonials = [
   [
     {
       content:
-        'Our client was facing a felony DUI. But, during case review, the investigator noticed significant issues with the field sobriety tests and the case was dismissed.',
+        'Our client was facing a felony DUI. During case review, the investigator noticed significant issues with the field sobriety tests and the case was dismissed.',
       author: {
         name: 'Steven Hackett',
         role: 'Senior Attorney',
@@ -90,7 +90,7 @@ const testimonials = [
     },
     {
       content:
-        'Origin’s digital forensics team analyzed over 40 employee computers and were able to locate evidence of corporate espionage and theft of trade secrets.',
+        'Origin always seems to have the best data. Before, we were always getting outdated subject information. I don’t know how they do it, but their addresses and other contact information is always spot-on and saves us a ton of time.',
       author: {
         name: 'Carla Schoen',
         role: 'Business Owner',
@@ -193,7 +193,6 @@ export function Testimonials() {
           We have worked with a variety of clients including law firms, government agencies, corporations, and high-profile individuals. Hear is what
           they had to say about our agency.
         </p>
-TEST 1
       </Container>
       <Expandable>
         {({ isExpanded }) => (
@@ -236,9 +235,10 @@ TEST 1
                   </ul>
                 </li>
               ))}
+              TEST3
             </ul>
             <Expandable.Button>Read more testimonials</Expandable.Button>
-TEST2
+TEST4
           </>
         )}
       </Expandable>
