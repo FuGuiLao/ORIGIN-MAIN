@@ -42,7 +42,7 @@ export function Team() {
         <div>
                         <Expandable.Button onClick={toggleExpand}>Meet our leadership</Expandable.Button>
             <div style={{ display: isExpanded ? "block" : "none" }}>
-                <section id="team" aria-labelledby="author-title" className="relative scroll-mt-0 pb-3 pt-0 sm:scroll-mt-0 sm:pb-0 sm:pt-0 lg:pt-0">
+                <section id="team" aria-labelledby="author-title" className="relative scroll-mt-10 pb-3 pt-0 sm:scroll-mt-10 sm:pb-0 sm:pt-0 lg:pt-0">
 
 
 <div className="bg-white py-0 sm:py-0">
