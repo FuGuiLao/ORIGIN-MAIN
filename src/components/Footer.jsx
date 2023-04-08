@@ -10,9 +10,6 @@ export function Footer() {
         <p>&copy; {new Date().getFullYear()} Origin Investigations Inc. All Rights Reserved.</p>
         <p><a href="#terms-of-use">Terms of Use</a> | <a href="#privacy-policy">Privacy Policy</a> | <a href="#data-security">Data Security</a>
         </p>
-      </div>
-
-
 <button class="bg-pink-500 text-white active:bg-pink-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" onclick="toggleModal('modal-id')">
   Open regular modal
 </button>
@@ -63,9 +60,7 @@ export function Footer() {
   }
 </script>
 
-
-
-
+      </div>
     </footer>
   )
 }
