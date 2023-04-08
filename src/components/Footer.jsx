@@ -1,6 +1,5 @@
 import { GridPattern } from '@/components/GridPattern'
 
-
 export function Footer() {
   return (
     <footer className="relative pt-5 pb-20 sm:pb-32 sm:pt-14">
@@ -11,12 +10,7 @@ export function Footer() {
         <p>&copy; {new Date().getFullYear()} Origin Investigations Inc. All Rights Reserved.</p>
         <p><a href="#terms-of-use">Terms of Use</a> | <a href="#privacy-policy">Privacy Policy</a> | <a href="#data-security">Data Security</a>
         </p>
-            </div>
-        </div>
-    </div>
-</div>
-
-      </div> 
-</footer>
+      </div>
+    </footer>
   )
 }
