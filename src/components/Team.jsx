@@ -3,11 +3,11 @@ import Image from 'next/image'
 import { Expandable } from '@/components/Expandable'
 import { useState } from "react"
 import teamImage1 from '@/images/avatars/avatar-brant.png'
-import teamImage2 from '@/images/avatars/avatar-brant.png'
+import teamImage2 from '@/images/avatars/avatar-passas.png'
 import teamImage3 from '@/images/avatars/avatar-vannoy.png'
 import teamImage4 from '@/images/avatars/avatar-wise.png'
 import teamImage5 from '@/images/avatars/avatar-temp.png'
-import teamImage6 from '@/images/avatars/avatar-brant.png'
+import teamImage6 from '@/images/avatars/avatar-min.png'
 import teamImage7 from '@/images/avatars/avatar-sarco.png'
 
 
