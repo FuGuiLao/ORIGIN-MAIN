@@ -31,7 +31,7 @@ export function Footer() {
           </span>
         </button>
       </div>
-      <!--body-->
+
       <div class="relative p-6 flex-auto">
         <p class="my-4 text-slate-500 text-lg leading-relaxed">
           I always felt like I could do anything. That’s the main
@@ -41,7 +41,7 @@ export function Footer() {
           won’t do anything. I was taught I could do everything.
         </p>
       </div>
-      <!--footer-->
+    
       <div class="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
         <button class="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" onclick="toggleModal('modal-id')">
           Close
