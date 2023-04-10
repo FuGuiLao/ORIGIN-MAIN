@@ -1,42 +1,10 @@
-import Image from 'next/image'
-
-import { Expandable } from '@/components/Expandable'
-import { useState } from "react"
-import teamImage2 from '@/images/avatars/avatar-passas.png'
-import teamImage3 from '@/images/avatars/avatar-vannoy.png'
-import teamImage4 from '@/images/avatars/avatar-wise.png'
-import teamImage5 from '@/images/avatars/avatar-temp.png'
-import teamImage6 from '@/images/avatars/avatar-min.png'
-import teamImage7 from '@/images/avatars/avatar-sarco.png'
-
-
-import React, { useState } from 'react'
-
 import { Fragment, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 
+export function Modal() {
+    const [open, setOpen] = useState(true)
 
-const people = [
-  {
-    name: 'Joshua Passas',
-    role: 'Director / Investigation',
-    image: teamImage2,
-    bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
-
-
-
-    Modal:    function Modal() {
-
-            return(
-         <>
-            <button
-                type="button"
-                className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                onClick={() => setOpen(true)}
-            >
-                Open Modal
-            </button>
-
+    return (
         <Transition.Root show={open} as={Fragment}>
             <Dialog as="div" className="relative z-10" onClose={setOpen}>
                 <Transition.Child
@@ -75,9 +43,7 @@ const people = [
                                             />
                                         </div>
                                         <div className="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
-                                            <SectionHeading number="5" id="author-title">
-                                                Our People
-                                            </SectionHeading>
+
                                             <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-zinc-900 sm:text-6xl">
                                                 <span className="block text-red-800">Jayden Brant –</span> <bold>Hi, I am the founder and managing partner of Origin Investigations Inc.</bold>
                                             </p>
@@ -121,100 +87,6 @@ const people = [
                     </div>
                 </div>
             </Dialog>
-            </Transition.Root>
-        </>
+        </Transition.Root>
     )
 }
-
-
-
-
-    },
-  {
-    name: 'Victoria Vannoy',
-    role: 'Director / Intelligence',
-    image: teamImage3,
-    bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui. THIS TEXT OPENS POP-UP MODAL',
-  },
-  {
-    name: 'Jaclyn Wise',
-    role: 'Director / Case Management',
-    image: teamImage4,
-    bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui. THIS TEXT OPENS POP-UP MODAL',
-  },
-  {
-    name: 'Temp Person',
-    role: 'Director / Client Relations',
-    image: teamImage5,
-    bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui. THIS TEXT OPENS POP-UP MODAL',
-  },
-  {
-    name: 'Yi Min',
-    role: 'Director / Information Technology',
-    image: teamImage6,
-    bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui. THIS TEXT OPENS POP-UP MODAL',
-  },
-  {
-    name: 'Vanessa Sarco',
-    role: 'Administration / Accounting',
-    image: teamImage7,
-    bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui. THIS TEXT OPENS POP-UP MODAL',
-  },
-  // More people...
-]
-
-
-
-
-export function Team() {
-    const [isExpanded, setIsExpanded] = useState(false);
-
-    const toggleExpand = () => {
-        setIsExpanded(!isExpanded)
-    }
-
-    const [showModal, setShowModal] = useState(false);
-
-    const handleOpenModal = () => {
-        setShowModal(true);
-    }
-
-    const handleCloseModal = () => {
-        setShowModal(false);
-    }
-
-    return (
-        <Expandable>
-            {({ isExpanded }) => (
-            <>
-            <div>
-            <Expandable.Button onClick={toggleExpand}>Meet our leadership team</Expandable.Button>
-            <div style={{ display: isExpanded ? "block" : "none" }}>
-                <section id="team" aria-labelledby="author-title" className="relative scroll-mt-14 pb-3 pt-8 sm:scroll-mt-32 sm:pb-16 sm:pt-10 lg:pt-16">
-                  <div className="bg-white py-0 sm:py-0">
-                    <div className="mx-auto max-w-7xl px-6 lg:px-8">               
-                       <ul
-                           role="list"
-                           className="mx-auto mt-0 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none"
-                             >
-                           {people.map((person) => (
-                            <li key={person.name} className="flex flex-col gap-6 xl:flex-row">
-                                <Image className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover" src={person.image} alt="" />
-                                <div className="flex-auto">
-                                    <h3 className="text-lg font-semibold leading-8 tracking-tight text-zinc-900">{person.name}</h3>
-                                    <p className="text-base leading-7 text-zinc-600">{person.role}</p>
-                                    <p className="mt-6 text-base leading-7 text-zinc-600">{person.bio}</p>
-                                </div>
-                            </li>
-                           ))}
-                       </ul>
-                    </div>
-                  </div>
-                </section>
-              </div>
-            </div>
-            </>
-            )}
-            </Expandable>
-        )
-    }

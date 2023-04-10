@@ -6,152 +6,60 @@ import { GridPattern } from '@/components/GridPattern'
 import { SectionHeading } from '@/components/SectionHeading'
 import authorImage from '@/images/avatars/avatar-brant.png'
 
-export function SlideShow() {
-  const [slides, setSlides] = useState([
-      <div className="relative mx-auto max-w-5xl pt-16 sm:px-6">
-          <div className="bg-zinc-50 pt-px sm:rounded-6xl">
-              <div className="relative mx-auto -mt-16 h-44 w-44 overflow-hidden rounded-full bg-zinc-300 md:float-right md:h-64 md:w-64 md:[shape-outside:circle(40%)] lg:mr-20 lg:h-72 lg:w-72">
-                  <Image
-                      className="absolute inset-0 h-full w-full object-cover"
-                      src={authorImage}
-                      alt=""
-                      sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
-                  />
-              </div>
-              <div className="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
-                  <SectionHeading number="5" id="author-title">
-                      Our People
-                  </SectionHeading>
-                  <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-zinc-900 sm:text-6xl">
-                      <span className="block text-red-800">Jayden Brant –</span> <bold>Hi, I am the founder and managing partner of Origin Investigations Inc.</bold>
-                  </p>
-                  <p className="mt-4 text-lg tracking-tight text-zinc-700">
-                      Throughout his career, Jayden has worked for the United States federal government in law enforcement and intelligence capacities. Jayden previously served as a Deputy Sheriff with the Los Angeles County Sheriff's Department. While there, he worked in field operations, custody, training bureau, and numerous special assignments within the department.
-                  </p>
-                  <p className="mt-4 text-lg tracking-tight text-zinc-700">
-                      He has extensive knowledge, training, and experience in criminal investigation, interrogation, undercover surveillance, case management, evidence handling, and California and Federal law.
-                  </p>
-                  <p className="mt-4 text-lg tracking-tight text-zinc-700">
-                      Jayden attained California Peace Officer Standards and Training (POST) Certification and completed POST Advanced Officer Training while with the LASD and continues to maintain certification. He also completed the challenging coursework for the POST Specialized Investigator Certification.
-                  </p>
-                  <p className="mt-4 text-lg tracking-tight text-zinc-700">
-                      During his career, Jayden has worked with the LASD, LAPD, US Marshals Service, Diplomatic Security Service, US Secret Service, Federal Bureau of Investigation, Department of Homeland Security, US Immigration and Customs Enforcement, the Superior Court of California, as well as numerous local law enforcement agencies and independent investigators.
-                  </p>
-                  <p className="mt-4 text-lg tracking-tight text-zinc-700">
-                      In addition to a law enforcement background, Jayden also has significant private sector experience. He has held leadership positions in the heavily regulated financial services industry not only overseeing operations of a Registered Investment Advisory Firm, but also conducting corporate due diligence and fraud investigations.
-                  </p>
-                  <p className="mt-4 text-lg tracking-tight text-zinc-700">
-                      He has also provided regulatory compliance, security, and legal consulting for high-profile individuals and numerous companies across a wide variety of industries. Jayden attended Claremont McKenna College and studied computer engineering.
-                  </p>
-                  <p className="mt-4 text-lg tracking-tight text-zinc-700">
-                      Jayden is a member of the California Association of Licensed Investigators, the United States Association of Professional Investigators, the Association of Former Intelligence Officers, and the International Association of Law Enforcement Intelligence Analysts.
-                  </p>
+const Slideshow = () => {
+    const [currentSlide, setCurrentSlide] = useState(0);
+    const slides = [
+        // Add your slides here
+        // For example:
+        // { image: '/path/to/image1.jpg', caption: 'Slide 1' },
+        // { image: '/path/to/image2.jpg', caption: 'Slide 2' },
+        // { image: '/path/to/image3.jpg', caption: 'Slide 3' },
+    ];
 
-                  <p className="mt-8">
-                      <Link
-                          href="#"
-                          className="inline-flex items-center text-base font-medium tracking-tight text-red-800"
-                      >
+    const nextSlide = () => {
+        setCurrentSlide((currentSlide + 1) % slides.length)
+    };
 
-                          <span className="ml-0"><a href="https://www.linkedin.com/in/jaydenbrant" target="_blank">View on LinkedIn</a></span>
-                      </Link>
-                  </p>
-              </div>
-          </div>
-      </div>,
-    'Second slide',
-      <div className="relative mx-auto max-w-5xl pt-16 sm:px-6">
-          <div className="bg-zinc-50 pt-px sm:rounded-6xl">
-              <div className="relative mx-auto -mt-16 h-44 w-44 overflow-hidden rounded-full bg-zinc-300 md:float-right md:h-64 md:w-64 md:[shape-outside:circle(40%)] lg:mr-20 lg:h-72 lg:w-72">
-                  <Image
-                      className="absolute inset-0 h-full w-full object-cover"
-                      src={authorImage}
-                      alt=""
-                      sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
-                  />
-              </div>
-              <div className="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
-                  <SectionHeading number="5" id="author-title">
-                      Our People
-                  </SectionHeading>
-                  <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-zinc-900 sm:text-6xl">
-                      <span className="block text-red-800">Jayden Brant –</span> <bold>Hi, I am the founder and managing partner of Origin Investigations Inc.</bold>
-                  </p>
-                  <p className="mt-4 text-lg tracking-tight text-zinc-700">
-                      Throughout his career, Jayden has worked for the United States federal government in law enforcement and intelligence capacities. Jayden previously served as a Deputy Sheriff with the Los Angeles County Sheriff's Department. While there, he worked in field operations, custody, training bureau, and numerous special assignments within the department.
-                  </p>
-                  <p className="mt-4 text-lg tracking-tight text-zinc-700">
-                      He has extensive knowledge, training, and experience in criminal investigation, interrogation, undercover surveillance, case management, evidence handling, and California and Federal law.
-                  </p>
-                  <p className="mt-4 text-lg tracking-tight text-zinc-700">
-                      Jayden attained California Peace Officer Standards and Training (POST) Certification and completed POST Advanced Officer Training while with the LASD and continues to maintain certification. He also completed the challenging coursework for the POST Specialized Investigator Certification.
-                  </p>
-                  <p className="mt-4 text-lg tracking-tight text-zinc-700">
-                      During his career, Jayden has worked with the LASD, LAPD, US Marshals Service, Diplomatic Security Service, US Secret Service, Federal Bureau of Investigation, Department of Homeland Security, US Immigration and Customs Enforcement, the Superior Court of California, as well as numerous local law enforcement agencies and independent investigators.
-                  </p>
-                  <p className="mt-4 text-lg tracking-tight text-zinc-700">
-                      In addition to a law enforcement background, Jayden also has significant private sector experience. He has held leadership positions in the heavily regulated financial services industry not only overseeing operations of a Registered Investment Advisory Firm, but also conducting corporate due diligence and fraud investigations.
-                  </p>
-                  <p className="mt-4 text-lg tracking-tight text-zinc-700">
-                      He has also provided regulatory compliance, security, and legal consulting for high-profile individuals and numerous companies across a wide variety of industries. Jayden attended Claremont McKenna College and studied computer engineering.
-                  </p>
-                  <p className="mt-4 text-lg tracking-tight text-zinc-700">
-                      Jayden is a member of the California Association of Licensed Investigators, the United States Association of Professional Investigators, the Association of Former Intelligence Officers, and the International Association of Law Enforcement Intelligence Analysts.
-                  </p>
-
-                  <p className="mt-8">
-                      <Link
-                          href="#"
-                          className="inline-flex items-center text-base font-medium tracking-tight text-red-800"
-                      >
-
-                          <span className="ml-0"><a href="https://www.linkedin.com/in/jaydenbrant" target="_blank">View on LinkedIn</a></span>
-                      </Link>
-                  </p>
-              </div>
-          </div>
-      </div>,
-  ]);
-  const [currentSlide, setCurrentSlide] = useState(0);
-
-  const handlePrevClick = () =>
-    setCurrentSlide((currentSlide - 1 + slides.length) % slides.length);
-
-  const handleNextClick = () =>
-    setCurrentSlide((currentSlide + 1) % slides.length);
+    const prevSlide = () => {
+        setCurrentSlide((currentSlide + slides.length - 1) % slides.length)
+    };
 
     return (
-
-        <div className="absolute h-screen">
-            <div className="absolute inset-x-0 bottom-0 flex justify-center pb-8">
-                <div className="flex space-x-4">
-                    <button
-                        className="p-2 text-white hover:text-gray-400 focus:outline-none focus:text-gray-400 transition ease-in-out duration-150"
-                        onClick={handlePrevClick}
-                    >
-                        <ArrowLeftCircleIcon className="h-6 w-6" />
-                    </button>
-                    <button
-                        className="p-2 text-white hover:text-gray-400 focus:outline-none focus:text-gray-400 transition ease-in-out duration-150"
-                        onClick={handleNextClick}
-                    >
-                        <ArrowRightCircleIcon className="h-6 w-6" />
-                    </button>
-                </div>
+        <div className="relative scroll-mt-14 pb-3 pt-8 sm:scroll-mt-32 sm:pb-16 sm:pt-10 lg:pt-16">
+            <div className="absolute inset-x-0 bottom-0 top-1/2 text-zinc-900/10 [mask-image:linear-gradient(transparent,white)]">
+                <GridPattern x="50%" y="100%" />
             </div>
-            <div className="relative h-full" style={{ height: '100%' }}>
-                {slides.map((slide, index) => (
-                    <p
-                        key={index}
-                        className={`relative scroll-mt-14 pb-3 pt-8 sm:scroll-mt-32 sm:pb-16 sm:pt-10 lg:pt-16 ${index === currentSlide ? 'opacity-100' : 'hidden opacity-0'
-                            }`}
-                        style={{ backgroundColor: '#333' }}
-                    >
-                        {slide}
-                    </p>
-
-                ))}
+            {slides.map((slide, index) => (
+                <div
+                    key={index}
+                    className={`${currentSlide === index ? "" : "hidden"
+                        } absolute inset-0`}
+                >
+                    <img
+                        src={slide.image}
+                        alt={slide.caption}
+                        className="object-cover w-full h-full"
+                    />
+                    <div className="absolute bottom-0 left-0 right-0 px-4 py-6 bg-gradient-to-t from-black to-transparent">
+                        <p className="text-xl font-bold text-white">{slide.caption}</p>
+                    </div>
+                </div>
+            ))}
+            <div className="absolute bottom-0 left-0 right-0 flex justify-center space-x-2 mb-6">
+                <button
+                    className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
+                    onClick={prevSlide}
+                >
+                    Prev
+                </button>
+                <button
+                    className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
+                    onClick={nextSlide}
+                >
+                    Next
+                </button>
             </div>
         </div>
-    );
+    )
 }
+export default Slideshow
