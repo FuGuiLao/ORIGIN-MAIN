@@ -15,6 +15,9 @@ import React, { useState } from 'react'
 import { Fragment } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 
+import { GridPattern } from '@/components/GridPattern'
+import { SectionHeading } from '@/components/SectionHeading'
+
 
 const people = [
   {
