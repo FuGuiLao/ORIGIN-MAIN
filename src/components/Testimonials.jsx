@@ -214,7 +214,7 @@ export function Testimonials() {
                 <li
                   key={columnIndex}
                   className={isExpanded ? undefined : 'hidden lg:list-item'}
-                >TEST6
+                >
                   <ul role="list">
                     {column
                       .slice(0, isExpanded ? undefined : 2)
