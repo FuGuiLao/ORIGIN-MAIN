@@ -154,8 +154,8 @@ export function Team() {
                                            <button className="text-blue-500" onClick={() => setIsOpen(true)}>
                                                Click here
                                            </button>
-                                           <Transition.Root show={open} as={Fragment}>
-                                               <Dialog as="div" className="relative z-10" onClose={setOpen}>
+                                           <Transition.Root show={isOpen} as={Fragment}>
+                                               <Dialog as="div" className="relative z-10" onClose={false}>
                                                    <Transition.Child
                                                        as={Fragment}
                                                        enter="ease-out duration-300"
