@@ -125,7 +125,7 @@ export function Team() {
         setIsExpanded(!isExpanded)
     }
 
-    const [isOpen, setIsOpen] = useState(false)
+    const [open, setOpen] = useState(true)
 
 
     return (
@@ -152,10 +152,10 @@ export function Team() {
 
                                        <>
                                            <button className="text-blue-500" onClick={() => setIsOpen(true)}>
-                                               Click here
+                                           Click here
                                            </button>
-                                           <Transition.Root show={isOpen} as={Fragment}>
-                                               <Dialog as="div" className="relative z-10" onClose={false}>
+                                           <Transition.Root show={open} as={Fragment}>
+                                               <Dialog as="div" className="relative z-10" onClose={setOpen}>
                                                    <Transition.Child
                                                        as={Fragment}
                                                        enter="ease-out duration-300"
@@ -184,6 +184,7 @@ export function Team() {
                                                                    <div className="relative mx-auto max-w-5xl pt-16 sm:px-6">
                                                                        {person.modal}
                                                                    </div>
+
                                                                </Dialog.Panel>
                                                            </Transition.Child>
                                                        </div>
