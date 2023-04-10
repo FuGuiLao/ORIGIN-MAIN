@@ -2,9 +2,17 @@ import { Fragment, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 
 export function Modal() {
-    const [open, setOpen] = useState(true)
 
     return (
+         <>
+            <button
+                type="button"
+                className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                onClick={() => setOpen(true)}
+            >
+                Open Modal
+            </button>
+
         <Transition.Root show={open} as={Fragment}>
             <Dialog as="div" className="relative z-10" onClose={setOpen}>
                 <Transition.Child
@@ -43,7 +51,9 @@ export function Modal() {
                                             />
                                         </div>
                                         <div className="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
-
+                                            <SectionHeading number="5" id="author-title">
+                                                Our People
+                                            </SectionHeading>
                                             <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-zinc-900 sm:text-6xl">
                                                 <span className="block text-red-800">Jayden Brant –</span> <bold>Hi, I am the founder and managing partner of Origin Investigations Inc.</bold>
                                             </p>
@@ -87,6 +97,7 @@ export function Modal() {
                     </div>
                 </div>
             </Dialog>
-        </Transition.Root>
+            </Transition.Root>
+        </>
     )
 }
