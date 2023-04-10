@@ -23,9 +23,7 @@ const people = [
     image: teamImage2,
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
 
-
-
-    Modal:    function Modal() {
+    modal:    function Modal() {
 
             return(
          <>
@@ -195,6 +193,7 @@ export function Team() {
                                     <h3 className="text-lg font-semibold leading-8 tracking-tight text-zinc-900">{person.name}</h3>
                                     <p className="text-base leading-7 text-zinc-600">{person.role}</p>
                                     <p className="mt-6 text-base leading-7 text-zinc-600">{person.bio}</p>
+                                    <p className="mt-6 text-base leading-7 text-zinc-600">{person.modal}</p>
                                 </div>
                             </li>
                            ))}
