@@ -162,7 +162,7 @@ export function Team() {
 
 
 
-                                                   <div className="relative mx-auto max-w-5xl pt-16 sm:px-6">
+                                                   <div className="fixed inset-0 z-10 overflow-y-auto">
                                                        <div className="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
                                                            <Transition.Child
                                                                as={Fragment}
@@ -175,13 +175,13 @@ export function Team() {
                                                            >
                                                                <Dialog.Panel>
 
-                                                              
+                                                                   <div className="relative mx-auto max-w-5xl pt-16 sm:px-6 overflow-y-auto">
                                                                        
 
                                                                        {person.modal}
 
                                                                        
-
+                                                                   </div>
 
                                                                </Dialog.Panel>
                                                            </Transition.Child>
