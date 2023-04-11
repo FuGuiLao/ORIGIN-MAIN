@@ -126,10 +126,10 @@ export function Team() {
 
     const [open, setOpen] = useState(false)
 
-    useEffect(() => {
-        document.body.style.overflowY = open ? 'hidden' : 'scroll'
-    }, [open])
-    tha
+    const handleClose = () => {
+        setOpen(false)
+        containerRef.current.scrollTop = 0
+    }
 
     return (
         <Expandable>
