@@ -13,7 +13,7 @@ import teamImage7 from '@/images/avatars/avatar-sarco.png'
 
 import React, { useState } from 'react'
 
-import { Fragment, useEffect, useState } from 'react'
+import { Fragment, useEffect } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 
 import { SectionHeading } from '@/components/SectionHeading'
