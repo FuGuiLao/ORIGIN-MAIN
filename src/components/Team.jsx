@@ -13,10 +13,9 @@ import teamImage7 from '@/images/avatars/avatar-sarco.png'
 
 import React, { useState } from 'react'
 
-import { Fragment } from 'react'
+import { Fragment, useEffect, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 
-import { GridPattern } from '@/components/GridPattern'
 import { SectionHeading } from '@/components/SectionHeading'
 
 
@@ -126,6 +125,10 @@ export function Team() {
     }
 
     const [open, setOpen] = useState(false)
+
+    useEffect(() => {
+        document.body.style.overflowY = open ? 'hidden' : 'scroll'
+    }, [open])
 
 
     return (
