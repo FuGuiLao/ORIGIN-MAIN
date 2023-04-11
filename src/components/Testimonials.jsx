@@ -190,7 +190,7 @@ export function Testimonials() {
           />
         </div>
         <p className="mt-4 text-lg tracking-tight text-zinc-600">
-          We have worked with a variety of clients including law firms, government agencies, corporations, and high-profile individuals. Hear is what
+          We have worked with a variety of clients including law firms, government agencies, corporations, and high-profile individuals. Here is what
           they had to say about our agency.
         </p>
       </Container>
