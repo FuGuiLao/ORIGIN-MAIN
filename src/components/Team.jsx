@@ -129,7 +129,7 @@ export function Team() {
     useEffect(() => {
         document.body.style.overflowY = open ? 'hidden' : 'scroll'
     }, [open])
-
+    tha
 
     return (
         <Expandable>
@@ -159,8 +159,8 @@ export function Team() {
                                                className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                                                onClick={() => setOpen(true)}
                                            >
-                                               Open Modal
-                                           </button>
+                                           Open Modal
+                                            </button>
 
                                            <Transition.Root show={open} as={Fragment}>
                                                <Dialog as="div" className="relative z-10" onClose={() => setOpen(false)}>
@@ -187,11 +187,11 @@ export function Team() {
                                                                leaveFrom="opacity-100 translate-y-0 sm:scale-100"
                                                                leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
                                                            >
-                                                               <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-sm sm:p-6">
+                                                               <Dialog.Panel className="relative mx-auto max-w-5xl pt-16 sm:px-6">
 
-                                                                   <div className="relative mx-auto max-w-5xl pt-16 sm:px-6">
+
                                                                        {person.modal}
-                                                                   </div>
+
 
                                                                </Dialog.Panel>
                                                            </Transition.Child>
@@ -200,7 +200,7 @@ export function Team() {
                                                </Dialog>
                                            </Transition.Root>
                                        </>
-                                       )
+                                       
 
 
                                 </div>
