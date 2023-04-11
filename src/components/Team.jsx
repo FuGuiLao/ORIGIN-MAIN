@@ -125,7 +125,7 @@ export function Team() {
         setIsExpanded(!isExpanded)
     }
 
-    const [open, setOpen] = useState(true)
+    const [open, setOpen] = useState(false)
 
 
     return (
@@ -151,11 +151,16 @@ export function Team() {
                                     <p className="mt-6 text-base leading-7 text-zinc-600">{person.bio}</p>
 
                                        <>
-                                           <button className="text-blue-500" onClick={() => setIsOpen(true)}>
-                                           Click here
+                                           <button
+                                               type="button"
+                                               className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                                               onClick={() => setOpen(true)}
+                                           >
+                                               Open Modal
                                            </button>
+
                                            <Transition.Root show={open} as={Fragment}>
-                                               <Dialog as="div" className="relative z-10" onClose={setOpen}>
+                                               <Dialog as="div" className="relative z-10" onClose={() => setOpen(false)}>
                                                    <Transition.Child
                                                        as={Fragment}
                                                        enter="ease-out duration-300"
