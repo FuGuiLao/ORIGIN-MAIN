@@ -124,10 +124,7 @@ export function Team() {
 
     const [open, setOpen] = useState(false)
 
-    const handleClose = () => {
-        setOpen(false)
-        containerRef.current.scrollTop = 0
-    }
+
 
     return (
         <Expandable>
@@ -162,19 +159,10 @@ export function Team() {
 
                                            <Transition.Root show={open} as={Fragment}>
                                                <Dialog as="div" className="relative z-10" onClose={() => setOpen(false)}>
-                                                   <Transition.Child
-                                                       as={Fragment}
-                                                       enter="ease-out duration-300"
-                                                       enterFrom="opacity-0"
-                                                       enterTo="opacity-100"
-                                                       leave="ease-in duration-200"
-                                                       leaveFrom="opacity-100"
-                                                       leaveTo="opacity-0"
-                                                   >
-                                                       <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
-                                                   </Transition.Child>
 
-                                                   <div className="fixed inset-0 z-10 overflow-y-auto">
+
+
+                                                   <div className="relative mx-auto max-w-5xl pt-16 sm:px-6">
                                                        <div className="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
                                                            <Transition.Child
                                                                as={Fragment}
@@ -187,13 +175,13 @@ export function Team() {
                                                            >
                                                                <Dialog.Panel>
 
-                                                                   <div className="relative mx-auto max-w-5xl pt-16 sm:px-6">
+                                                              
                                                                        
 
                                                                        {person.modal}
 
                                                                        
-                                                                   </div>
+
 
                                                                </Dialog.Panel>
                                                            </Transition.Child>
