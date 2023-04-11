@@ -175,7 +175,7 @@ export function Team() {
                                                            >
                                                                <Dialog.Panel>
 
-                                                                   <div className="relative mx-auto max-w-5xl pt-16 sm:px-6 overflow-y-auto">
+                                                                   <div className="relative mx-auto max-w-5xl pt-16 sm:px-6 overscroll-contain">
                                                                        
 
                                                                        {person.modal}
