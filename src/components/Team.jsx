@@ -27,7 +27,7 @@ const people = [
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
 
     modal:
-                                
+                                <div className="relative mx-auto max-w-5xl pt-16 sm:px-6 overscroll-contain">
                                     <div className="bg-zinc-50 pt-px sm:rounded-6xl">
                                         <div className="relative mx-auto -mt-16 h-44 w-44 overflow-hidden rounded-full bg-zinc-300 md:float-right md:h-64 md:w-64 md:[shape-outside:circle(40%)] lg:mr-20 lg:h-72 lg:w-72">
                                             <Image
@@ -75,7 +75,7 @@ const people = [
                                             </p>
                                         </div>
                                     </div>
-                              
+                                </div>
 
   },
 
@@ -175,13 +175,13 @@ export function Team() {
                                                            >
                                                                <Dialog.Panel>
 
-                                                                   <div className="relative mx-auto max-w-5xl pt-16 sm:px-6 overscroll-contain">
+                                                                   
                                                                        
 
                                                                        {person.modal}
 
                                                                        
-                                                                   </div>
+                                                                   
 
                                                                </Dialog.Panel>
                                                            </Transition.Child>
