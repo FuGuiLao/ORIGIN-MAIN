@@ -162,7 +162,7 @@ export function Team() {
                                                                leaveFrom="opacity-100 translate-y-0 sm:scale-100"
                                                                leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
                                                            >
-                                                               <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-8 py-8 sm:px-4 sm:py-4 md:py-6 lg:px-8 lg:py-8">
+                                                               <Dialog.Panel className="overflow-hidden rounded-lg bg-white shadow px-4 py-5 sm:p-6">
 
                                                                    
                                                                        
