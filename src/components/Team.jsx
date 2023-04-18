@@ -27,7 +27,8 @@ const people = [
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
 
     modal:
-
+                                <div className="relative mx-auto max-w-5xl pt-16 sm:px-6 overscroll-contain">
+                                    <div className="bg-zinc-50 pt-px sm:rounded-6xl">
                                         <div className="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
 
                                             <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-zinc-900 sm:text-6xl">
@@ -65,7 +66,8 @@ const people = [
                                                 </Link>
                                             </p>
                                         </div>
-
+                                    </div>
+                                </div>
 
   },
 
@@ -163,7 +165,7 @@ export function Team() {
                                                                leaveFrom="opacity-100 translate-y-0 sm:scale-100"
                                                                leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
                                                            >
-                                                               <Dialog.Panel >
+                                                               <Dialog.Panel>
 
                                                                    
                                                                        
