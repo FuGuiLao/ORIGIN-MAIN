@@ -27,7 +27,7 @@ const people = [
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
 
     modal:
-                                <div>
+        <div className="overflow-hidden rounded-lg bg-white shadow px-4 py-5 sm:p-6">
 
                                             <p>
                                                 <span className="block text-red-800">Jayden Brant -</span> <bold>Hi, I am the founder and managing partner of Origin Investigations Inc.</bold>
@@ -162,7 +162,7 @@ export function Team() {
                                                                leaveFrom="opacity-100 translate-y-0 sm:scale-100"
                                                                leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
                                                            >
-                                                               <Dialog.Panel className="overflow-hidden rounded-lg bg-white shadow px-4 py-5 sm:p-6">
+                                                               <Dialog.Panel>
 
                                                                    
                                                                        
