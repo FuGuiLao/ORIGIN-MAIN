@@ -28,7 +28,7 @@ const people = [
 
     modal:
 
-                                        <div>
+                                        <div className="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
 
                                             <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-zinc-900 sm:text-6xl">
                                                 <span className="block text-red-800">Jayden Brant -</span> <bold>Hi, I am the founder and managing partner of Origin Investigations Inc.</bold>
@@ -152,7 +152,8 @@ export function Team() {
 
 
 
-                                                 
+                                                   <div className="fixed inset-0 z-10 overflow-y-auto">
+                                                       <div className="flex min-h-full items-start justify-center p-4 text-center sm:items-center sm:p-0">
                                                            <Transition.Child
                                                                as={Fragment}
                                                                enter="ease-out duration-300"
@@ -162,7 +163,7 @@ export function Team() {
                                                                leaveFrom="opacity-100 translate-y-0 sm:scale-100"
                                                                leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
                                                            >
-                                                               <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-sm sm:p-6">
+                                                               <Dialog.Panel >
 
                                                                    
                                                                        
@@ -174,7 +175,8 @@ export function Team() {
 
                                                                </Dialog.Panel>
                                                            </Transition.Child>
-                              
+                                                       </div>
+                                                   </div>
                                                </Dialog>
                                            </Transition.Root>
                                        </>
