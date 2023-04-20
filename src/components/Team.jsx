@@ -185,8 +185,8 @@ export function Team() {
 
 
 
-                                                   <div className="fixed inset-0 z-10">
-                                                       <div className="flex min-h-full items-start justify-center p-4 text-center sm:items-center sm:p-0">
+                                                   <div className="fixed inset-0 z-10 flex min-h-full items-center justify-center">
+                                                       
                                                            <Transition.Child
                                                                as={Fragment}
                                                                enter="ease-out duration-300"
@@ -208,7 +208,7 @@ export function Team() {
 
                                                                </Dialog.Panel>
                                                            </Transition.Child>
-                                                       </div>
+                                                       
                                                    </div>
                                                </Dialog>
                                            </Transition.Root>
