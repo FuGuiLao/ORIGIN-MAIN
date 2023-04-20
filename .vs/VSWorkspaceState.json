@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\components",
-    "\\src\\pages",
-    "\\src\\styles"
+    "\\src\\components"
   ],
+  "SelectedNode": "\\src\\components\\Team.jsx",
   "PreviewInSolutionExplorer": false
 }
