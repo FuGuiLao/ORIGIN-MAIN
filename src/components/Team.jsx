@@ -34,6 +34,7 @@ const people = [
 
 
         <>
+            <div className="my-4 sm:my-6 md:my-8 lg:my-10">
             <div className="mt-3 text-center sm:mt-5">
             <Dialog.Title as="h3" className="text-base font-semibold leading-6 text-gray-900">
                 Jayden Brant
@@ -87,6 +88,7 @@ const people = [
                 >
                     Go back to dashboard
                 </button>
+                </div>
             </div>
         </>
 
