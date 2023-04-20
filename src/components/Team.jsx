@@ -39,8 +39,8 @@ const people = [
                 <div className="mt-2">
                     <p className="text-sm text-gray-500">
 
-
-                        Hi, I am the founder and managing partner of Origin Investigations Inc.11111
+                    
+                        Hi, I am the founder and managing partner of Origin Investigations Inc.
                     </p>
                     <p>
                         Throughout his career, Jayden has worked for the United States federal government in law enforcement and intelligence capacities. Jayden previously served as a Deputy Sheriff with the Los Angeles County Sheriff's Department. While there, he worked in field operations, custody, training bureau, and numerous special assignments within the department.
@@ -179,7 +179,7 @@ export function Team() {
 
 
 
-                                                   <div className="fixed inset-0 z-10">
+                                                   <div className="fixed inset-0 z-10 overflow-y-auto">
                                                        <div className="flex min-h-full items-start justify-center p-4 text-center sm:items-center sm:p-0">
                                                            <Transition.Child
                                                                as={Fragment}
@@ -190,7 +190,7 @@ export function Team() {
                                                                leaveFrom="opacity-100 translate-y-0 sm:scale-100"
                                                                leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
                                                            >
-                                                               <Dialog.Panel>
+                                                               <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-sm sm:p-6">
 
                                                                    
                                                                        
