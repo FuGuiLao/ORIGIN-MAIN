@@ -179,7 +179,7 @@ export function Team() {
 
 
 
-                                                   <div className="fixed inset-0 z-10 overflow-y-auto">
+                                                   <div className="fixed inset-0 z-10">
                                                        <div className="flex min-h-full items-start justify-center p-4 text-center sm:items-center sm:p-0">
                                                            <Transition.Child
                                                                as={Fragment}
