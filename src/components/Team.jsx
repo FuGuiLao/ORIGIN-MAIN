@@ -187,8 +187,8 @@ export function Team() {
                                                </div>
                                            )}
                                        </div>
-                                       );
-}
+                                       )
+
                                                           
 
                                                                    
