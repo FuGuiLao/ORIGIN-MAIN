@@ -33,7 +33,7 @@ const people = [
        
 
 
-        <>
+      
             <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-14 sm:w-1/2 sm:max-w-lg sm:p-14">
             <Dialog.Title as="h3" className="text-base font-semibold leading-6 text-gray-900">
                 Jayden Brant
@@ -90,7 +90,7 @@ const people = [
                 </button>
                 </div>
             </Dialog.Panel>
-        </>
+     
 
        
 
