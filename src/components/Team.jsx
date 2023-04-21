@@ -34,11 +34,10 @@ const people = [
 
 
       
-            <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-14 sm:w-1/2 sm:max-w-lg sm:p-14">
-            <Dialog.Title as="h3" className="text-base font-semibold leading-6 text-gray-900">
-                Jayden Brant
-            </Dialog.Title>
-            <div className="mt-2">
+ 
+            <><Dialog.Title as="h3" className="text-base font-semibold leading-6 text-gray-900">
+            Jayden Brant
+        </Dialog.Title><div className="mt-2">
                 <p className="text-sm text-gray-500">
 
 
@@ -78,21 +77,7 @@ const people = [
 
 
 
-            </div>
-
-        <div className="mt-5 sm:mt-6">
-                <button
-                    type="button"
-                    className="inline-flex w-full justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                    onClick={() => setOpen(false)}
-                >
-                    Go back to dashboard
-                </button>
-                </div>
-            </Dialog.Panel>
-     
-
-       
+            </div></>
 
 
 
@@ -172,47 +157,49 @@ export function Team() {
                                     <p className="mt-6 text-base leading-7 text-zinc-600">{person.bio}</p>
 
                                        
-                                           <button
-                                               type="button"
-                                               className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                                               onClick={() => setOpen(true)}
-                                           >
-                                           Open Modal
-                                            </button>
+                                       <div>
+                                           <button onClick={() => setOpen(true)}>Open Modal</button>
 
-                                           <Transition.Root show={open} as={Fragment}>
-                                               <Dialog as="div" className="relative z-10" onClose={() => setOpen(false)}>
-
-
-
-                                                   <div className="fixed inset-0 z-10 flex min-h-full items-center justify-center">
-                                                       
-                                                           <Transition.Child
-                                                               as={Fragment}
-                                                               enter="ease-out duration-300"
-                                                               enterFrom="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-                                                               enterTo="opacity-100 translate-y-0 sm:scale-100"
-                                                               leave="ease-in duration-200"
-                                                               leaveFrom="opacity-100 translate-y-0 sm:scale-100"
-                                                               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-                                                           >
+                                           {open && (
+                                               <div className="fixed inset-0 z-10 overflow-y-auto">
+                                                   <div className="flex items-center justify-center min-h-screen">
+                                                       <div
+                                                           className="relative transform bg-white rounded-lg shadow-lg"
+                                                           role="dialog"
+                                                           aria-modal="true"
+                                                           aria-labelledby="modal-headline"
+                                                       >
+                                                           <div className="px-6 py-4">
+                                                               <div className="text-xl font-medium mb-2">Modal Title</div>
+                                                               <p className="text-gray-600">{person.modal}.</p>
+                                                           </div>
+                                                           <div className="px-6 py-4 bg-gray-100 text-right">
+                                                               <button
+                                                                   type="button"
+                                                                   className="inline-block rounded-lg px-4 py-2 bg-gray-200 hover:bg-gray-300 focus:bg-gray-300 focus:outline-none"
+                                                                   onClick={() => setOpen(false)}
+                                                               >
+                                                                   Close
+                                                               </button>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           )}
+                                       </div>
+                                       );
+}
                                                           
 
                                                                    
                                                                        
 
-                                                                       {person.modal}
+                                                                       
 
                                                                        
                                                                    
 
-                                                               
-                                                           </Transition.Child>
-                                                       
-                                                   </div>
-                                               </Dialog>
-                                           </Transition.Root>
-                                       
+
                                        
 
 
