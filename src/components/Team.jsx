@@ -35,50 +35,7 @@ const people = [
 
         <>
 
-            <Dialog.Title as="h3" className="text-base font-semibold leading-6 text-gray-900">
-                Jayden Brant
-            </Dialog.Title>
-            <div className="mt-2">
-                <p className="text-sm text-gray-500">
-
-
-                    Hi, I am the founder and managing partner of Origin Investigations Inc.
-                </p>
-                <p>
-                    Throughout his career, Jayden has worked for the United States federal government in law enforcement and intelligence capacities. Jayden previously served as a Deputy Sheriff with the Los Angeles County Sheriff's Department. While there, he worked in field operations, custody, training bureau, and numerous special assignments within the department.
-                </p>
-                <p>
-                    He has extensive knowledge, training, and experience in criminal investigation, interrogation, undercover surveillance, case management, evidence handling, and California and Federal law.
-                </p>
-                <p>
-                    Jayden attained California Peace Officer Standards and Training (POST) Certification and completed POST Advanced Officer Training while with the LASD and continues to maintain certification. He also completed the challenging coursework for the POST Specialized Investigator Certification.
-                </p>
-                <p>
-                    During his career, Jayden has worked with the LASD, LAPD, US Marshals Service, Diplomatic Security Service, US Secret Service, Federal Bureau of Investigation, Department of Homeland Security, US Immigration and Customs Enforcement, the Superior Court of California, as well as numerous local law enforcement agencies and independent investigators.
-                </p>
-                <p>
-                    In addition to a law enforcement background, Jayden also has significant private sector experience. He has held leadership positions in the heavily regulated financial services industry not only overseeing operations of a Registered Investment Advisory Firm, but also conducting corporate due diligence and fraud investigations.
-                </p>
-                <p>
-                    He has also provided regulatory compliance, security, and legal consulting for high-profile individuals and numerous companies across a wide variety of industries. Jayden attended Claremont McKenna College and studied computer engineering.
-                </p>
-                <p>
-                    Jayden is a member of the California Association of Licensed Investigators, the United States Association of Professional Investigators, the Association of Former Intelligence Officers, and the International Association of Law Enforcement Intelligence Analysts.
-                </p>
-
-                <p className="mt-8">
-                    <Link
-                        href="#"
-                        className="inline-flex items-center text-base font-medium tracking-tight text-red-800"
-                    >
-
-                        <span className="ml-0"><a href="https://www.linkedin.com/in/jaydenbrant" target="_blank">View on LinkedIn</a></span>
-                    </Link>
-                </p>
-
-
-
-            </div>
+           
 
         <div className="mt-5 sm:mt-6">
                 <button
@@ -198,7 +155,50 @@ export function Team() {
                                                            >
                                                            <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-14 sm:w-1/2 sm:max-w-lg sm:p-14">
 
-                                                                   
+                                                               <Dialog.Title as="h3" className="text-base font-semibold leading-6 text-gray-900">
+                                                                   Jayden Brant
+                                                               </Dialog.Title>
+                                                               <div className="mt-2">
+                                                                   <p className="text-sm text-gray-500">
+
+
+                                                                       Hi, I am the founder and managing partner of Origin Investigations Inc.
+                                                                   </p>
+                                                                   <p>
+                                                                       Throughout his career, Jayden has worked for the United States federal government in law enforcement and intelligence capacities. Jayden previously served as a Deputy Sheriff with the Los Angeles County Sheriff's Department. While there, he worked in field operations, custody, training bureau, and numerous special assignments within the department.
+                                                                   </p>
+                                                                   <p>
+                                                                       He has extensive knowledge, training, and experience in criminal investigation, interrogation, undercover surveillance, case management, evidence handling, and California and Federal law.
+                                                                   </p>
+                                                                   <p>
+                                                                       Jayden attained California Peace Officer Standards and Training (POST) Certification and completed POST Advanced Officer Training while with the LASD and continues to maintain certification. He also completed the challenging coursework for the POST Specialized Investigator Certification.
+                                                                   </p>
+                                                                   <p>
+                                                                       During his career, Jayden has worked with the LASD, LAPD, US Marshals Service, Diplomatic Security Service, US Secret Service, Federal Bureau of Investigation, Department of Homeland Security, US Immigration and Customs Enforcement, the Superior Court of California, as well as numerous local law enforcement agencies and independent investigators.
+                                                                   </p>
+                                                                   <p>
+                                                                       In addition to a law enforcement background, Jayden also has significant private sector experience. He has held leadership positions in the heavily regulated financial services industry not only overseeing operations of a Registered Investment Advisory Firm, but also conducting corporate due diligence and fraud investigations.
+                                                                   </p>
+                                                                   <p>
+                                                                       He has also provided regulatory compliance, security, and legal consulting for high-profile individuals and numerous companies across a wide variety of industries. Jayden attended Claremont McKenna College and studied computer engineering.
+                                                                   </p>
+                                                                   <p>
+                                                                       Jayden is a member of the California Association of Licensed Investigators, the United States Association of Professional Investigators, the Association of Former Intelligence Officers, and the International Association of Law Enforcement Intelligence Analysts.
+                                                                   </p>
+
+                                                                   <p className="mt-8">
+                                                                       <Link
+                                                                           href="#"
+                                                                           className="inline-flex items-center text-base font-medium tracking-tight text-red-800"
+                                                                       >
+
+                                                                           <span className="ml-0"><a href="https://www.linkedin.com/in/jaydenbrant" target="_blank">View on LinkedIn</a></span>
+                                                                       </Link>
+                                                                   </p>
+
+
+
+                                                               </div>     
                                                                        
 
                                                                        {person.modal}
