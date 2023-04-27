@@ -13,8 +13,9 @@ import teamImage7 from '@/images/avatars/avatar-sarco.png'
 
 import React, { useState } from 'react'
 
-import { Fragment, useEffect } from 'react'
+import { Fragment, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
+import { XMarkIcon } from '@heroicons/react/24/outline'
 
 import { SectionHeading } from '@/components/SectionHeading'
 
@@ -27,57 +28,48 @@ const people = [
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
 
     modal:
-
-
-
-       
-
-
-      
  
-            <><Dialog.Title as="h3" className="text-base font-semibold leading-6 text-gray-900">
-            Jayden Brant
-        </Dialog.Title><div className="mt-2">
-                <p className="text-sm text-gray-500">
+        <> <div className="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
+            <SectionHeading number="5" id="author-title">
+                Our People
+            </SectionHeading>
+            <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-zinc-900 sm:text-6xl">
+                <span className="block text-red-800">Jayden Brant –</span> <bold>Hi, I am the founder and managing partner of Origin Investigations Inc.</bold>
+            </p>
+            <p className="mt-4 text-lg tracking-tight text-zinc-700">
+                Throughout his career, Jayden has worked for the United States federal government in law enforcement and intelligence capacities. Jayden previously served as a Deputy Sheriff with the Los Angeles County Sheriff's Department. While there, he worked in field operations, custody, training bureau, and numerous special assignments within the department.
+            </p>
+            <p className="mt-4 text-lg tracking-tight text-zinc-700">
+                He has extensive knowledge, training, and experience in criminal investigation, interrogation, undercover surveillance, case management, evidence handling, and California and Federal law.
+            </p>
+            <p className="mt-4 text-lg tracking-tight text-zinc-700">
+                Jayden attained California Peace Officer Standards and Training (POST) Certification and completed POST Advanced Officer Training while with the LASD and continues to maintain certification. He also completed the challenging coursework for the POST Specialized Investigator Certification.
+            </p>
+            <p className="mt-4 text-lg tracking-tight text-zinc-700">
+                During his career, Jayden has worked with the LASD, LAPD, US Marshals Service, Diplomatic Security Service, US Secret Service, Federal Bureau of Investigation, Department of Homeland Security, US Immigration and Customs Enforcement, the Superior Court of California, as well as numerous local law enforcement agencies and independent investigators.
+            </p>
+            <p className="mt-4 text-lg tracking-tight text-zinc-700">
+                In addition to a law enforcement background, Jayden also has significant private sector experience. He has held leadership positions in the heavily regulated financial services industry not only overseeing operations of a Registered Investment Advisory Firm, but also conducting corporate due diligence and fraud investigations.
+            </p>
+            <p className="mt-4 text-lg tracking-tight text-zinc-700">
+                He has also provided regulatory compliance, security, and legal consulting for high-profile individuals and numerous companies across a wide variety of industries. Jayden attended Claremont McKenna College and studied computer engineering.
+            </p>
+            <p className="mt-4 text-lg tracking-tight text-zinc-700">
+                Jayden is a member of the California Association of Licensed Investigators, the United States Association of Professional Investigators, the Association of Former Intelligence Officers, and the International Association of Law Enforcement Intelligence Analysts.
+            </p>
 
+            <p className="mt-8">
+                <Link
+                    href="#"
+                    className="inline-flex items-center text-base font-medium tracking-tight text-red-800"
+                >
 
-                    Hi, I am the founder and managing partner of Origin Investigations Inc.
-                </p>
-                <p>
-                    Throughout his career, Jayden has worked for the United States federal government in law enforcement and intelligence capacities. Jayden previously served as a Deputy Sheriff with the Los Angeles County Sheriff's Department. While there, he worked in field operations, custody, training bureau, and numerous special assignments within the department.
-                </p>
-                <p>
-                    He has extensive knowledge, training, and experience in criminal investigation, interrogation, undercover surveillance, case management, evidence handling, and California and Federal law.
-                </p>
-                <p>
-                    Jayden attained California Peace Officer Standards and Training (POST) Certification and completed POST Advanced Officer Training while with the LASD and continues to maintain certification. He also completed the challenging coursework for the POST Specialized Investigator Certification.
-                </p>
-                <p>
-                    During his career, Jayden has worked with the LASD, LAPD, US Marshals Service, Diplomatic Security Service, US Secret Service, Federal Bureau of Investigation, Department of Homeland Security, US Immigration and Customs Enforcement, the Superior Court of California, as well as numerous local law enforcement agencies and independent investigators.
-                </p>
-                <p>
-                    In addition to a law enforcement background, Jayden also has significant private sector experience. He has held leadership positions in the heavily regulated financial services industry not only overseeing operations of a Registered Investment Advisory Firm, but also conducting corporate due diligence and fraud investigations.
-                </p>
-                <p>
-                    He has also provided regulatory compliance, security, and legal consulting for high-profile individuals and numerous companies across a wide variety of industries. Jayden attended Claremont McKenna College and studied computer engineering.
-                </p>
-                <p>
-                    Jayden is a member of the California Association of Licensed Investigators, the United States Association of Professional Investigators, the Association of Former Intelligence Officers, and the International Association of Law Enforcement Intelligence Analysts.
-                </p>
+                    <span className="ml-0"><a href="https://www.linkedin.com/in/jaydenbrant" target="_blank">View on LinkedIn</a></span>
+                </Link>
+            </p>
+        </div>
 
-                <p className="mt-8">
-                    <Link
-                        href="#"
-                        className="inline-flex items-center text-base font-medium tracking-tight text-red-800"
-                    >
-
-                        <span className="ml-0"><a href="https://www.linkedin.com/in/jaydenbrant" target="_blank">View on LinkedIn</a></span>
-                    </Link>
-                </p>
-
-
-
-            </div></>
+        </>
 
 
 
@@ -161,30 +153,56 @@ export function Team() {
                                            <button onClick={() => setOpen(true)}>Open Modal</button>
 
                                            {open && (
-                                               <div className="fixed inset-0 z-10 overflow-y-auto">
-                                                   <div className="flex items-center justify-center min-h-screen">
-                                                       <div
-                                                           className="relative transform bg-white rounded-lg shadow-lg"
-                                                           role="dialog"
-                                                           aria-modal="true"
-                                                           aria-labelledby="modal-headline"
-                                                       >
-                                                           <div className="px-6 py-4">
-                                                               <div className="text-xl font-medium mb-2">Modal Title</div>
-                                                               <p className="text-gray-600">{person.modal}.</p>
-                                                           </div>
-                                                           <div className="px-6 py-4 bg-gray-100 text-right">
-                                                               <button
-                                                                   type="button"
-                                                                   className="inline-block rounded-lg px-4 py-2 bg-gray-200 hover:bg-gray-300 focus:bg-gray-300 focus:outline-none"
-                                                                   onClick={() => setOpen(false)}
-                                                               >
-                                                                   Close
-                                                               </button>
+
+
+                                               <Transition.Root show={open} as={Fragment}>
+                                                   <Dialog as="div" className="relative z-10" onClose={setOpen}>
+                                                       <div className="fixed inset-0" />
+
+                                                       <div className="fixed inset-0 overflow-hidden">
+                                                           <div className="absolute inset-0 overflow-hidden">
+                                                               <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10 sm:pl-16">
+                                                                   <Transition.Child
+                                                                       as={Fragment}
+                                                                       enter="transform transition ease-in-out duration-500 sm:duration-700"
+                                                                       enterFrom="translate-x-full"
+                                                                       enterTo="translate-x-0"
+                                                                       leave="transform transition ease-in-out duration-500 sm:duration-700"
+                                                                       leaveFrom="translate-x-0"
+                                                                       leaveTo="translate-x-full"
+                                                                   >
+                                                                       <Dialog.Panel className="pointer-events-auto w-screen max-w-2xl">
+                                                                           <div className="flex h-full flex-col overflow-y-scroll bg-white py-6 shadow-xl">
+                                                                               <div className="px-4 sm:px-6">
+                                                                                   <div className="flex items-start justify-between">
+                                                                                       <Dialog.Title className="text-base font-semibold leading-6 text-gray-900">
+                                                                                           Panel title
+                                                                                       </Dialog.Title>
+                                                                                       <div className="ml-3 flex h-7 items-center">
+                                                                                           <button
+                                                                                               type="button"
+                                                                                               className="rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                                                                                               onClick={() => setOpen(false)}
+                                                                                           >
+                                                                                               <span className="sr-only">Close panel</span>
+                                                                                               <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                                                                                           </button>
+                                                                                       </div>
+                                                                                   </div>
+                                                                               </div>
+                                                                               <div className="relative mt-6 flex-1 px-4 sm:px-6">{person.modal}</div>
+                                                                           </div>
+                                                                       </Dialog.Panel>
+                                                                   </Transition.Child>
+                                                               </div>
                                                            </div>
                                                        </div>
-                                                   </div>
-                                               </div>
+                                                   </Dialog>
+                                               </Transition.Root>
+
+
+
+
                                            )}
                                        </div>
                                        )
