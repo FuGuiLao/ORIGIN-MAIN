@@ -120,7 +120,7 @@ export function Team() {
                                                        <div className="fixed inset-0" />
 
                                                        <div className="fixed inset-0 overflow-hidden">
-                                                           <div className="absolute inset-0 bottom-0 overflow-hidden">
+                                                           <div className="absolute inset-0  overflow-hidden">
                                                                <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10 sm:pl-16">
                                                                    <Transition.Child
                                                                        as={Fragment}
@@ -132,7 +132,7 @@ export function Team() {
                                                                        leaveTo="translate-x-full"
                                                                    >
                                                                        <Dialog.Panel className="pointer-events-auto w-screen max-w-2xl">
-                                                                           <div className="flex h-2/3 flex-col overflow-y-scroll bg-white py-6 shadow-xl">
+                                                                           <div className="flex h-2/3 bottom-0 flex-col overflow-y-scroll bg-white py-6 shadow-xl">
                                                                                <div className="px-4 sm:px-6">
                                                                                    <div className="flex items-start justify-between">
                                                                                        <Dialog.Title className="text-base font-semibold leading-6 text-gray-900">
