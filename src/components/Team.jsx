@@ -132,7 +132,7 @@ export function Team() {
                                                                        leaveTo="translate-x-full"
                                                                    >
                                                                        <Dialog.Panel className="pointer-events-auto w-screen max-w-2xl">
-                                                                           <div className="flex h-2/3 bottom-0 flex-col overflow-y-scroll bg-white py-6 shadow-xl">
+                                                                           <div className="flex h-2/3 align-bottom flex-col overflow-y-scroll bg-white py-6 shadow-xl">
                                                                                <div className="px-4 sm:px-6">
                                                                                    <div className="flex items-start justify-between">
                                                                                        <Dialog.Title className="text-base font-semibold leading-6 text-gray-900">
