@@ -120,7 +120,7 @@ export function Team() {
                                                        <div className="fixed inset-0" />
 
                                                        <div className="fixed inset-0 overflow-hidden">
-                                                           <div className="absolute inset-0 overflow-hidden">
+                                                           <div className="absolute inset-0 bottom-0 overflow-hidden">
                                                                <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10 sm:pl-16">
                                                                    <Transition.Child
                                                                        as={Fragment}
