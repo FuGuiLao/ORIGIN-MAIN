@@ -205,7 +205,7 @@ export function Team() {
 
                                            )}
                                        </div>
-                                       )
+                                       
 
                                                           
 
