@@ -13,7 +13,7 @@ import teamImage7 from '@/images/avatars/avatar-sarco.png'
 
 import React, { useState } from 'react'
 
-import { Fragment, useState } from 'react'
+import { Fragment } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 
