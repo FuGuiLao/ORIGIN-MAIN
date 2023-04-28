@@ -54,8 +54,8 @@ const testimonials = [
       content:
         'Unlike most private investigators, Origin has a diverse team and always finds the right person for each assignment. This can make the difference when working challenging cases.',
       author: {
-        name: 'Cameron Considine',
-        role: 'Government Agency Representative',
+        name: 'Agency Representative',
+        role: 'US Federal Government',
         image: avatarImage7,
       },
     },
