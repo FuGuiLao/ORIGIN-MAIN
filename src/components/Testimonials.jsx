@@ -25,8 +25,8 @@ const testimonials = [
       content:
         'Origin investigators helped us to develop a defense strategy based on their law enforcement perspective. Our client was facing 40 years and took a single misdemeanor plea.',
       author: {
-        name: 'Antonio Littel',
-        role: 'Attorney',
+        name: 'Attorney',
+        role: 'Los Angeles Criminal Defense Firm',
         image: avatarImage3,
       },
     },
@@ -34,8 +34,8 @@ const testimonials = [
       content:
             'Origin’s digital forensics team analyzed over 40 employee computers and were able to locate evidence of corporate espionage and theft of trade secrets.',
       author: {
-        name: 'Lynn Nolan',
-        role: 'Pro-Per Defendant',
+        name: 'In-House Council',
+        role: 'Medical Device Manufacturer',
         image: avatarImage4,
       },
     },
@@ -43,8 +43,8 @@ const testimonials = [
       content:
         'We have used several process service companies that promise results, but if we really need someone served, we always call Origin. They have the experience to quickly locate and serve even the most difficult-to-serve subjects.',
       author: {
-        name: 'Krista Prosacco',
-        role: 'Senior Litigator',
+        name: 'Council',
+        role: 'CA Government Agency',
         image: avatarImage9,
       },
     },
@@ -54,8 +54,8 @@ const testimonials = [
       content:
         'Unlike most private investigators, Origin has a diverse team and always finds the right person for each assignment. This can make the difference when working challenging cases.',
       author: {
-        name: 'Cameron Considine',
-        role: 'Government Agency Representative',
+        name: 'Agency Representative',
+        role: 'US Federal Government',
         image: avatarImage7,
       },
     },
@@ -63,8 +63,8 @@ const testimonials = [
       content:
         'Origin’s case review and accident reconstruction decisively proved our client was not at fault. LAPD agreed and promptly amended their report.',
        author: {
-        name: 'Regina Wisoky',
-        role: 'Partner',
+        name: 'Litigation Attorney',
+        role: 'High-Profile Personal Injury Firm',
         image: avatarImage11,
       },
     },
@@ -72,8 +72,8 @@ const testimonials = [
       content:
         'We often use Origin for our low-income clients through court appointment and they always provide a very high quality of service.',
       author: {
-        name: 'Vernon Cummerata',
-        role: 'In-House Council',
+        name: 'Criminal Defense Attorney',
+        role: 'Riverside-Based Law Firm',
         image: avatarImage8,
       },
     },
@@ -83,8 +83,8 @@ const testimonials = [
       content:
         'Our client was facing a felony DUI. During the initial case review, the investigator noticed significant issues with the field sobriety tests and the case was dismissed.',
       author: {
-        name: 'Steven Hackett',
-        role: 'Senior Attorney',
+        name: 'Attorney',
+        role: 'Criminal Law Firm',
         image: avatarImage5,
       },
     },
@@ -92,8 +92,8 @@ const testimonials = [
       content:
         'Origin always seems to have the best data. Before, we were always getting outdated subject information. I don’t know how they do it, but their addresses and other contact information is always spot-on and saves us a ton of time.',
       author: {
-        name: 'Carla Schoen',
-        role: 'Business Owner',
+        name: 'Attorney',
+        role: 'Class-Action Law Firm',
         image: avatarImage10,
       },
     },
@@ -101,8 +101,8 @@ const testimonials = [
       content:
         'Origin was able to quickly recover our client’s rare Porsche out of state. They liaised with several law enforcement agencies and navigated a super complex case. ',
       author: {
-        name: 'Leah Kiehn',
-        role: 'Attorney',
+        name: 'General Manager',
+        role: 'Porsche Dealership',
         image: avatarImage6,
       },
     },
