@@ -124,14 +124,7 @@ export function Team() {
                                            {open && (
 
 
-                                               <Transition.Root show={open} as={Fragment}
-                                                              enter="transform transition ease-in-out duration-1000 sm:duration-1000"
-                                                                    enterFrom="translate-x-full"
-                                                                    enterTo="translate-x-0"
-                                                                    leave="transform transition ease-in-out duration-1000 sm:duration-1000"
-                                                                    leaveFrom="translate-x-0"
-                                                                    leaveTo="translate-x-full"
->
+                                               <Transition.Root show={open} as={Fragment}>
                                                    <Dialog as="div" className="relative z-10" onClose={setOpen}>
                                                        <div className="fixed inset-0" />
 
@@ -139,7 +132,12 @@ export function Team() {
                                                               <div className="absolute inset-0 overflow-hidden">
                                                                 <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10 sm:pl-16">
                                                                   <Transition.Child
-                                                                   
+                                                                    enter="transition-all ease-in-out duration-500 delay-[200ms]"
+          enterFrom="opacity-0 translate-y-6"
+          enterTo="opacity-100 translate-y-0"
+          leave="transition-all ease-in-out duration-300"
+          leaveFrom="opacity-100"
+          leaveTo="opacity-0" 
                                                                   >
                                                                        <Dialog.Panel className="pointer-events-auto w-screen max-w-2xl">
                                                                            <div className="flex h-full flex-col overflow-y-scroll bg-white py-6 border border-zinc-50 shadow-sm">
