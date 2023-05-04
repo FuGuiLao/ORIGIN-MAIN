@@ -119,7 +119,7 @@ export function Team() {
 
                                        
                                        <div>
-                                           <button onClick={() => setOpen(true)}>Open Modal</button>
+                                           <button onClick={() => setOpen(true)}>Open Slideover</button>
 
                                            {open && (
 
