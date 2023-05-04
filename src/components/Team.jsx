@@ -132,7 +132,7 @@ export function Team() {
                                                               <div className="absolute inset-0 overflow-hidden">
                                                                 <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10 sm:pl-16">
                                                                   <Transition.Child
-                                                                  
+                                                                    as={fragment}
                                                                     enter="transform transition ease-in-out duration-1000 sm:duration-1000"
                                                                     enterFrom="translate-x-full"
                                                                     enterTo="translate-x-0"
