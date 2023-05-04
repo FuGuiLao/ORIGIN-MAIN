@@ -173,9 +173,6 @@ export function Team() {
                                                    </Dialog>
                                                </Transition.Root>
 
-
-
-
                                            )}
                                        </div>
 
