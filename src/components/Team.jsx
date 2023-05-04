@@ -124,7 +124,7 @@ export function Team() {
                                            {open && (
 
 
-                                               <Transition.Root show={open}>
+                                               <Transition.Root show={open} as={fragment}>
                                                    <Dialog as="div" className="relative z-10" onClose={setOpen}>
                                                        <div className="fixed inset-0" />
 
