@@ -154,7 +154,7 @@ export function Team() {
                                                                                        <div className="ml-3 flex h-7 items-center">
                                                                                            <button
                                                                                                type="button"
-                                                                                               className="rounded-md bg-white text-zinc-400 hover:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-zinc-500 focus:ring-offset-2"
+                                                                                               className="rounded-md bg-white text-zinc-400 hover:text-zinc-500 focus:outline-none focus:ring-0 focus:ring-zinc-500 focus:ring-offset-2"
                                                                                                onClick={() => setOpen(false)}
                                                                                            >
                                                                                                <span className="sr-only">Close panel</span>
