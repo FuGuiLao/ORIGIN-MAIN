@@ -132,13 +132,13 @@ export function Team() {
                                                               <div className="absolute inset-0 overflow-hidden">
                                                                 <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10 sm:pl-16">
                                                                   <Transition.Child
-                          as={Fragment}
-                                                                    enter="transition-all ease-in-out duration-2000 delay-[2000ms]"
-                                                                    enterFrom="opacity-0 translate-x-6"
-                                                                    enterTo="opacity-100 translate-x-0"
-                                                                    leave="transition-all ease-in-out duration-2000"
-                                                                     leaveFrom="opacity-100"
-                                                                     leaveTo="opacity-0" 
+                                                                    as={Fragment}
+                                                                    enter="transform transition ease-in-out duration-1000 sm:duration-1000"
+                                                                    enterFrom="translate-x-full"
+                                                                    enterTo="translate-x-0"
+                                                                    leave="transform transition ease-in-out duration-1000 sm:duration-1000"
+                                                                    leaveFrom="translate-x-0"
+                                                                    leaveTo="translate-x-full"
                                                                   >
                                                                        <Dialog.Panel className="pointer-events-auto w-screen max-w-2xl">
                                                                            <div className="flex h-full flex-col overflow-y-scroll bg-white py-6 border border-zinc-50 shadow-sm">
