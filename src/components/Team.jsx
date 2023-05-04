@@ -124,7 +124,14 @@ export function Team() {
                                            {open && (
 
 
-                                               <Transition.Root show={open} as={Fragment}>
+                                               <Transition.Root show={open} as={Fragment}
+enter="transform transition ease-in-out duration-1000 sm:duration-1000"
+                                                                    enterFrom="translate-x-full"
+                                                                    enterTo="translate-x-0"
+                                                                    leave="transform transition ease-in-out duration-1000 sm:duration-1000"
+                                                                    leaveFrom="translate-x-0"
+                                                                    leaveTo="translate-x-full"
+>
                                                    <Dialog as="div" className="relative z-10" onClose={setOpen}>
                                                        <div className="fixed inset-0" />
 
