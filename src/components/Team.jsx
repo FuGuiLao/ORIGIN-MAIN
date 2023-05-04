@@ -180,19 +180,7 @@ export function Team() {
                                        </div>
                                        
 
-                                                          
-
-                                                                   
-                                                                       
-
-                                                                       
-
-                                                                       
-                                                                   
-
-
-                                       
-
+                                                
 
                                 </div>
                             </li>
