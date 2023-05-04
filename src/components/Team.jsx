@@ -132,10 +132,13 @@ export function Team() {
                                                               <div className="absolute inset-0 overflow-hidden">
                                                                 <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10 sm:pl-16">
                                                                   <Transition.Child
-                                                                    as={Fragment}
-                                                                    enter="transform transition ease-in-out duration-1000 sm:duration-1000"
-                                                               
-                                                                    leave="transform transition ease-in-out duration-1000 sm:duration-1000"
+                                                              as={Fragment}
+         enter="transition-opacity duration-75"
+        enterFrom="opacity-0"
+        enterTo="opacity-100"
+        leave="transition-opacity duration-150"
+        leaveFrom="opacity-100"
+        leaveTo="opacity-0"
                                                               
                                                                   >
                                                                        <Dialog.Panel className="pointer-events-auto w-screen max-w-2xl">
