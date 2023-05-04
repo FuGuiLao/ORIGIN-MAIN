@@ -11,9 +11,9 @@ import teamImage6 from '@/images/avatars/avatar-min.png'
 import teamImage7 from '@/images/avatars/avatar-sarco.png'
 
 
-import React, { useState } from 'react'
+// import React, { useState } from 'react'
+import React, { useState, Fragment, useEffect } from 'react';
 
-import { Fragment } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 
@@ -77,12 +77,25 @@ const people = [
 
 export function Team() {
     const [isExpanded, setIsExpanded] = useState(false);
-
+  
     const toggleExpand = () => {
-        setIsExpanded(!isExpanded)
-    }
-
-    const [open, setOpen] = useState(false)
+      setIsExpanded(!isExpanded);
+    };
+  
+    const [open, setOpen] = useState(false);
+  
+    // Add this useEffect hook
+    useEffect(() => {
+      if (open) {
+        document.body.classList.add('overflow-hidden');
+      } else {
+        document.body.classList.remove('overflow-hidden');
+      }
+  
+      return () => {
+        document.body.classList.remove('overflow-hidden');
+      };
+    }, [open]);
 
 
 
@@ -139,25 +152,14 @@ export function Team() {
                                                                                            Panel title
                                                                                        </Dialog.Title>
                                                                                        <div className="ml-3 flex h-7 items-center">
-
                                                                                            <button
-
                                                                                                type="button"
-
                                                                                                className="rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-
                                                                                                onClick={() => setOpen(false)}
-
                                                                                            >
-
                                                                                                <span className="sr-only">Close panel</span>
-
                                                                                                <XMarkIcon className="h-6 w-6" aria-hidden="true" />
-
                                                                                            </button>
-
-                                                                                       </div>
-
                                                                                        </div>
                                                                                    </div>
                                                                                </div>
@@ -176,21 +178,6 @@ export function Team() {
 
                                            )}
                                        </div>
-                                       
-
-                                                          
-
-                                                                   
-                                                                       
-
-                                                                       
-
-                                                                       
-                                                                   
-
-
-                                       
-
 
                                 </div>
                             </li>
