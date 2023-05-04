@@ -165,15 +165,3 @@ export function FreeChapters() {
 
 
 
-
-
-
-
-Send email directly from your code | EmailJS
-
-
-
-
-No server side code required. Add static or dynamic attachments, dynamic parameters, captcha code and more. Start with our free tier!
-
-
