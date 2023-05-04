@@ -10,19 +10,11 @@ import teamImage5 from '@/images/avatars/avatar-temp.png'
 import teamImage6 from '@/images/avatars/avatar-min.png'
 import teamImage7 from '@/images/avatars/avatar-sarco.png'
 
-
-// import React, { useState } from 'react'
 import React, { useState, Fragment, useEffect } from 'react';
 
 import { Dialog, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
-
 import { SectionHeading } from '@/components/SectionHeading'
-
-import { Fragment, useState } from 'react'
-import { Dialog, Transition } from '@headlessui/react'
-import { XMarkIcon } from '@heroicons/react/24/outline'
-
 
 const people = [
   {
@@ -132,19 +124,13 @@ export function Team() {
                                            {open && (
 
 
-                                               <Transition.Root show={open} as={Fragment}>
-                                                   <Dialog as="div" className="relative z-10" onClose={setOpen}>
-                                                       <div className="fixed inset-0" />
-
-                                                       <div className="fixed inset-0 overflow-hidden">
-                                                              <div className="absolute inset-0 overflow-hidden">
-                                                                <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10 sm:pl-16">
-                                                                  <Transition.Child
+                                               
+                                                                  <Transition
                                                                     as={Fragment}
-                                                                    enter="transform transition ease-in-out duration-[1000ms] sm:duration-1000"
+                                                                    enter="transform transition ease-in-out duration-1000 sm:duration-1000"
                                                                     enterFrom="translate-x-full"
                                                                     enterTo="translate-x-0"
-                                                                    leave="transform transition ease-in-out duration-[1000ms] sm:duration-1000"
+                                                                    leave="transform transition ease-in-out duration-1000 sm:duration-1000"
                                                                     leaveFrom="translate-x-0"
                                                                     leaveTo="translate-x-full"
                                                                   >
@@ -170,12 +156,12 @@ export function Team() {
                                                                                <p className="relative mt-6 flex-1 px-4 sm:px-6">{person.modal}</p>
                                                                            </div>
                                                                        </Dialog.Panel>
-                                                                   </Transition.Child>
+                                                                   </Transition>
                                                                </div>
                                                            </div>
                                                        </div>
                                                    </Dialog>
-                                               </Transition.Root>
+                                              
 
 
 
