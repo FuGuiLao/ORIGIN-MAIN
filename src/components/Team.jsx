@@ -132,6 +132,7 @@ export function Team() {
                                                               <div className="absolute inset-0 overflow-hidden">
                                                                 <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10 sm:pl-16">
                                                                   <Transition.Child
+                          as={Fragment}
                                                                     enter="transition-all ease-in-out duration-500 delay-[200ms]"
           enterFrom="opacity-0 translate-x-6"
           enterTo="opacity-100 translate-x-0"
