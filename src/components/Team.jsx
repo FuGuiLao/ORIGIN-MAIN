@@ -137,10 +137,10 @@ export function Team() {
                                                                 <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10 sm:pl-16">
                                                                   <Transition.Child
                                                                     as={Fragment}
-                                                                    enter="transform transition ease-in-out duration-1000 sm:duration-1000"
+                                                                    enter="transform transition ease-in-out duration-[1000ms] sm:duration-1000"
                                                                     enterFrom="translate-x-full"
                                                                     enterTo="translate-x-0"
-                                                                    leave="transform transition ease-in-out duration-1000 sm:duration-1000"
+                                                                    leave="transform transition ease-in-out duration-[1000ms] sm:duration-1000"
                                                                     leaveFrom="translate-x-0"
                                                                     leaveTo="translate-x-full"
                                                                   >
