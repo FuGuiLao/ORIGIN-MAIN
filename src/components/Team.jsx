@@ -124,7 +124,7 @@ export function Team() {
                                            {open && (
 
 
-                                               <Transition.Root show={open} as={fragment}>
+                                               <Transition.Root show={open} as={Fragment}>
                                                    <Dialog as="div" className="relative z-10" onClose={setOpen}>
                                                        <div className="fixed inset-0" />
 
@@ -132,7 +132,7 @@ export function Team() {
                                                               <div className="absolute inset-0 overflow-hidden">
                                                                 <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10 sm:pl-16">
                                                                   <Transition.Child
-                                                                    as={fragment}
+                                                                    as={Fragment}
                                                                     enter="transform transition ease-in-out duration-1000 sm:duration-1000"
                                                                     enterFrom="translate-x-full"
                                                                     enterTo="translate-x-0"
