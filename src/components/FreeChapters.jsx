@@ -1,7 +1,7 @@
 ﻿import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Pattern } from '@/components/Pattern'
-import emailjs from 'emailjs-com';
+
 
 export function FreeChapters() {
 
