@@ -124,7 +124,7 @@ export function Team() {
                                            {open && (
 
 
-                                               <Transition.Root show={open} as={Fragment}
+                                               <Transition.Root show={open}
 
                 enter="transform transition ease-in-out duration-500 sm:duration-700"
                 enterFrom="translate-x-full"
@@ -140,7 +140,7 @@ export function Team() {
                                                               <div className="absolute inset-0 overflow-hidden">
                                                                 <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10 sm:pl-16">
                                                                   <Transition.Child
-                                                              as={Fragment}
+                                                       
   
                                                               
                                                                   >
