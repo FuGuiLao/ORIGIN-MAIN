@@ -133,8 +133,8 @@ export function Team() {
                                                                 <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10 sm:pl-16">
                                                                   <Transition.Child
                                                                     enter="transition-all ease-in-out duration-500 delay-[200ms]"
-          enterFrom="opacity-0 translate-y-6"
-          enterTo="opacity-100 translate-y-0"
+          enterFrom="opacity-0 translate-x-6"
+          enterTo="opacity-100 translate-x-0"
           leave="transition-all ease-in-out duration-300"
           leaveFrom="opacity-100"
           leaveTo="opacity-0" 
