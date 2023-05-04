@@ -134,11 +134,9 @@ export function Team() {
                                                                   <Transition.Child
                                                                     as={Fragment}
                                                                     enter="transform transition ease-in-out duration-1000 sm:duration-1000"
-                                                                    enterFrom="translate-x-full"
-                                                                    enterTo="translate-x-0"
+                                                               
                                                                     leave="transform transition ease-in-out duration-1000 sm:duration-1000"
-                                                                    leaveFrom="translate-x-0"
-                                                                    leaveTo="translate-x-full"
+                                                              
                                                                   >
                                                                        <Dialog.Panel className="pointer-events-auto w-screen max-w-2xl">
                                                                            <div className="flex h-full flex-col overflow-y-scroll bg-white py-6 border border-zinc-50 shadow-sm">
