@@ -173,8 +173,26 @@ export function Team() {
                                                    </Dialog>
                                                </Transition.Root>
 
+
+
+
                                            )}
                                        </div>
+                                       
+
+                                                          
+
+                                                                   
+                                                                       
+
+                                                                       
+
+                                                                       
+                                                                   
+
+
+                                       
+
 
                                 </div>
                             </li>
