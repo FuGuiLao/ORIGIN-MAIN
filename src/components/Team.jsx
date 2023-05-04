@@ -12,7 +12,7 @@ import teamImage7 from '@/images/avatars/avatar-sarco.png'
 
 import React, { useState, Fragment, useEffect } from 'react';
 
-import { Dialog, Transition, Transform } from '@headlessui/react'
+import { Dialog, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 import { SectionHeading } from '@/components/SectionHeading'
 
