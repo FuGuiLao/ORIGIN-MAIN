@@ -59,11 +59,12 @@ export function OurPeople() {
   
             <p className="mt-8">
               <Link
-                href="#"
+                href="https://www.linkedin.com/in/jaydenbrant"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center text-base font-medium tracking-tight text-red-800"
               >
-               
-                <span className="ml-0"><a href="https://www.linkedin.com/in/jaydenbrant" target="_blank">View on LinkedIn</a></span>
+                View on LinkedIn
               </Link>
             </p>
           </div>
