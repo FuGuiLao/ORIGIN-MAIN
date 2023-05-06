@@ -18,9 +18,11 @@ import { Contact } from '@/components/Contact'
 import { Team } from '@/components/Team'
 import { Button } from '@/components/Button'
 import CalendlySlideover from '@/components/CalendlySlideover'
+import HeyflowSlideover from '@/components/HeyflowSlideover'
 
 export default function Home() {
   const [openSchedule, setOpenSchedule] = useState(false);
+  const [openHeyflow, setOpenHeyflow] = useState(false);
 
   return (
     <>
@@ -39,7 +41,7 @@ export default function Home() {
             `
           }}
         />
-        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <script src="https://static.heyflow.app/widget/latest/webview.js"></script>
       </Head>
     <Banner />
     <Hero />
@@ -96,9 +98,10 @@ export default function Home() {
  <p>
         &nbsp;
         </p>
-          <Button href="https://heyflow.id/specialized-data-request#start" target="_blank" color="red">
-                Order Specialized Data Now
-              </Button>
+        <Button color="red" onClick={() => setOpenHeyflow(true)}>
+          Order Specialized Data Now
+        </Button>
+        <HeyflowSlideover open={openHeyflow} onClose={() => setOpenHeyflow(false)} />
       
       </Testimonial>
       <Resources />
