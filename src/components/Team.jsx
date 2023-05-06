@@ -30,20 +30,6 @@ const people = [
     content: 'test3',
   },
   {
-    name: 'Jaclyn Wise',
-    role: 'Director / Case Management',
-    image: teamImage4,
-    bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
-    content: 'test4',
-  },
-  {
-    name: 'Temp Person',
-    role: 'Director / Client Relations',
-    image: teamImage5,
-    bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
-    content: 'test5',
-  },
-  {
     name: 'Yi Min',
     role: 'Director / Information Technology',
     image: teamImage6,
