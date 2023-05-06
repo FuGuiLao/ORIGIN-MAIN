@@ -31,7 +31,7 @@ const people = [
   },
   {
     name: 'Yi Min',
-    role: 'Director / Information Technology Division',
+    role: 'Director / Technology Services Division',
     image: teamImage6,
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
     content: 'test6',
