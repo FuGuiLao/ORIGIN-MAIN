@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import Head from 'next/head'
 
 import { Banner } from '@/components/Banner' 
@@ -16,11 +17,11 @@ import { Testimonials } from '@/components/Testimonials'
 import { Contact } from '@/components/Contact'
 import { Team } from '@/components/Team'
 import { Button } from '@/components/Button'
+import CalendlySlideover from '@/components/CalendlySlideover'
 
 export default function Home() {
+  const [openSchedule, setOpenSchedule] = useState(false);
 
-
-  
   return (
     <>
       <Head>
@@ -38,8 +39,8 @@ export default function Home() {
             `
           }}
         />
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
       </Head>
-   
     <Banner />
     <Hero />
       <Introduction />
@@ -66,10 +67,10 @@ export default function Home() {
        <p>
         &nbsp;
         </p>
-              <Button href="https://calendly.com/origin-investigation/client-consultation" target="_blank" color="red">
-                Schedule a Consultation
-              </Button>
-        
+        <Button color="red" onClick={() => setOpenSchedule(true)}>
+          Schedule a Consultation
+        </Button>
+        <CalendlySlideover open={openSchedule} onClose={() => setOpenSchedule(false)} />
       </Testimonial>
  
       <Investigation />

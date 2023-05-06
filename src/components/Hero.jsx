@@ -1,8 +1,10 @@
+import { useState } from 'react'
 import Image from 'next/image'
 
 import { Button } from '@/components/Button'
 import { GridPattern } from '@/components/GridPattern'
 import { StarRating } from '@/components/StarRating'
+import CalendlySlideover from './CalendlySlideover'
 import coverImage from '@/images/origin.png'
 
 function Testimonial() {
@@ -27,6 +29,8 @@ function Testimonial() {
 }
 
 export function Hero() {
+  const [openSchedule, setOpenSchedule] = useState(false);
+
   return (
     <header className="overflow-hidden bg-zinc-100 lg:bg-transparent lg:px-5">
       <div className="mx-auto grid max-w-6xl grid-cols-1 grid-rows-[auto_1fr] gap-y-16 pt-16 md:pt-20 lg:grid-cols-12 lg:gap-y-20 lg:px-3 lg:pb-36 lg:pt-20 xl:py-32">
@@ -55,9 +59,10 @@ export function Hero() {
               We assist governments, corporations, law firms, and individuals with criminal and civil matters throughout the United States and abroad.
             </p>
             <div className="mt-8 flex gap-4">
-              <Button href="https://calendly.com/origin-investigation/client-consultation" target="_blank" color="red">
+              <Button color="red" onClick={() => setOpenSchedule(true)}>
                 Schedule a Consultation
               </Button>
+              <CalendlySlideover open={openSchedule} onClose={() => setOpenSchedule(false)} />
               <Button href="#free-chapters" variant="outline" color="red">
                 Learn More
               </Button>
