@@ -15,7 +15,7 @@ const TeamMember = ({ member }) => {
         <p className="mt-6 text-base leading-7 text-zinc-600">{member.bio}</p>
         {member.content && (
           <div>
-            <button onClick={() => setOpen(true)}><p className="text-red-800 mt-1"Learn more</button>
+            <button onClick={() => setOpen(true)}><p className="text-red-800 mt-1">Learn more</p></button>
             <Transition.Root show={open} as={Fragment}>
               <Dialog as="div" className="relative z-[100]" onClose={() => setOpen(false)}>
                 <div className="fixed inset-0" />
