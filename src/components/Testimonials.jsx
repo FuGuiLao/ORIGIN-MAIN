@@ -43,7 +43,7 @@ const testimonials = [
       content:
         'We have used several process service companies that promise results, but if we really need someone served, we always call Origin. They have the experience to quickly locate and serve even the most difficult-to-serve subjects.',
       author: {
-        name: 'Council',
+        name: 'General Council',
         role: 'CA Government Agency',
         image: avatarImage9,
       },
@@ -239,7 +239,7 @@ export function Testimonials() {
             </ul>
             <Expandable.Button>Read more testimonials</Expandable.Button>
             {isExpanded && (
-              <p className="text-md tracking-tight text-zinc-600 text-center mt-8">* While we maintain strict confidentiality, these are real testimonials from real clients.</p>
+              <p className="text-md tracking-tight text-zinc-600 text-center italic mt-8">* While we maintain strict confidentiality, these are real testimonials from real clients.</p>
             )}
           </>
         )}
