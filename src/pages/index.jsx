@@ -57,7 +57,7 @@ export default function Home() {
       <title>
           CA SUPERIOR COURT CASES
         </title>
-        <p>
+        <p className={`${openSchedule ? "pr-[17px] sm:pr-0" : ""}`}>
           Origin is a member of the <b>California Superior Court Investigator Panel</b>. This means that we can provide comprehensive criminal case investigative services at no cost to qualified defendants.
         </p>
         <p>
@@ -85,14 +85,14 @@ export default function Home() {
        <title>
           SPECIALIZED DATA
         </title>
-        <p>
+        <p className={`${openHeyflow ? "pr-[17px] sm:pr-0" : ""}`}>
           Origin's specialized data services can <b>uncover hidden informatio</b>n that can be valuable in criminal and civil cases. Our intelligence analysts can bring relevance to complex information. 
 
             </p>
         <p>
         &nbsp;
         </p>
- <p>
+ <p className={`${openHeyflow ? "pr-[17px] sm:pr-0" : ""}`}>
           We specialize in <b>impossible to get information</b>, including bank and asset locates, insurance policy information, employment data, medical records, travel information, and social media activity.
            </p> 
  <p>

@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import clsx from 'clsx'
 
 import { Button } from '@/components/Button'
@@ -5,8 +6,11 @@ import { CheckIcon } from '@/components/CheckIcon'
 import { Container } from '@/components/Container'
 import { GridPattern } from '@/components/GridPattern'
 import { SectionHeading } from '@/components/SectionHeading'
+import CalendlySlideover from './CalendlySlideover'
 
-function Plan({ name, description, price, features, href, featured }) {
+function Plan({ name, description, price, features, featured }) {
+  const [openSchedule, setOpenSchedule] = useState(false);
+
   return (
     <div
       className={clsx(
@@ -78,13 +82,14 @@ function Plan({ name, description, price, features, href, featured }) {
           </ul>
         </div>
         <Button
-          href={href}
           color={featured ? 'white' : 'slate'}
           className="mt-8"
           aria-label={`Get started with the ${name} plan for $${price}`}
+          onClick={() => setOpenSchedule(true)}
         >
-          Get started
+          Schedule a Consultation
         </Button>
+        <CalendlySlideover open={openSchedule} onClose={() => setOpenSchedule(false)} />
       </div>
     </div>
   )
@@ -116,7 +121,6 @@ export function Pricing() {
             name="Hourly Rate"
             description="The perfect starting point for criminal or civil investigations."
             price="Standard"
-            href="https://origin.viewcases.com/case/request/new"
             features={[
               'Free case consultations',
               'Access to our entire staff',
@@ -128,7 +132,6 @@ export function Pricing() {
             name="Hourly & Flat Rate Options"
             description="When you want to partner with a dedicated agency."
             price="Integrated"
-            href="https://calendly.com/origin-investigation/client-consultation"
             features={[
               'Comprehensive case reviews',
               'Discounted investigative fees',
