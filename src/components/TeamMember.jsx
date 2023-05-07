@@ -15,7 +15,7 @@ const TeamMember = ({ member }) => {
         <p className="mt-6 text-base leading-7 text-zinc-600">{member.bio}</p>
         {member.content && (
           <div>
-            <button onClick={() => setOpen(true)}>Open Modal</button>
+            <button onClick={() => setOpen(true)}>Learn more</button>
             <Transition.Root show={open} as={Fragment}>
               <Dialog as="div" className="relative z-[100]" onClose={() => setOpen(false)}>
                 <div className="fixed inset-0" />
@@ -51,7 +51,7 @@ const TeamMember = ({ member }) => {
                                 </div>
                               </div>
                             </div>
-                            <p className="relative mt-6 flex-1 px-4 sm:px-6">{member.content}</p>
+                            <p className="relative mt-6 flex-1 px-4 sm:px-6" dangerouslySetInnerHTML={{ __html: member.content }} />
                           </div>
                         </Dialog.Panel>
                       </Transition.Child>
