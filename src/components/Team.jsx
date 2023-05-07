@@ -14,42 +14,29 @@ import TeamMember from './TeamMember'
 const people = [
   {
     name: 'Joshua Passas',
-    role: 'Director / Investigation',
+    role: 'Director / Investigation Division',
     image: teamImage2,
-    bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
-    content: 'test2',
+    bio: 'Joshua Passas serves as the director of operations for the investigative division of Origin. In that capacity, he provides case oversight and supervises the associated administrative staff.',
+    content: 'Joshua Passas serves as the director of operations for the investigative division of Origin. In that capacity, he provides case oversight and supervises the investigative staff. \nAs a veteran law enforcement officer with experience working with the Fontana Police Department, Las Vegas Metropolitan Police Department, and the Nevada Department of Corrections, Joshua brings a high level of institutional management skills coupled with extensive practical knowledge of law enforcement and the investigative process.<br>Throughout his career, Joshua has handled countless major criminal investigations including fraud, sexual assault, fatal DUI collisions, and murder. He also served as a Nevada Peace Officer Standards and Training (POST) instructor and a field training officer with the Las Vegas Police Department.<br>While with the Fontana Police Department, Joshua excelled in the area of DUI enforcement, earning several awards from Mothers Against Drunk Driving (MAAD) including multiple Double Century Awards (200+ DUI Arrests) and the top DUI Arresting Officer Award for San Bernardino County Drug Recognition Expert (DRE) and certified in accident reconstruction as member of the Major Accident Investigation Team.<br>Joshua holds a Masters Degree of Advanced Study in Criminology, Law, and Society from the University of California, Irvine. He also attained a Bachelor of Science Degree in Criminal Justice Management from Liberty University, where he graduated Magna Cum Laude.',
   },
 
   {
     name: 'Victoria Vannoy',
-    role: 'Director / Intelligence',
+    role: 'Director / Intelligence Division',
     image: teamImage3,
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
   },
   {
-    name: 'Jaclyn Wise',
-    role: 'Director / Case Management',
-    image: teamImage4,
-    bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui. THIS TEXT OPENS POP-UP MODAL',
-  },
-  {
-    name: 'Temp Person',
-    role: 'Director / Client Relations',
-    image: teamImage5,
-    bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui. THIS TEXT OPENS POP-UP MODAL',
-  },
-  {
     name: 'Yi Min',
-    role: 'Director / Information Technology',
+    role: 'Director / Technology Services Division',
     image: teamImage6,
-    bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui. THIS TEXT OPENS POP-UP MODAL',
-    content: 'test6',
+    bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
   },
   {
     name: 'Vanessa Sarco',
     role: 'Administration / Accounting',
     image: teamImage7,
-    bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui. THIS TEXT OPENS POP-UP MODAL',
+    bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
   },
   // More people...
 ]
