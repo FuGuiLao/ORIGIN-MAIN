@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 import { Expandable } from '@/components/Expandable'
 
 import teamImage2 from '@/images/avatars/avatar-passas.png'
@@ -26,22 +24,19 @@ const people = [
     name: 'Victoria Vannoy',
     role: 'Director / Intelligence',
     image: teamImage3,
-    bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui. THIS TEXT OPENS POP-UP MODAL',
-    content: 'test3',
+    bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui.',
   },
   {
     name: 'Jaclyn Wise',
     role: 'Director / Case Management',
     image: teamImage4,
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui. THIS TEXT OPENS POP-UP MODAL',
-    content: 'test4',
   },
   {
     name: 'Temp Person',
     role: 'Director / Client Relations',
     image: teamImage5,
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui. THIS TEXT OPENS POP-UP MODAL',
-    content: 'test5',
   },
   {
     name: 'Yi Min',
@@ -55,7 +50,6 @@ const people = [
     role: 'Administration / Accounting',
     image: teamImage7,
     bio: 'Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui. THIS TEXT OPENS POP-UP MODAL',
-    content: 'test7',
   },
   // More people...
 ]
@@ -66,8 +60,6 @@ export function Team() {
   const toggleExpand = () => {
     setIsExpanded(!isExpanded);
   };
-
-  const [open, setOpen] = useState(false);
 
   return (
     <Expandable>
