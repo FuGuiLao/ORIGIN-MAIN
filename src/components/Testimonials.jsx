@@ -238,7 +238,9 @@ export function Testimonials() {
               
             </ul>
             <Expandable.Button>Read more testimonials</Expandable.Button>
-
+            {isExpanded && (
+              <p className="text-lg tracking-tight text-zinc-900 text-center mt-8">While we maintain confidentiality, these are real testimonials from real clients.</p>
+            )}
           </>
         )}
       </Expandable>

@@ -1,4 +1,4 @@
-import { Fragment, useState } from 'react'
+import { Fragment } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 
@@ -39,14 +39,16 @@ const HeyflowSlideover = ({ open, onClose }) => {
                         </div>
                       </div>
                     </div>
-                    <heyflow-wrapper
-                      key={new Date().getTime()}
-                      flow-id="specialized-data-request"
-                      dynamic-height
-                      scroll-up-on-navigation
-                      style-config='{"width": "100%"}'
-                    >
-                    </heyflow-wrapper>
+                    <div className="px-4 sm:px-6">
+                      <heyflow-wrapper
+                        key={new Date().getTime()}
+                        flow-id="specialized-data-request"
+                        dynamic-height
+                        scroll-up-on-navigation
+                        style-config='{"width": "100%"}'
+                      >
+                      </heyflow-wrapper>
+                    </div>
                   </div>
                 </Dialog.Panel>
               </Transition.Child>
