@@ -36,7 +36,7 @@ const people = [
     name: 'Vanessa Sarco',
     role: 'Administration / Accounting',
     image: teamImage7,
-    bio: 'Vanessa supervices our administration, case management, and accounting staff. He experience in customer service, bookeeping, and business consulting provides is critical to providing our clients with a high level of support.',
+    bio: 'Vanessa supervices our administrative and case management staff, and handles client accounting. Her experience in customer service, bookeeping, and business administration is critical to providing our clients with a high level of support.',
   },
   // More people...
 ]
