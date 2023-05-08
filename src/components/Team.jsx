@@ -16,7 +16,7 @@ const people = [
     name: 'Joshua Passas',
     role: 'Director / Investigation Division',
     image: teamImage2,
-    bio: 'Joshua provides case oversight and supervises the investigative staff. As a veteran law enforcement officer with experience working with multiple agencies, Joshua brings institutional management skills coupled with extensive practical knowledge of law enforcement and the investigative process.',
+    bio: 'Joshua provides case oversight and supervises the investigative staff. As a veteran law enforcement officer, Joshua brings institutional management skills and extensive practical knowledge of law enforcement and the investigative process.',
     content: '<b>Joshua Passas</b> serves as the director of operations for the investigative division of Origin. In that capacity, he provides case oversight and supervises the investigative staff. \nAs a veteran law enforcement officer with experience working with the Fontana Police Department, Las Vegas Metropolitan Police Department, and the Nevada Department of Corrections, Joshua brings a high level of institutional management skills coupled with extensive practical knowledge of law enforcement and the investigative process.<br>Throughout his career, Joshua has handled countless major criminal investigations including fraud, sexual assault, fatal DUI collisions, and murder. He also served as a Nevada Peace Officer Standards and Training (POST) instructor and a field training officer with the Las Vegas Police Department.<br>While with the Fontana Police Department, Joshua excelled in the area of DUI enforcement, earning several awards from Mothers Against Drunk Driving (MAAD) including multiple Double Century Awards (200+ DUI Arrests) and the top DUI Arresting Officer Award for San Bernardino County Drug Recognition Expert (DRE) and certified in accident reconstruction as member of the Major Accident Investigation Team.<br>Joshua holds a Masters Degree of Advanced Study in Criminology, Law, and Society from the University of California, Irvine. He also attained a Bachelor of Science Degree in Criminal Justice Management from Liberty University, where he graduated Magna Cum Laude.',
   },
 
@@ -24,19 +24,19 @@ const people = [
     name: 'Victoria Vannoy',
     role: 'Director / Intelligence Division',
     image: teamImage3,
-    bio: 'Joshua provides case oversight and supervises the investigative staff. As a veteran law enforcement officer with experience working with multiple agencies, Joshua brings institutional management skills coupled with extensive practical knowledge of law enforcement and the investigative process.',
+    bio: 'Joshua provides case oversight and supervises the investigative staff. As a veteran law enforcement officer, Joshua brings institutional management skills and extensive practical knowledge of the investigative process.',
   },
   {
     name: 'Yi Min',
     role: 'Director / Technology Services Division',
     image: teamImage6,
-    bio: 'Yi provides strategic oversight of intelligence operations and supervises our technical services staff. His professional law enforcement and military experience, coupled with advanced degrees in technology, has provided him with a broad range of qualifications and skills.',
+    bio: 'Yi supervises our technical services and data forensics staff. His professional law enforcement and military experience, coupled with advanced degrees in technology, has provided him with a broad range of qualifications and skills.',
   },
   {
     name: 'Vanessa Sarco',
     role: 'Administration / Accounting',
     image: teamImage7,
-    bio: 'Vanessa supervices our administrative and case management staff, and handles client accounting. Her experience in customer service, bookeeping, and business administration is critical to providing our clients with a high level of support.',
+    bio: 'Vanessa supervices our administrative and case management staff, and handles client accounting. Her experience in business administration, customer service, and bookeeping is critical to providing our clients with a high level of support.',
   },
   // More people...
 ]
