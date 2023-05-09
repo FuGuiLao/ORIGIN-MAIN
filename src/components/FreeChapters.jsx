@@ -1,9 +1,13 @@
-﻿import { Button } from '@/components/Button'
+﻿import { useState } from 'react'
+import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Pattern } from '@/components/Pattern'
 import emailjs from 'emailjs-com';
+import Notification from './Notification'
 
 export function FreeChapters() {
+  const [openToast, setOpenToast] = useState(false);
+  const [toastInfo, setToastInfo] = useState();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -17,10 +21,13 @@ export function FreeChapters() {
     emailjs
       .send(serviceID, templateID, { emailAddress }, userID)
       .then((response) => {
+        setToastInfo({ status: 'success', text: 'Email sent successfully!' });
+        setOpenToast(true);
         console.log('Email sent successfully!', response);
-        console.log('emailAddress:', emailAddress);
       })
       .catch((error) => {
+        setToastInfo({ status: 'error', text: `Error sending email` });
+        setOpenToast(true);
         console.error('Error sending email:', error);
       });
   };
@@ -74,6 +81,12 @@ export function FreeChapters() {
           </form>
         </Container>
       </div>
+      <Notification
+        open={openToast}
+        onClose={() => setOpenToast(false)}
+        status={toastInfo?.status ?? 'success'}
+        text={toastInfo?.text ?? ''}
+      />
     </section>
   )
 }
