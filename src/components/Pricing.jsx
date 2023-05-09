@@ -107,7 +107,7 @@ export function Pricing() {
           Pricing
         </SectionHeading>
         <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-zinc-900 sm:text-6xl">
-          Pick your package
+          How to work with Origin
         </p>
         <p className="mt-4 max-w-xl text-lg tracking-tight text-zinc-600">
           Origin partners with our clients in a variety of ways.
