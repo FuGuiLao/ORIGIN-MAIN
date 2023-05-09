@@ -86,7 +86,7 @@ export default function Home() {
           SPECIALIZED DATA
         </title>
         <p className={`${openHeyflow ? "pr-[17px] sm:pr-0" : ""}`}>
-          Origin's specialized data services can <b>uncover hidden informatio</b>n that can be valuable in criminal and civil cases. Our intelligence analysts can bring relevance to complex information. 
+          Origin's specialized data services can <b>uncover hidden information</b> that can be valuable in criminal and civil cases. Our intelligence analysts can bring relevance to complex information. 
 
             </p>
         <p>
