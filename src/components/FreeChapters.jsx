@@ -3,15 +3,31 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Pattern } from '@/components/Pattern'
 import emailjs from 'emailjs-com';
-import Notification from './Notification'
 
 export function FreeChapters() {
-  const [openToast, setOpenToast] = useState(false);
-  const [toastInfo, setToastInfo] = useState();
+  const [emailAddress, setEmailAddress] = useState('');
+  const [isSent, setIsSent] = useState(false);
+  const [errorText, setErrorText] = useState('');
+
+  const validateEmail = (email) => {
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return regex.test(email);
+  }
+
+  const handleChangeEmail = (e) => {
+    setEmailAddress(e.target.value);
+    if (!!e.target.value && !validateEmail(e.target.value)) {
+      setErrorText('Invalid email address');
+    } else {
+      setErrorText(''); 
+    }
+  }
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const emailAddress = e.target.elements['email-address'].value;
+    if (!validateEmail(emailAddress)) {
+      return;
+    }
   
     // 使用您的 EmailJS 服务 ID、模板 ID 和用户 ID 更新以下值   https://www.emailjs.com/
     const serviceID = 'service_6ureu2q';
@@ -21,18 +37,15 @@ export function FreeChapters() {
     emailjs
       .send(serviceID, templateID, { emailAddress }, userID)
       .then((response) => {
-        setToastInfo({ status: 'success', text: 'Email sent successfully!' });
-        setOpenToast(true);
+        setIsSent(true);
+        setEmailAddress('Information sent');
         console.log('Email sent successfully!', response);
       })
       .catch((error) => {
-        setToastInfo({ status: 'error', text: `Error sending email` });
-        setOpenToast(true);
-        console.error('Error sending email:', error);
+        setErrorText('Error sending email');
       });
   };
-  
-  
+
   return (
     <section
       id="free-chapters"
@@ -62,31 +75,31 @@ export function FreeChapters() {
               <div className="relative sm:static sm:flex-auto">
                 <input
                   type="email"
-                  id="email-address"
                   required
                   aria-label="Email address"
                   placeholder="Email address"
                   className="peer relative z-10 w-full appearance-none bg-transparent px-4 py-2 text-base text-white placeholder:text-white/70 focus:outline-none sm:py-3"
+                  disabled={isSent}
+                  value={emailAddress}
+                  onChange={handleChangeEmail}
                 />
-                <div className="absolute inset-0 rounded-md border border-white/20 peer-focus:border-red-800 peer-focus:bg-zinc-800 peer-focus:ring-1 peer-focus:ring-red-800 sm:rounded-xl" />
+                <div className={`absolute inset-0 rounded-md border ${!!errorText ? "border-red-800" : "border-white/20"} peer-focus:border-white/50 peer-focus:bg-zinc-800 peer-focus:ring-1 peer-focus:ring-white/50 sm:rounded-xl`} />
+                {!!errorText && (
+                  <span className="absolute left-4 bottom-[-32px] text-sm text-red-800">{errorText}</span>
+                )}
               </div>
               <Button
                 type="submit"
                 color="white"
-                className="mt-4 w-full sm:relative sm:z-10 sm:mt-0 sm:w-auto sm:flex-none"
+                className="mt-4 w-full sm:relative sm:z-10 sm:mt-0 sm:w-auto sm:flex-none disabled:opacity-100"
+                disabled={isSent}
               >
-                Learn more
+                {isSent ? "Thank you" : "Learn more"}
               </Button>
             </div>
           </form>
         </Container>
       </div>
-      <Notification
-        open={openToast}
-        onClose={() => setOpenToast(false)}
-        status={toastInfo?.status ?? 'success'}
-        text={toastInfo?.text ?? ''}
-      />
     </section>
   )
 }
