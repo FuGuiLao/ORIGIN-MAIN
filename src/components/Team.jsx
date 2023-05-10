@@ -16,14 +16,14 @@ const people = [
     name: 'Joshua Passas',
     role: 'Director / Investigation Division',
     image: teamImage2,
-    bio: 'Joshua provides case oversight and supervises the investigative staff. As a veteran law enforcement officer, Joshua brings institutional management skills and extensive practical knowledge of law enforcement and the investigative process.',
+    bio: 'Joshua provides case oversight and supervises our investigative staff. As a veteran law enforcement officer, Joshua brings institutional management skills and extensive practical knowledge of law enforcement and the investigative process.',
   },
 
   {
     name: 'Victoria Vannoy',
     role: 'Director / Intelligence Division',
     image: teamImage3,
-    bio: 'Victoria serves as our lead analyst and provides strategic oversight of our intelligence staff. As a veteran of the United States Army and two law enforcment agencies, her expertise and management skills provide unmatched insight into our cases.',
+    bio: 'Victoria serves as our lead analyst and provides strategic oversight of our intelligence staff. As a veteran of the United States Army and two law enforcment agencies, her expertise provides unmatched insight into our cases.',
   },
   {
     name: 'Yi Min',
