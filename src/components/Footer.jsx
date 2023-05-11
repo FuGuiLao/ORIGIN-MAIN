@@ -9,11 +9,11 @@ export function Footer() {
       <div className="relative text-center text-sm text-zinc-600">
         <p>&copy; {new Date().getFullYear()} Origin Investigations Inc. All Rights Reserved.</p>
         <div className="flex items-center justify-center gap-1.5">
-          <a href="/pdf/terms-of-use.pdf" target="_blank" rel="noopener noreferrer">Terms of Use</a>
+          <a href="/terms-of-use.pdf" target="_blank" rel="noopener noreferrer">Terms of Use</a>
           |
-          <a href="/pdf/privacy-policy.pdf" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+          <a href="/privacy-policy.pdf" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
           |
-          <a href="/pdf/data-security.pdf" target="_blank" rel="noopener noreferrer">Data Security</a>
+          <a href="/data-security.pdf" target="_blank" rel="noopener noreferrer">Data Security</a>
         </div>
       </div>
     </footer>
