@@ -38,7 +38,7 @@ export function Contact() {
             </address>
           </div>
           <div>
-            <h3 className="border-l border-red-800 pl-6 font-semibold text-zinc-100">WASHINGTON DCA</h3>
+            <h3 className="border-l border-red-800 pl-6 font-semibold text-zinc-100">WASHINGTON DC</h3>
             <address className="border-l border-zinc-200 pl-6 pt-2 not-italic text-zinc-50">
               <p>1441 L Street NW 10th Floor</p>
               <p>Washington, DC 20005</p>
