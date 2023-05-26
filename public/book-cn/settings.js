@@ -104,4 +104,4 @@ var option_PDFF = {
 
 
 
-var pdfflipLocation = "book/pflip/";
+var pdfflipLocation = "book-cn/pflip/";
