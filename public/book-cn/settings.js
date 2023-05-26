@@ -88,7 +88,7 @@ var option_PDFF = {
 
 	maxTextureSize: 1600,
 
-	backgroundImage: "book/pflip/background.jpg",
+	backgroundImage: "book-cn/pflip/background.jpg",
 
     backgroundColor: "#fff",
 
