@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\public",
+    "\\public\\book",
+    "\\public\\book\\assets",
+    "\\public\\pdf"
   ],
   "PreviewInSolutionExplorer": false
 }
