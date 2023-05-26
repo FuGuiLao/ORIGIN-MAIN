@@ -77,7 +77,7 @@ export function FreeChapters() {
                   type="email"
                   required
                   aria-label="Email address"
-                  placeholder="Email address"
+                  placeholder="Email Address"
                   className="peer relative z-10 w-full appearance-none bg-transparent px-4 py-2 text-base text-white placeholder:text-white/70 focus:outline-none sm:py-3"
                   disabled={isSent}
                   value={emailAddress}
@@ -94,7 +94,7 @@ export function FreeChapters() {
                 className="mt-4 w-full sm:relative sm:z-10 sm:mt-0 sm:w-auto sm:flex-none disabled:opacity-100"
                 disabled={isSent}
               >
-                {isSent ? "Thank you" : "Learn more"}
+                {isSent ? "Thank You" : "Learn More"}
               </Button>
             </div>
           </form>

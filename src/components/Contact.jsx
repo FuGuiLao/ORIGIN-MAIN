@@ -22,7 +22,7 @@ export function Contact() {
         </div>
         <div className="mx-auto mt-6 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 sm:grid-cols-2 sm:gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-4">
           <div>
-            <h3 className="border-l border-red-800 pl-6 font-semibold text-zinc-100">Los Angeles</h3>
+            <h3 className="border-l border-red-800 pl-6 font-semibold text-zinc-100">LOS ANGELES</h3>
             <address className="border-l border-zinc-200 pt-2 pl-6 not-italic text-zinc-50">
               <p>515 S. Flower Street 18th Floor</p>
               <p>Los Angeles, CA 90071</p>
@@ -30,7 +30,7 @@ export function Contact() {
             </address>
           </div>
           <div>
-            <h3 className="border-l border-red-800 pl-6 font-semibold text-zinc-100">New York</h3>
+            <h3 className="border-l border-red-800 pl-6 font-semibold text-zinc-100">NEW YORK</h3>
             <address className="border-l border-zinc-200 pt-2 pl-6 not-italic text-zinc-50">
               <p>287 Park Avenue South 2nd Floor</p>
               <p>New York, NY 10010</p>
@@ -38,7 +38,7 @@ export function Contact() {
             </address>
           </div>
           <div>
-            <h3 className="border-l border-red-800 pl-6 font-semibold text-zinc-100">Washington DC</h3>
+            <h3 className="border-l border-red-800 pl-6 font-semibold text-zinc-100">WASHINGTON DC</h3>
             <address className="border-l border-zinc-200 pl-6 pt-2 not-italic text-zinc-50">
               <p>1441 L Street NW 10th Floor</p>
               <p>Washington, DC 20005</p>
