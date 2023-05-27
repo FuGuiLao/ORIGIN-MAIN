@@ -76,7 +76,7 @@ var option_PDFF = {
 
     duration: 1000,
 
-    pageMode: pdfflip.SING_PAGE_MODE.AUTO,
+    pageMode: pdfflip.SINGLE_PAGE_MODE.AUTO,
 
     singlePageMode: pdfflip.SINGLE_PAGE_MODE.AUTO,
 
