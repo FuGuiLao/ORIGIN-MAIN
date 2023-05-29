@@ -75,10 +75,9 @@ var option_PDFF = {
     overwritePDFOutline: true,
 
     duration: 1000,
-
-    pageMode: pdfflip.PAGE_MODE.AUTO,
-
-    singlePageMode: pdfflip.SINGLE_PAGE_MODE.AUTO,
+pageSize: pdfflip.PAGE_SIZE.SINGLE,
+pageMode: pdfflip.PAGE_MODE.SINGLE,
+singlePageMode: pdfflip.SINGLE_PAGE_MODE.BOOKLET,
 
 	transparent: false,
 
