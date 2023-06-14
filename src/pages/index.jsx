@@ -34,7 +34,7 @@ export default function Home() {
           name="description"
           content="Origin is a private investigation and intelligence agency. We assist governments, corporations, law firms, and individuals."
         />
-        <meta name="apple-mobile-web-app-title" content="ORIGIN">
+        <meta name="apple-mobile-web-app-title" content="ORIGIN" />
           <script
           dangerouslySetInnerHTML={{
             __html: `
