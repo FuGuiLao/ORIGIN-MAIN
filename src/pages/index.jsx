@@ -59,7 +59,7 @@ export default function Home() {
           CA SUPERIOR COURT CASES
         </title>
         <p className={`${openSchedule ? "pr-[17px] sm:pr-0" : ""}`}>
-          Origin is a member of the <b>California Superior Court Investigator Panel</b>. This means that we can provide comprehensive criminal case investigative services at no cost to qualified defendants.
+          Origin is a member of the <b>United States Federal Court and the California Superior Court Investigator Panel</b>. This means that we can provide comprehensive criminal case investigative services at no cost to qualified defendants.
         </p>
         <p>
         &nbsp;
