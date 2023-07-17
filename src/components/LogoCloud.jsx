@@ -6,6 +6,7 @@ import seal_doj from '@/images/seal_doj.png'
 import seal_ic from '@/images/seal_ic.png'
 import seal_la from '@/images/seal_la.png'
 import seal_state from '@/images/seal_state.png'
+import seal_federalcourt from '@/images/seal_federalcourt.png'
 
 export function LogoCloud() {
   return (
@@ -17,7 +18,7 @@ export function LogoCloud() {
         <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
           <Image
             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            src={seal_bh}
+            src={seal_federalcourt}
             alt=""
             width={158}
             height={48}
