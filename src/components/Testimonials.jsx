@@ -148,14 +148,14 @@ export function Testimonials() {
      <div className="mx-auto mt-4 mb-4 grid max-w-lg grid-cols-4 items-center gap-x-7 gap-y-10 sm:max-w-xl sm:grid-cols-2 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-6">
           <Image
             className="col-span-2 max-h-28 w-full object-contain lg:col-span-1"
-            src={seal_bh}
+            src={seal_federalcourt}
             alt=""
             width={158}
             height={158}
           />
           <Image
             className="col-span-2 max-h-28 w-full object-contain lg:col-span-1"
-            src={seal_federalcourt}
+            src={seal_bh}
             alt=""
             width={158}
             height={158}
