@@ -13,7 +13,7 @@ import avatarImage9 from '@/images/avatars/avatar-9.png'
 import avatarImage10 from '@/images/avatars/avatar-10.png'
 import avatarImage11 from '@/images/avatars/avatar-11.png'
 import seal_bh from '@/images/seal_bh.png'
-import seal_casc from '@/images/seal_casc.png'
+import seal_federalcourt from '@/images/seal_federalcourt.png'
 import seal_doj from '@/images/seal_doj.png'
 import seal_ic from '@/images/seal_ic.png'
 import seal_la from '@/images/seal_la.png'
@@ -155,7 +155,7 @@ export function Testimonials() {
           />
           <Image
             className="col-span-2 max-h-28 w-full object-contain lg:col-span-1"
-            src={seal_casc}
+            src={seal_federalcourt}
             alt=""
             width={158}
             height={158}
