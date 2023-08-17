@@ -1,7 +1,6 @@
 import Image from 'next/image'
 
 import seal_bh from '@/images/seal_bh.png'
-import seal_casc from '@/images/seal_casc.png'
 import seal_doj from '@/images/seal_doj.png'
 import seal_ic from '@/images/seal_ic.png'
 import seal_la from '@/images/seal_la.png'
