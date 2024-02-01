@@ -30,9 +30,9 @@ export function FreeChapters() {
     }
   
     // 使用您的 EmailJS 服务 ID、模板 ID 和用户 ID 更新以下值   https://www.emailjs.com/
-    const serviceID = 'service_6ureu2q';
+    const serviceID = 'service_9eddj4w';
     const templateID = 'template_0jjieaz';
-    const userID = 'PcVIawm6HMW7VKYcV';
+    const userID = 'njnJ53uqzX5AysTcD';
   
     emailjs
       .send(serviceID, templateID, { emailAddress }, userID)
