@@ -26,16 +26,16 @@ const people = [
     bio: 'Victoria serves as our lead analyst and provides strategic oversight of our intelligence staff. As a veteran of the United States Army and two law enforcment agencies, her expertise provides unmatched insight into our cases.',
   },
   {
-    name: 'Yi Min',
-    role: 'Director / Technology Services Division',
-    image: teamImage6,
-    bio: 'Yi supervises our technical services and data forensics staff. His professional law enforcement and military experience, coupled with advanced degrees in technology, has provided him with a broad range of qualifications and skills.',
-  },
-  {
     name: 'Vanessa Sarco',
     role: 'Director / Case Management',
     image: teamImage7,
     bio: 'Vanessa supervises our administrative and case management staff, and handles client accounting. Her experience in business administration, customer service, and bookeeping is critical to providing our clients with a high level of support.',
+  },
+  {
+    name: 'Yi Min',
+    role: 'Director / Technology Services Division',
+    image: teamImage6,
+    bio: 'Yi supervises our technical services and data forensics staff. His professional law enforcement and military experience, coupled with advanced degrees in technology, has provided him with a broad range of qualifications and skills.',
   },
   // More people...
 ]
