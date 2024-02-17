@@ -62,7 +62,7 @@ export function Hero() {
               <Button color="red" onClick={() => setOpenSchedule(true)}>
                 Schedule a Consultation
               </Button>
-                          {openSchedule && <CalendlyWidget />}
+              <CalendlySlideover open={openSchedule} onClose={() => setOpenSchedule(false)} />
               <Button href="#free-chapters" variant="outline" color="red">
                 Learn More
               </Button>
