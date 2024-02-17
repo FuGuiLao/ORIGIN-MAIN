@@ -1,16 +1,13 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+
+function openCalendly() {
+    window.open('https://app.apollo.io/#/meet/nu5-nq3-iw3/origin-client-consultation?booking_type=preview?hide_landing_page_details=1&hide_gdpr_banner=1&primary_color=393939', '_blank');
+}
 
 function CalendlyWidget() {
-  useEffect(() => {
-    const head = document.querySelector('head');
-    const script = document.createElement('script');
-    script.setAttribute('src', 'https://assets.calendly.com/assets/external/widget.js');
-    head.appendChild(script);
-  }, []);
-
-  return (
-      <div className="calendly-inline-widget" data-url="https://app.apollo.io/#/meet/nu5-nq3-iw3/origin-client-consultation?booking_type=preview?hide_landing_page_details=1&hide_gdpr_banner=1&primary_color=393939" style={{ minWidth: '320px', height: '100%' }} />
-  );
+    return (
+        <button onClick={openCalendly}>Open Calendly</button>
+    );
 }
 
 export default CalendlyWidget;
