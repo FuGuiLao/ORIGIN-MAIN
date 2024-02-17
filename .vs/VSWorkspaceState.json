@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\public",
+    "\\public\\book-cn"
   ],
-  "SelectedNode": "\\C:\\Users\\eagle\\Source\\Repos\\FuGuiLao\\primer",
+  "SelectedNode": "\\public\\book",
   "PreviewInSolutionExplorer": false
 }
