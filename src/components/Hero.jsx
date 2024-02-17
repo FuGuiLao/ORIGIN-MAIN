@@ -59,10 +59,10 @@ export function Hero() {
               We assist governments, corporations, law firms, and individuals with criminal and civil matters throughout the United States and abroad.
             </p>
             <div className="mt-8 flex gap-4">
-              <Button color="red" onClick={() => setOpenSchedule(true)}>
-                Schedule a Consultation
-              </Button>
-              <CalendlySlideover open={openSchedule} onClose={() => setOpenSchedule(false)} />
+                          <Button color="red" onClick={() => window.open('https://app.apollo.io/#/meet/nu5-nq3-iw3/origin-client-consultation?booking_type=preview', '_blank')}>
+                              Schedule a Consultation
+                          </Button>
+                          {/*           <CalendlySlideover open={openSchedule} onClose={() => setOpenSchedule(false)} />           */}
               <Button href="#free-chapters" variant="outline" color="red">
                 Learn More
               </Button>
