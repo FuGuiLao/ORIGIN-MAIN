@@ -27,7 +27,7 @@ const people = [
   },
   {
     name: 'Vanessa Sarco',
-    role: 'Director / Case Management',
+    role: 'Director / Case Management Division',
     image: teamImage7,
     bio: 'Vanessa supervises our administrative and case management staff, and handles client accounting. Her experience in business administration, customer service, and bookeeping is critical to providing our clients with a high level of support.',
   },
