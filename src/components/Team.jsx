@@ -6,7 +6,7 @@ import teamImage4 from '@/images/avatars/avatar-wise.png'
 import teamImage5 from '@/images/avatars/avatar-temp.png'
 import teamImage6 from '@/images/avatars/avatar-min.png'
 import teamImage7 from '@/images/avatars/avatar-sarco.png'
-import teamImage8 from '@/images/avatars/avatar-sarco.png'
+import teamImage8 from '@/images/avatars/avatar-popham.png'
 
 import React, { useState } from 'react';
 
@@ -46,7 +46,7 @@ const people = [
   },
   {
     name: 'Join our Team ',
-    role: 'Director / Technology Services Division',
+    role: 'Submit an Application',
     image: teamImage6,
     bio: 'Yi supervises our technical services and data forensics staff. His professional law enforcement and military experience, coupled with advanced degrees in technology, has provided him with a broad range of qualifications and skills.',
   },
