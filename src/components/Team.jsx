@@ -30,7 +30,7 @@ const people = [
     name: 'Abram Popham',
     role: 'Director / Client Relations Division',
     image: teamImage8,
-    bio: 'Abram connects our diverse client base with our comprehensive investigative resources, and supervisors our marketing efforts and client relations personnel. Abram is a professional account executive, but also has training and experience as a law enforcment officer.',
+    bio: 'Abram connects our diverse client base with our comprehensive investigative resources, and supervisors our marketing efforts and client relations personnel. Abram is a professional account executive, but also has experience as a law enforcment officer.',
   },
   {
     name: 'Vanessa Sarco',
@@ -48,7 +48,7 @@ const people = [
     name: 'Join our Team ',
     role: 'Submit an Application',
     image: teamImage6,
-    bio: 'Yi supervises our technical services and data forensics staff. His professional law enforcement and military experience, coupled with advanced degrees in technology, has provided him with a broad range of qualifications and skills.',
+    bio: 'Origin is always looking for talented professionals to join our team. We are looking for investigators with law enforcement or fraud investigation experience, as well as analysts, case managers, and client relations personnel.',
   },
   // More people...
 ]
