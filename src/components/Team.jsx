@@ -49,7 +49,7 @@ const people = [
     name: 'Join our Team ',
     role: 'Submit an Application',
     image: teamImage6,
-    bio: 'Origin is always looking for talented professionals to join our team. We are looking for investigators with law enforcement or fraud investigation experience, as well as analysts, case managers, and client relations personnel.',
+    bio: 'Origin is always looking for talented individuals to join our team. We are looking for investigators with law enforcement and/or fraud investigation experience, as well as intelligence analysts, case managers, and client relations professionals.',
   },
   // More people...
 ]
