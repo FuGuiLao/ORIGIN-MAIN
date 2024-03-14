@@ -48,7 +48,6 @@ const people = [
   {
     name: 'Join our Team ',
     role: 'Submit an Application',
- 
     bio: 'Origin is always looking for talented individuals to join our growing team. We are looking for investigators with law enforcement and/or fraud investigation experience, as well as intelligence analysts, case managers, and client relations professionals.',
   },
   // More people...
