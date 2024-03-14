@@ -30,7 +30,7 @@ const people = [
     name: 'Abram Popham',
     role: 'Director / Client Relations Division',
     image: teamImage8,
-    bio: 'Abram connects our diverse client base to our comprehensive investigative resources. He supervisors our marketing efforts and client relations personnel. Abram is an experienced account executive, but also served as a law enforcment officer',
+    bio: 'Abram connects our diverse client base with our comprehensive investigative resources, and supervisors our marketing efforts and client relations personnel. Abram is a professional account executive, but also has training and experience as a law enforcment officer.',
   },
   {
     name: 'Vanessa Sarco',
