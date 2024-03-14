@@ -6,6 +6,7 @@ import teamImage4 from '@/images/avatars/avatar-wise.png'
 import teamImage5 from '@/images/avatars/avatar-temp.png'
 import teamImage6 from '@/images/avatars/avatar-min.png'
 import teamImage7 from '@/images/avatars/avatar-sarco.png'
+import teamImage8 from '@/images/avatars/avatar-popham.png'
 
 import React, { useState } from 'react';
 
@@ -24,6 +25,12 @@ const people = [
     role: 'Director / Intelligence Division',
     image: teamImage3,
     bio: 'Victoria serves as our lead analyst and provides strategic oversight of our intelligence staff. As a veteran of the United States Army and two law enforcment agencies, her expertise provides unmatched insight into our cases.',
+  },
+  {
+    name: 'Abram Popham',
+    role: 'Director / Client Relations Division',
+    image: teamImage8,
+    bio: 'Abram connects our diverse client base to our comprehensive investigative resources. He supervisors our marketing efforts and client relations personnel. Abram is an experienced account executive, but also served as a law enforcment officer',
   },
   {
     name: 'Vanessa Sarco',
