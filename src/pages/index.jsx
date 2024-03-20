@@ -102,7 +102,7 @@ export default function Home() {
         <Button color="red" onClick={() => setOpenHeyflow(true)}>
           Order Specialized Data Now
         </Button>
-        <HeyflowSlideover open={openHeyflow} onClose={() => setOpenHeyflow(false)} />
+        <HeyflowSlideover open={openHeyflow} onClose={() => setOpenHeyflow(false)} title="Order Specialized Data Now" flowId="specialized-data-request" />
       
       </Testimonial>
       <Resources />
