@@ -14,10 +14,9 @@ const TeamMember = ({ member, setOpenHeyflow }) => {
     <li className="flex flex-col gap-6 xl:flex-row">
       <Image className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover" src={member.image} alt="" />
       <div className="flex-auto">
-        {member.role === "Submit an Application" ? <h3 className="text-lg font-semibold leading-8 tracking-tight text-zinc-900 cursor-pointer" onClick={handleSubmitApplication}>{member.name}</h3> :
-        <h3 className="text-lg font-semibold leading-8 tracking-tight text-zinc-900">{member.name}</h3>
+        {member.role === "Submit an Application" ? <button className="cursor-pointer text-left" onClick={handleSubmitApplication}><h3 className="text-lg font-semibold leading-8 tracking-tight text-zinc-900" >{member.name}</h3><p className="text-base leading-7 text-zinc-600">{member.role}</p></button> :
+        <div><h3 className="text-lg font-semibold leading-8 tracking-tight text-zinc-900">{member.name}</h3><p className="text-base leading-7 text-zinc-600">{member.role}</p></div>
   }
-        <p className="text-base leading-7 text-zinc-600">{member.role}</p>
         <p className="mt-6 text-base leading-7 text-zinc-600">{member.bio}</p>
         {member.content && (
           <div>
