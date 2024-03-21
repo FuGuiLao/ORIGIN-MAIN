@@ -2,7 +2,7 @@ import { Fragment } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 
-const HeyflowSlideover = ({ open, onClose }) => {
+const HeyflowSlideover = ({ open, onClose, title, flowId }) => {
   return (
     <Transition.Root show={open} as={Fragment}>
       <Dialog as="div" className="relative z-[100]" onClose={onClose}>
@@ -25,7 +25,8 @@ const HeyflowSlideover = ({ open, onClose }) => {
                     <div className="px-4 sm:px-6">
                       <div className="flex items-start justify-between">
                         <Dialog.Title className="text-base font-semibold leading-6 text-zinc-900">
-                          Order Specialized Data Now
+                          {title}
+                          
                         </Dialog.Title>
                         <div className="ml-3 flex h-7 items-center">
                           <button
@@ -42,7 +43,7 @@ const HeyflowSlideover = ({ open, onClose }) => {
                     <div className="px-4 sm:px-6">
                       <heyflow-wrapper
                         key={new Date().getTime()}
-                        flow-id="specialized-data-request"
+                        flow-id={flowId}
                         dynamic-height
                         scroll-up-on-navigation
                         style-config='{"width": "100%"}'
