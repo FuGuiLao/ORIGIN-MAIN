@@ -7,7 +7,7 @@ import teamImage5 from '@/images/avatars/avatar-temp.png'
 import teamImage6 from '@/images/avatars/avatar-min.png'
 import teamImage7 from '@/images/avatars/avatar-sarco.png'
 import teamImage8 from '@/images/avatars/avatar-popham.png'
-import teamImage9 from '@/images/avatars/avatar-career.png'
+import teamImage9 from '@/images/avatars/avatar-new.png'
 
 import React, { useState } from 'react';
 
@@ -49,6 +49,7 @@ const people = [
   {
     name: 'Join our Team ',
     role: 'Submit an Application',
+     image: teamImage9,
     bio: 'Origin is always looking for talented individuals to join our growing team. We are actively recruiting investigators with law enforcement and/or fraud investigation experience, as well as intelligence analysts, case managers, and client relations professionals.',
   },
   // More people...
