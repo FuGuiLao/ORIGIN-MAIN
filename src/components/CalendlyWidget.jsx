@@ -9,8 +9,9 @@ function CalendlyWidget() {
   }, []);
 
   return (
-    <div className="calendly-inline-widget" data-url="https://calendly.com/origin-investigation/client-consultation/?hide_landing_page_details=1&hide_gdpr_banner=1&primary_color=393939" style={{ minWidth: '320px', height: '100%' }} />
-  );
+<iframe src='
+https://outlook.office365.com/owa/calendar/ORIGINClientConsultation@origininvestigations.com/bookings/'
+width='100%' height='100%' scrolling='yes' style='border:0'></iframe>  );
 }
 
 export default CalendlyWidget;
