@@ -56,7 +56,7 @@ const people = [
 
 export function Team() {
   const [isExpanded, setIsExpanded] = useState(false);
-  const [openHeyflow, setOpenHeyflow] = useState(false);
+  const [openSlideover, setOpenSlideover] = useState(false);
 
   const toggleExpand = () => {
     setIsExpanded(!isExpanded);
@@ -77,7 +77,8 @@ export function Team() {
                       className="mx-auto mt-0 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none"
                     >
                       {people.map((person, index) => (
-                        <TeamMember key={`member-${index}`} member={person} setOpenHeyflow={setOpenHeyflow}/>
+                        // <TeamMember key={`member-${index}`} member={person} setOpenSlideover={setOpenSlideover}/>
+                        <TeamMember key={`member-${index}`} member={person}/>
                       ))}
                     </ul>
                   </div>
@@ -85,7 +86,7 @@ export function Team() {
               </section>
             </div>
           </div>
-          <HeyflowSlideover open={openHeyflow} onClose={() => setOpenHeyflow(false)} title="Join our Team" flowId="origin-job-application" />
+          {/* <HeyflowSlideover open={openHeyflow} onClose={() => setOpenHeyflow(false)} title="Join our Team" flowId="origin-job-application" /> */}
         </>
       )}
     </Expandable>
