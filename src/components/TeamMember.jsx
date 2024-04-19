@@ -3,11 +3,11 @@ import Image from 'next/image'
 import { Dialog, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 
-const TeamMember = ({ member, setOpenHeyflow }) => {
+const TeamMember = ({ member }) => {
   const [open, setOpen] = useState(false);
 
   const handleSubmitApplication = (e) => {
-    setOpenHeyflow(true)
+    window.open("https://jobs.gusto.com/boards/origin-careers-e5e7c0e6-d25a-4784-9966-aad2669ee730", "_blank");
   }
 
   return (
