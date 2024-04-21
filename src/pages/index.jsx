@@ -25,7 +25,7 @@ export default function Home() {
   const [openHeyflow, setOpenHeyflow] = useState(false);
 
   const handleOpenSchedule = () => {
-    window.open("https://outlook.office365.com/owa/calendar/ORIGINClientConsultation@origininvestigations.com/bookings", "_blank");
+      window.open("https://outlook.office365.com/book/ORIGINClientConsultation@origininvestigations.com/", "_blank");
   }
 
   return (
