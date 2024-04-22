@@ -24,10 +24,6 @@ export default function Home() {
   const [openSchedule, setOpenSchedule] = useState(false);
   const [openHeyflow, setOpenHeyflow] = useState(false);
 
-  const handleOpenSchedule = () => {
-    window.open("https://outlook.office365.com/owa/calendar/ORIGINClientConsultation@origininvestigations.com/bookings", "_blank");
-  }
-
   return (
     <>
       <Head>
@@ -74,13 +70,10 @@ export default function Home() {
        <p>
         &nbsp;
         </p>
-        <Button color="red" onClick={handleOpenSchedule}>
+        <Button color="red" onClick={() => setOpenSchedule(true)}>
           Schedule a Consultation
         </Button>
-        {/* <Button color="red" onClick={() => setOpenSchedule(true)}>
-          Schedule a Consultation
-        </Button> */}
-        {/* <CalendlySlideover open={openSchedule} onClose={() => setOpenSchedule(false)} /> */}
+        <CalendlySlideover open={openSchedule} onClose={() => setOpenSchedule(false)} />
       </Testimonial>
  
       <Investigation />
