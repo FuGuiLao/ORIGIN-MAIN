@@ -51,7 +51,7 @@ export function Contact() {
   <p><a href="https://www.instagram.com/origininvestigations" target="_blank">Instagram</a></p>
   <p><a href="https://www.facebook.com/origininvestigations" target="_blank">Facebook</a></p>
   <p><a href="https://www.tiktok.com/@origininvestigations" target="_blank">TikTok</a></p>
-    <p><a href="https://twitter.com/origin_inv" target="_blank">Twitter</a></p>
+    <p><a href="https://twitter.com/origin_inv" target="_blank">X (Twitter)</a></p>
 
   </address>
           </div>
