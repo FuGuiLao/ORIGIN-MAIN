@@ -2,6 +2,7 @@ import { Fragment } from 'react'
 import dynamic from 'next/dynamic'
 import { Dialog, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
+import ZapierEmbed from './ZapierEmbed'
 
 const SpecializedDataWidget = dynamic(() => import('./SpecializedDataWidget'), {
   ssr: false,
@@ -44,7 +45,8 @@ const SpecializedDataSlideover = ({ open, onClose }) => {
                         </div>
                       </div>
                     </div>
-                    <SpecializedDataWidget />
+                    {/* <SpecializedDataWidget /> */}
+                    <ZapierEmbed />
                   </div>
                 </Dialog.Panel>
               </Transition.Child>

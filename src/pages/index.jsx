@@ -92,7 +92,7 @@ export default function Home() {
           medical records, travel information, and social media activity.
         </p>
         <p>&nbsp;</p>
-        <Button
+        {/* <Button
           color="red"
           onClick={() => {
             window.open(
@@ -102,11 +102,19 @@ export default function Home() {
           }}
         >
           Order Specialized Data Now
+        </Button> */}
+        <Button
+          color="red"
+          onClick={() => {
+            setOpenSpecializedData(true)
+          }}
+        >
+          Order Specialized Data Now
         </Button>
-        {/* <SpecializedDataSlideover
+        <SpecializedDataSlideover
           open={openSpecializedData}
           onClose={() => setOpenSpecializedData(false)}
-        /> */}
+        />
         {/* <Button color="red" onClick={() => setOpenHeyflow(true)}>
           Order Specialized Data Now
         </Button>
