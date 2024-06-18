@@ -43,19 +43,19 @@ const JobSlideover = ({ open, onClose }) => {
                       </div>
                     </div>
       
-         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-zinc-900">
+         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-zinc-900 px-10 py-5">
 		 
          At Origin, we believe that our people are the foundation of our success. Our hiring process is designed to attract, select, and retain the best talent in the industry. We are committed to providing a fair, transparent, and inclusive hiring experience. Here is what you can expect when you apply to join our team:
 </p>
 		 <br></br><br></br>
-		 <p className="mt-4 text-lg tracking-tight text-zinc-700 px-10 py-5">
+		 <p className="mt-4 text-lg tracking-tight text-zinc-700 px-10">
 <b>Hiring Process:</b><br></br>
-	1. <b>Application Submission:</b> Apply online with your updated resume and a cover letter detailing your experience and other qualifications.<br></br><br></br>
-	<b>2. Initial Screening:</b> Our human resources team reviews applications and may request a VideoAsk pre-interview.<br></br><br></br>
-	3. Interviews: Selected candidates will participate in a series of interviews, including Microsoft Teams and in-person meetings with team members and leadership.<br></br><br></br>
-	4. Assessment: Depending on the role, you may be asked to complete skills assessments or practical exercises to demonstrate your expertise.<br></br><br></br>
-	5. Feedback and Offer: We provide timely feedback to all candidates. Successful candidates will receive a comprehensive offer package outlining the role, compensation, and benefits.<br></br><br></br>
-  	6. Background Investigation: Due to the nature of our work, a thorough background investigation will be completed in accordance with laws and applicable guidelines.
+	<b>1. Application Submission:</b> Apply online with your updated resume and a cover letter detailing your experience and other qualifications.<br></br>
+	<b>2. Initial Screening:</b> Our human resources team reviews applications and may request a VideoAsk pre-interview.<br></br>
+	<b>3. Interviews:</b> Selected candidates will participate in a series of interviews, including Microsoft Teams and in-person meetings with team members and leadership.<br></br>
+	<b>4. Assessment:</b> Depending on the role, you may be asked to complete skills assessments or practical exercises to demonstrate your expertise.<br></br>
+	<b>5. Feedback and Offer:</b> We provide timely feedback to all candidates. Successful candidates will receive a comprehensive offer package outlining the role, compensation, and benefits.<br></br>
+  	<b>6. Background Investigation:</b> Due to the nature of our work, a thorough background investigation will be completed in accordance with laws and applicable guidelines.
 <br></br><br></br>
 Quality Benefits:<br></br>
 We offer a competitive benefits package that reflects our commitment to the well-being and growth of our employees, including:<br></br>
