@@ -44,8 +44,8 @@ const JobSlideover = ({ open, onClose }) => {
                     </div>
       
         <p className="mt-4 text-lg tracking-tight text-zinc-700 px-10 py-5">
-         Origin partners with Gusto from the inital application to after you are hired to provide the highest quality human resources experience. 
-          <p>Please click <a href="https://jobs.gusto.com/boards/origin-careers-e5e7c0e6-d25a-4784-9966-aad2669ee730" target="_blank"><b>here</b></a> to being the application process.</p>
+         Origin partners with Gusto from the inital application to after you are hired to provide the highest quality human resources experience.
+          <p>Please click <a href="https://jobs.gusto.com/boards/origin-careers-e5e7c0e6-d25a-4784-9966-aad2669ee730" target="_blank"><b>here</b></a> to view available positions and begin the application process.</p>
         </p>
    
   
