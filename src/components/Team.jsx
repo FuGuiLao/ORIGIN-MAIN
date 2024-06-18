@@ -26,7 +26,7 @@ const people = [
     name: 'Melissa Enriquez',
     role: 'Director / Intelligence Division',
     image: teamImage3,
-    bio: 'Melissa serves as our lead analyst and provides strategic oversight of our intelligence staff. As a veteran law enforcement officer and intelligence professional, her expertise, resources, and attention to detail provide unmatched insight into our cases.',
+    bio: 'Melissa serves as our lead analyst and provides strategic oversight of our intelligence staff. She is a career law enforcement officer and intelligence professional, and her expertise, resources, and attention to detail provide unmatched insight into our cases.',
   },
   {
     name: 'Vanessa Sarco',
