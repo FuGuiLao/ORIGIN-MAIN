@@ -47,7 +47,7 @@ const JobSlideover = ({ open, onClose }) => {
 		 
          At Origin, we believe that our people are the foundation of our success. Our hiring process is designed to attract, select, and retain the best talent in the industry. We are committed to providing a fair, transparent, and inclusive hiring experience.
 </p>
-		 <p className="mt-0 font-display text-2xl font-bold tracking-tight text-zinc-900 px-10 pt-0">
+		 <p className="mt-0 font-display text-2xl font-bold tracking-tight text-zinc-900 px-10 py-5">
 		 
 		 Here is what you can expect when you apply to join our team:
 </p>
