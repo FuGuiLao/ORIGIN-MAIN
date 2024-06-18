@@ -19,7 +19,7 @@ const people = [
     name: 'Joshua Passas',
     role: 'Director / Investigation Division',
     image: teamImage2,
-    bio: 'Joshua provides case oversight and supervises our investigative staff nationwide. As a veteran law enforcement officer, Joshua brings institutional management skills and extensive practical knowledge of law enforcement and the investigative process.',
+    bio: 'Joshua provides case oversight and supervises our investigative staff nationwide. As a veteran law enforcement officer, Joshua brings strong institutional management skills and extensive practical knowledge of law enforcement and the investigative process.',
   },
 
   {
@@ -32,7 +32,7 @@ const people = [
     name: 'Vanessa Sarco',
     role: 'Director / Case Management Division',
     image: teamImage7,
-    bio: 'Vanessa supervises our case management staff, and oversees scheduling, travel planning, and client accounting. Her experience in business administration and customer service is critical to providing our clients with a high level of support.',
+    bio: 'Vanessa supervises our case management staff and oversees scheduling, travel planning, and client accounting. Her experience in business administration and customer service is critical to providing our clients with a high level of case insight and support.',
   },
   {
     name: 'Abram Popham',
@@ -44,7 +44,7 @@ const people = [
     name: 'Yi Min',
     role: 'Director / Technology Services Division',
     image: teamImage6,
-    bio: 'Yi supervises our technical services and data forensics staff. His professional law enforcement and military experience, coupled with advanced degrees in technology, has provided him with a broad range of qualifications and skills.',
+    bio: 'Yi supervises our technical services and data forensics staff. His extensive professional law enforcement and military experience, coupled with advanced degrees in technology, has provided him with a broad range of qualifications and skills.',
   },
     {
     name: 'Lok Cheng',
@@ -57,7 +57,7 @@ const people = [
    // role: 'Submit an Application',
     // image: teamImage9,
    // bio: 'Origin is always looking for talented individuals to join our growing team. We are actively recruiting investigators with law enforcement and/or fraud investigation experience, as well as intelligence analysts, case managers, and client relations professionals.',
- // },
+ // 
   // More people...
 ]
 
