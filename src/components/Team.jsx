@@ -26,7 +26,7 @@ const people = [
     name: 'Melissa Enriquez',
     role: 'Director / Intelligence Division',
     image: teamImage3,
-    bio: 'Melissa serves as our lead analyst and provides strategic oversight of our intelligence staff. As a veteran law enforcment officer and intelligence professional, her expertise, resources, and attention to detail provides unmatched insight into our cases.',
+    bio: 'Melissa serves as our lead analyst and provides strategic oversight of our intelligence staff. As a veteran law enforcment officer and intelligence professional, her expertise, resources, and attention to detail provide unmatched insight into our cases.',
   },
   {
     name: 'Vanessa Sarco',
@@ -50,7 +50,7 @@ const people = [
     name: 'Lok Cheng',
     role: 'Director / Administrative Services Division',
     image: teamImage4,
-    bio: 'Lok serves as our admin director and supervises our general office staff. She coordinates human resources, recruiting, and strategic planning initiatives. Lok has an MBA and undergraduate degree from The University of Amsterdam.',
+    bio: 'Lok serves as our admin director and supervises our general office staff. She coordinates human resources, recruiting, and strategic planning initiatives. Lok has a Masters of Business Administration and undergraduate degree from The University of Amsterdam.',
   },
   //  {
    // name: 'Join our Team',
