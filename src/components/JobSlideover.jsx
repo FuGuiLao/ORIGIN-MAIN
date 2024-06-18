@@ -46,7 +46,7 @@ const JobSlideover = ({ open, onClose }) => {
          <p className="mt-4 font-display text-2xl font-bold tracking-tight text-zinc-900 px-10 pt-5">At Origin, we believe that our people are the foundation of our success. Our hiring process is designed to attract, select, and retain the best talent in the industry. We are committed to providing a fair, transparent, and inclusive hiring experience.</p>
 <p className="mt-0 font-display text-2xl font-bold tracking-tight text-zinc-900 px-10 py-5">Here is what you can expect when you apply to join our team:</p>
 		
-	<p className="mt-0 mb-0 text-base tracking-tight text-zinc-700 px-10 pt-0 pb-1"><b>Hiring Process:</b></p>
+	<p className="mt-0 mb-0 text-lg tracking-tight text-zinc-700 px-10 pt-0 pb-1"><b>Hiring Process:</b></p>
 	<p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Application Submission:</b> Apply online with your updated resume and a cover letter detailing your experience and other qualifications.</p>
 	<p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Initial Screening:</b> Our human resources team reviews applications and may request a VideoAsk pre-interview.</p>
 	<p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Interviews:</b> Selected candidates will participate in a series of interviews, including Microsoft Teams and in-person meetings with team members and leadership.</p>
@@ -54,7 +54,7 @@ const JobSlideover = ({ open, onClose }) => {
 	<p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Feedback and Offer:</b> We provide timely feedback to all candidates. Successful candidates will receive a comprehensive offer package outlining the role, compensation, and benefits.</p>
   	<p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Background Investigation:</b> Due to the nature of our work, a thorough background investigation will be completed in accordance with laws and applicable guidelines.</p>
 
- <p className="mt-0 mb-0 text-base tracking-tight text-zinc-700 px-10 pt-4 pb-1"><b>Quality Benefits:</b></p>
+ <p className="mt-0 mb-0 text-lg tracking-tight text-zinc-700 px-10 pt-4 pb-1"><b>Quality Benefits:</b></p>
 	 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1">We offer a competitive benefits package that reflects our commitment to the well-being and growth of our employees, including:</p>
 	 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Health and Wellness:</b> Comprehensive medical, dental, and vision insurance plans.</p>
 	 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Work-Life Balance:</b> Flexible working hours, generous paid time off, and remote work options.</p>
