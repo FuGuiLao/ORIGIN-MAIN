@@ -19,7 +19,7 @@ const people = [
     name: 'Joshua Passas',
     role: 'Director / Investigation Division',
     image: teamImage2,
-    bio: 'Joshua provides case oversight and supervises our investigative staff. As a veteran law enforcement officer, Joshua brings institutional management skills and extensive practical knowledge of law enforcement and the investigative process.',
+    bio: 'Joshua provides case oversight and supervises our investigative staff nationwide. As a veteran law enforcement officer, Joshua brings institutional management skills and extensive practical knowledge of law enforcement and the investigative process.',
   },
 
   {
