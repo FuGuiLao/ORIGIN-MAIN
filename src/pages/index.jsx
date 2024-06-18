@@ -18,7 +18,7 @@ import { Contact } from '@/components/Contact'
 import { Team } from '@/components/Team'
 import { Button } from '@/components/Button'
 import CalendlySlideover from '@/components/CalendlySlideover'
-import CalendlySlideover from '@/components/JobSlideover'
+import JobSlideover from '@/components/JobSlideover'
 import HeyflowSlideover from '@/components/HeyflowSlideover'
 import SpecializedDataSlideover from '@/components/SpecializedDataSlideover'
 
