@@ -43,7 +43,7 @@ const JobSlideover = ({ open, onClose }) => {
                       </div>
                     </div>
                     <div><p>
-                      Test
+                      <a href="https://jobs.gusto.com/boards/origin-careers-e5e7c0e6-d25a-4784-9966-aad2669ee730" target="_blank">Apply on Gusto</a>
                     </p> </div>               
                   </div>
                 </Dialog.Panel>
