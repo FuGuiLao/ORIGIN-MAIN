@@ -50,9 +50,7 @@ const JobSlideover = ({ open, onClose }) => {
       className="scroll-mt-14 py-16 sm:scroll-mt-32 sm:py-20 lg:py-32"
     >
       <Container>
-        <SectionHeading number="3" id="resources-title">
-          Resources
-        </SectionHeading>
+       
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-zinc-900">
           Tools and resources you can use to get started even faster and
           progress even further, even on the most complex cases.
@@ -61,11 +59,7 @@ const JobSlideover = ({ open, onClose }) => {
          Specialized training and experience, three offices operating 24 hours a day - 365 days a year, and tools to make sure our clients always have access to the resources they need.
         </p>
       </Container>
-      <Container size="lg" className="mt-16">
-        <ol
-          role="list"
-          className="-mx-3 grid grid-cols-1 gap-y-10 lg:grid-cols-3 lg:text-center xl:-mx-12 xl:divide-x xl:divide-zinc-400/20"
-        >
+  
                   </div>
                 </Dialog.Panel>
               </Transition.Child>
