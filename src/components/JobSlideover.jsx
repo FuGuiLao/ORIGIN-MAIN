@@ -41,7 +41,7 @@ const JobSlideover = ({ open, onClose }) => {
                     </div>
 
                     <div className="relative flex-1 overflow-y-auto px-4 sm:px-6">
-                      <p className="mt-4 font-display text-2xl font-bold tracking-tight text-zinc-900 px-10 py-5">At Origin, we believe that our people are the foundation of our success. Here is what you can expect when you apply to join our team.</p>
+                      <p className="mt-4 font-display text-2xl font-bold tracking-tight text-zinc-900 px-10 py-5">At Origin, we strongly believe that our people are the foundation of our success. Their dedication, skills, and passion drive our agency forward every day. Here is what you can expect when you apply to join our dynamic and innovative team.</p>
                       <p className="mt-0 mb-0 text-base tracking-tight font-bold underline text-zinc-700 px-10 pt-0 pb-1">Hiring Process:</p>
                       <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1">Our hiring process is designed to attract, select, and retain the best talent in the industry. We are committed to providing a fair, transparent, and inclusive hiring experience for all candidates.</p>
                       <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Application Submission:</b> Apply online with your updated resume and a cover letter detailing your experience and other qualifications.</p>
