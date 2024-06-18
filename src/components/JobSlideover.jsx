@@ -45,15 +45,15 @@ const JobSlideover = ({ open, onClose }) => {
       
         <p className="mt-4 text-lg tracking-tight text-zinc-700 px-10 py-5">
          Origin partners with Gusto from the inital application to after you are hired to provide the highest quality human resources experience. Our hiring process is outlined below.
-          <p><b>Hiring Process</b><br>
-          1) Initial Online Application<br>
-          2) VideoAsk Pre-Interview<br>
-          3) Microsoft Teams Interview<br>
-          4) In-Person Interview<br>
-          5) Offer Letter<br>
-          6) Background Investigation<br>
+          <p><b>Hiring Process</b><br></br>
+          1) Initial Online Application<br></br>
+          2) VideoAsk Pre-Interview<br></br>
+          3) Microsoft Teams Interview<br></br>
+          4) In-Person Interview<br></br>
+          5) Offer Letter<br></br>
+          6) Background Investigation<br></br>
           7) Hired / Onboarding Process
-            </p><br>
+            </p><br></br>
           <p>Please click <a href="https://jobs.gusto.com/boards/origin-careers-e5e7c0e6-d25a-4784-9966-aad2669ee730" target="_blank"><b>here</b></a> to view available positions and begin the process.</p>
         </p>
    
