@@ -125,8 +125,12 @@ export default function Home() {
       <Pricing />
       <Testimonials />
             <Testimonial id="testimonial-from-gerardo-stark" author={{}}>
-        <title>SPECIALIZED DATA</title>
+        <title>JOIN OUR TEAM</title>
         <p className={`${openHeyflow ? 'pr-[17px] sm:pr-0' : ''}`}>
+          Origin is always looking for talented individuals to join our growing team. 
+          We are {' '} <b>actively recruiting</b> investigators with law enforcement and/or fraud investigation experience, 
+          as well as intelligence analysts, case managers, and client relations professionals.
+          
           Origin's specialized data services can{' '}
           <b>uncover hidden information</b> that can be valuable in criminal and
           civil cases. Our intelligence analysts can bring relevance to complex
