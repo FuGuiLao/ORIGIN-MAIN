@@ -147,7 +147,7 @@ export default function Home() {
             )
           }}
         >
-          Order Specialized Data Now
+          Submit an Application
         </Button> */}
         <Button
           color="red"
@@ -155,7 +155,7 @@ export default function Home() {
             setOpenSpecializedData(true)
           }}
         >
-          Order Specialized Data Now
+          Submit an Application
         </Button>
         <SpecializedDataSlideover
           open={openSpecializedData}
