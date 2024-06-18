@@ -28,7 +28,7 @@ const JobSlideover = ({ open, onClose }) => {
                     <div className="px-4 sm:px-6">
                       <div className="flex items-start justify-between">
                         <Dialog.Title className="text-base font-semibold leading-6 text-zinc-900">
-                          Apply
+                          Submit an Application
                         </Dialog.Title>
                         <div className="ml-3 flex h-7 items-center">
                           <button
