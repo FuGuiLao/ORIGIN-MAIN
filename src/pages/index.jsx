@@ -123,10 +123,10 @@ export default function Home() {
       <Resources />
       <FreeChapters />
       <Pricing />
-      <OurPeople />
-      <Team />
       
       <Testimonials />
+      <OurPeople />
+      <Team />
             <Testimonial id="testimonial-from-gerardo-stark" author={{}}>
         <title>JOIN OUR TEAM</title>
         <p className={`${openHeyflow ? 'pr-[17px] sm:pr-0' : ''}`}>
