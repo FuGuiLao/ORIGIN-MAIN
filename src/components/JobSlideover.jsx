@@ -57,8 +57,8 @@ const JobSlideover = ({ open, onClose }) => {
  <p className="mt-0 mb-0 text-lg tracking-tight text-zinc-700 px-10 pt-4 pb-1"><b>Quality Benefits:</b></p>
 	 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1">We offer a competitive benefits package that reflects our commitment to the well-being and growth of our employees, including:</p>
 	 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Health and Wellness:</b> Comprehensive medical, dental, and vision insurance plans.</p>
-	 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Work-Life Balance:</b> Flexible working hours, generous paid time off, and remote work options.</p>
-	 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Professional Development:</b> Opportunities for training, certifications, and career advancement.</p>
+	 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Work-Life Balance:</b> Flexible schedule, paid time off, and remote work options.</p>
+	 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Professional Development:</b> Opportunities for training and career advancement.</p>
 	 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Retirement Plans:</b> 401(k) plans to help you plan for your future.</p>
 	 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Life Insurance:</b> Company-provided life insurance to ensure peace of mind for you and your loved ones.</p>
 	 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Long-Term Disability Insurance:</b> Financial protection in case of prolonged illness or injury, ensuring you have support during challenging times.</p>
