@@ -3,9 +3,9 @@ import dynamic from 'next/dynamic'
 import { Dialog, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 
-const CalendlyWidget = dynamic(() => import('./CalendlyWidget'), { ssr: false });
 
-const CalendlySlideover = ({ open, onClose }) => {
+
+const JobSlideover = ({ open, onClose }) => {
   return (
     <Transition.Root show={open} as={Fragment}>
       <Dialog as="div" className="relative z-[100]" onClose={onClose}>
@@ -28,7 +28,7 @@ const CalendlySlideover = ({ open, onClose }) => {
                     <div className="px-4 sm:px-6">
                       <div className="flex items-start justify-between">
                         <Dialog.Title className="text-base font-semibold leading-6 text-zinc-900">
-                          Schedule a Consultation
+                          Apply
                         </Dialog.Title>
                         <div className="ml-3 flex h-7 items-center">
                           <button
@@ -42,7 +42,7 @@ const CalendlySlideover = ({ open, onClose }) => {
                         </div>
                       </div>
                     </div>
-                    <CalendlyWidget />
+                  TEST TEST
                   </div>
                 </Dialog.Panel>
               </Transition.Child>
@@ -54,4 +54,4 @@ const CalendlySlideover = ({ open, onClose }) => {
   )
 }
 
-export default CalendlySlideover;
+export default JobSlideover;
