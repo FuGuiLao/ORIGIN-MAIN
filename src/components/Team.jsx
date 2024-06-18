@@ -50,7 +50,7 @@ const people = [
     name: 'Lok Cheng',
     role: 'Director / Administrative Services Division',
     image: teamImage4,
-    bio: 'Lok serves as our admin director and supervises our general office staff. She coordinates human resources, recruiting, and strategic planning initiatives. Lok has a Masters of Business Administration and undergraduate degree from The University of Amsterdam.',
+    bio: 'Lok serves as our admin director and supervises our general office staff. She coordinates human resources, recruiting, and strategic planning initiatives. Lok has a Master of Business Administration and undergraduate degree from The University of Amsterdam.',
   },
   //  {
    // name: 'Join our Team',
