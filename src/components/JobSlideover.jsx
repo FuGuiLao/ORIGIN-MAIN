@@ -53,7 +53,7 @@ const JobSlideover = ({ open, onClose }) => {
 </p>
 		
 		 <p className="mt-0 mb-10 text-sm tracking-tight text-zinc-700 px-10">
-<b>Hiring Process:</b><br></br>
+<b>Hiring Process:</b><br></br><br></br>
 	<b>1. Application Submission:</b> Apply online with your updated resume and a cover letter detailing your experience and other qualifications.<br></br>
 	<b>2. Initial Screening:</b> Our human resources team reviews applications and may request a VideoAsk pre-interview.<br></br>
 	<b>3. Interviews:</b> Selected candidates will participate in a series of interviews, including Microsoft Teams and in-person meetings with team members and leadership.<br></br>
