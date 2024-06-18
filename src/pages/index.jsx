@@ -131,12 +131,13 @@ export default function Home() {
           We are {' '} <b>actively recruiting</b> investigators with law enforcement or related experience, 
           as well as intelligence analysts, case managers, and client relations professionals.
         </p>
-        <p>&nbsp;</p>
+  {/*   <p>&nbsp;</p>
         <p className={`${openHeyflow ? 'pr-[17px] sm:pr-0' : ''}`}>
           We specialize in <b>impossible to get information</b>, including bank
           and asset locates, insurance policy information, employment data,
           medical records, travel information, and social media activity.
         </p>
+  */}
         <p>&nbsp;</p>
         {/* <Button
           color="red"
