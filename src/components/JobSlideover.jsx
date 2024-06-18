@@ -52,7 +52,7 @@ const JobSlideover = ({ open, onClose }) => {
 		 Here is what you can expect when you apply to join our team:
 </p>
 		
-		 <p className="mt-0 mb-10 text-sm tracking-tight text-zinc-700 px-10">
+		 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-5">
 <b>Hiring Process:</b><br></br><br></br>
 	<b>1. Application Submission:</b> Apply online with your updated resume and a cover letter detailing your experience and other qualifications.<br></br>
 	<b>2. Initial Screening:</b> Our human resources team reviews applications and may request a VideoAsk pre-interview.<br></br>
@@ -61,7 +61,7 @@ const JobSlideover = ({ open, onClose }) => {
 	<b>5. Feedback and Offer:</b> We provide timely feedback to all candidates. Successful candidates will receive a comprehensive offer package outlining the role, compensation, and benefits.<br></br>
   	<b>6. Background Investigation:</b> Due to the nature of our work, a thorough background investigation will be completed in accordance with laws and applicable guidelines.
 </p>
- <p className="mt-0 mb-10 text-sm tracking-tight text-zinc-700 px-10">
+ <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-5">
 	 <b>Quality Benefits:</b><br></br>
 	We offer a competitive benefits package that reflects our commitment to the well-being and growth of our employees, including:<br></br>
 	<b>• Health and Wellness:</b> Comprehensive medical, dental, and vision insurance plans.<br></br>
@@ -71,11 +71,11 @@ const JobSlideover = ({ open, onClose }) => {
 	<b>• Life Insurance:</b> Company-provided life insurance to ensure peace of mind for you and your loved ones.<br></br>
 	<b>• Long-Term Disability Insurance:</b> Financial protection in case of prolonged illness or injury, ensuring you have support during challenging times.
 </p>
- <p className="mt-0 mb-10 text-sm tracking-tight text-zinc-700 px-10">
+ <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-5">
 <b>Human Resources Support:</b><br></br>
 Our dedicated human resources team is here to support you throughout your career journey. From onboarding to ongoing development, we ensure you have the resources and support needed to thrive at Origin. We foster a positive and inclusive workplace culture where every employee feels valued and empowered.
  </p>
-			   <p className="mt-0 mb-10 text-sm tracking-tight text-zinc-700 px-10">
+			   <p className="mt-0 mb-10 text-sm tracking-tight text-zinc-700 px-10 py-5">
 Join us at Origin and be a part of a dynamic team that values excellence, innovation, and collaboration. Please click <a href="https://jobs.gusto.com/boards/origin-careers-e5e7c0e6-d25a-4784-9966-aad2669ee730" target="_blank"><b>here</b></a> to get started.
         </p>
    
