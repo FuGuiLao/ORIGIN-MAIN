@@ -108,14 +108,14 @@ export default function Home() {
         <Button
           color="red"
           onClick={() => {
-            setOpenSpecializedData(true)
+            setOpenJob(true)
           }}
         >
           Order Specialized Data Now
         </Button>
-        <SpecializedDataSlideover
-          open={openSpecializedData}
-          onClose={() => setOpenSpecializedData(false)}
+        <JobSlideover
+          open={openJob}
+          onClose={() => setOpenJob(false)}
         />
         {/* <Button color="red" onClick={() => setOpenHeyflow(true)}>
           Order Specialized Data Now
