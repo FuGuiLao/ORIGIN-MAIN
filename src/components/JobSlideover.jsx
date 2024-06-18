@@ -52,32 +52,25 @@ const JobSlideover = ({ open, onClose }) => {
 		 Here is what you can expect when you apply to join our team:
 </p>
 		
-		 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-5">
-<b>Hiring Process:</b><br></br><br></br>
-	<span className="py-10"><b>1. Application Submission:</b> Apply online with your updated resume and a cover letter detailing your experience and other qualifications.</span>
-	<b>2. Initial Screening:</b> Our human resources team reviews applications and may request a VideoAsk pre-interview.<br></br>
-	<b>3. Interviews:</b> Selected candidates will participate in a series of interviews, including Microsoft Teams and in-person meetings with team members and leadership.<br></br>
-	<b>4. Assessment:</b> Depending on the role, you may be asked to complete skills assessments or practical exercises to demonstrate your expertise.<br></br>
-	<b>5. Feedback and Offer:</b> We provide timely feedback to all candidates. Successful candidates will receive a comprehensive offer package outlining the role, compensation, and benefits.<br></br>
-  	<b>6. Background Investigation:</b> Due to the nature of our work, a thorough background investigation will be completed in accordance with laws and applicable guidelines.
-</p>
- <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-5">
-	 <b>Quality Benefits:</b><br></br>
-	We offer a competitive benefits package that reflects our commitment to the well-being and growth of our employees, including:<br></br>
-	<b>• Health and Wellness:</b> Comprehensive medical, dental, and vision insurance plans.<br></br>
-	<b>• Work-Life Balance:</b> Flexible working hours, generous paid time off, and remote work options.<br></br>
-	<b>• Professional Development:</b> Opportunities for training, certifications, and career advancement.<br></br>
-	<b>• Retirement Plans:</b> 401(k) plans to help you plan for your future.<br></br>
-	<b>• Life Insurance:</b> Company-provided life insurance to ensure peace of mind for you and your loved ones.<br></br>
-	<b>• Long-Term Disability Insurance:</b> Financial protection in case of prolonged illness or injury, ensuring you have support during challenging times.
-</p>
- <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-5">
-<b>Human Resources Support:</b><br></br>
-Our dedicated human resources team is here to support you throughout your career journey. From onboarding to ongoing development, we ensure you have the resources and support needed to thrive at Origin. We foster a positive and inclusive workplace culture where every employee feels valued and empowered.
- </p>
-			   <p className="mt-0 mb-10 text-sm tracking-tight text-zinc-700 px-10 py-5">
-Join us at Origin and be a part of a dynamic team that values excellence, innovation, and collaboration. Please click <a href="https://jobs.gusto.com/boards/origin-careers-e5e7c0e6-d25a-4784-9966-aad2669ee730" target="_blank"><b>here</b></a> to get started.
-        </p>
+	<p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-5"><b>Hiring Process:</b></p>
+	<p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-5"><b>1. Application Submission:</b> Apply online with your updated resume and a cover letter detailing your experience and other qualifications.</p>
+	<p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-5"><b>2. Initial Screening:</b> Our human resources team reviews applications and may request a VideoAsk pre-interview.</p>
+	<p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-5"><b>3. Interviews:</b> Selected candidates will participate in a series of interviews, including Microsoft Teams and in-person meetings with team members and leadership.</p>
+	<p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-5"><b>4. Assessment:</b> Depending on the role, you may be asked to complete skills assessments or practical exercises to demonstrate your expertise.</p>
+	<p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-5"><b>5. Feedback and Offer:</b> We provide timely feedback to all candidates. Successful candidates will receive a comprehensive offer package outlining the role, compensation, and benefits.</p>
+  	<p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-5"><b>6. Background Investigation:</b> Due to the nature of our work, a thorough background investigation will be completed in accordance with laws and applicable guidelines.</p>
+
+ <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-5"><b>Quality Benefits:</p>
+	 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-5">We offer a competitive benefits package that reflects our commitment to the well-being and growth of our employees, including:</p>
+	 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-5"><b>• Health and Wellness:</b> Comprehensive medical, dental, and vision insurance plans.</p>
+	 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-5"><b>• Work-Life Balance:</b> Flexible working hours, generous paid time off, and remote work options.</p>
+	 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-5"><b>• Professional Development:</b> Opportunities for training, certifications, and career advancement.</p>
+	 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-5"><b>• Retirement Plans:</b> 401(k) plans to help you plan for your future.</p>
+	 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-5"><b>• Life Insurance:</b> Company-provided life insurance to ensure peace of mind for you and your loved ones.</p>
+	 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-5"><b>• Long-Term Disability Insurance:</b> Financial protection in case of prolonged illness or injury, ensuring you have support during challenging times.</p>
+ <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-5"><b>Human Resources Support:</b></p>
+ <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-5">Our dedicated human resources team is here to support you throughout your career journey. From onboarding to ongoing development, we ensure you have the resources and support needed to thrive at Origin. We foster a positive and inclusive workplace culture where every employee feels valued and empowered.</p>
+<p className="mt-0 mb-10 text-sm tracking-tight text-zinc-700 px-10 py-5">Join us at Origin and be a part of a dynamic team that values excellence, innovation, and collaboration. Please click <a href="https://jobs.gusto.com/boards/origin-careers-e5e7c0e6-d25a-4784-9966-aad2669ee730" target="_blank"><b>here</b></a> to get started.</p>
    
   
                   </div>
