@@ -128,7 +128,7 @@ export default function Home() {
         <title>JOIN OUR TEAM</title>
         <p className={`${openHeyflow ? 'pr-[17px] sm:pr-0' : ''}`}>
           Origin is always looking for talented individuals to join our growing team. 
-          We are {' '} <b>actively recruiting</b> investigators with law enforcement or investigation experience, 
+          We are {' '} <b>actively recruiting</b> investigators with law enforcement or related experience, 
           as well as intelligence analysts, case managers, and client relations professionals.
         </p>
         <p>&nbsp;</p>
