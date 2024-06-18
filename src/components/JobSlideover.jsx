@@ -42,7 +42,9 @@ const JobSlideover = ({ open, onClose }) => {
                         </div>
                       </div>
                     </div>
-                  TEST TEST
+                    <div><p>
+                      Test
+                    </p> </div>               
                   </div>
                 </Dialog.Panel>
               </Transition.Child>
