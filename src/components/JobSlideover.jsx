@@ -43,9 +43,12 @@ const JobSlideover = ({ open, onClose }) => {
                       </div>
                     </div>
       
-        <p className="mt-4 text-lg tracking-tight text-zinc-700 px-10 py-5">
+         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-zinc-900">
+		 
          At Origin, we believe that our people are the foundation of our success. Our hiring process is designed to attract, select, and retain the best talent in the industry. We are committed to providing a fair, transparent, and inclusive hiring experience. Here is what you can expect when you apply to join our team:
-<br></br><br></br>
+</p>
+		 <br></br><br></br>
+		 <p className="mt-4 text-lg tracking-tight text-zinc-700 px-10 py-5">
 <b>Hiring Process:</b><br></br>
 	1. <b>Application Submission:</b> Apply online with your updated resume and a cover letter detailing your experience and other qualifications.<br></br><br></br>
 	<b></b>2. Initial Screening:</b> Our human resources team reviews applications and may request a VideoAsk pre-interview.<br></br><br></br>
