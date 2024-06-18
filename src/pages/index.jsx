@@ -113,7 +113,7 @@ export default function Home() {
         >
           Order Specialized Data Now
         </Button>
-        <JobSlideover
+        <SpecializedDataSlideover
           open={openSpecializedData}
           onClose={() => setOpenSpecializedData(false)}
         />
@@ -161,7 +161,7 @@ export default function Home() {
         >
           Submit an Application
         </Button>
-        <SpecializedDataSlideover
+        <JobSlideover
           open={openJob}
           onClose={() => setOpenjob(false)}
         />
