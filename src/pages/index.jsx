@@ -123,6 +123,9 @@ export default function Home() {
       <Resources />
       <FreeChapters />
       <Pricing />
+      <OurPeople />
+      <Team />
+      
       <Testimonials />
             <Testimonial id="testimonial-from-gerardo-stark" author={{}}>
         <title>JOIN OUR TEAM</title>
@@ -167,8 +170,6 @@ export default function Home() {
         </Button>
         <HeyflowSlideover open={openHeyflow} onClose={() => setOpenHeyflow(false)} title="Order Specialized Data Now" flowId="specialized-data-request" /> */}
       </Testimonial>
-      <OurPeople />
-      <Team />
       <Contact />
       <Footer />
     </>
