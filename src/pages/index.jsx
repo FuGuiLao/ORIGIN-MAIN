@@ -124,6 +124,49 @@ export default function Home() {
       <FreeChapters />
       <Pricing />
       <Testimonials />
+            <Testimonial id="testimonial-from-gerardo-stark" author={{}}>
+        <title>SPECIALIZED DATA</title>
+        <p className={`${openHeyflow ? 'pr-[17px] sm:pr-0' : ''}`}>
+          Origin's specialized data services can{' '}
+          <b>uncover hidden information</b> that can be valuable in criminal and
+          civil cases. Our intelligence analysts can bring relevance to complex
+          information.
+        </p>
+        <p>&nbsp;</p>
+        <p className={`${openHeyflow ? 'pr-[17px] sm:pr-0' : ''}`}>
+          We specialize in <b>impossible to get information</b>, including bank
+          and asset locates, insurance policy information, employment data,
+          medical records, travel information, and social media activity.
+        </p>
+        <p>&nbsp;</p>
+        {/* <Button
+          color="red"
+          onClick={() => {
+            window.open(
+              'https://get-in-touch-733c19.zapier.app/specialized-data-request',
+              '_blank'
+            )
+          }}
+        >
+          Order Specialized Data Now
+        </Button> */}
+        <Button
+          color="red"
+          onClick={() => {
+            setOpenSpecializedData(true)
+          }}
+        >
+          Order Specialized Data Now
+        </Button>
+        <SpecializedDataSlideover
+          open={openSpecializedData}
+          onClose={() => setOpenSpecializedData(false)}
+        />
+        {/* <Button color="red" onClick={() => setOpenHeyflow(true)}>
+          Order Specialized Data Now
+        </Button>
+        <HeyflowSlideover open={openHeyflow} onClose={() => setOpenHeyflow(false)} title="Order Specialized Data Now" flowId="specialized-data-request" /> */}
+      </Testimonial>
       <OurPeople />
       <Team />
       <Contact />
