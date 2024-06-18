@@ -43,14 +43,14 @@ const JobSlideover = ({ open, onClose }) => {
                     <div className="relative flex-1 overflow-y-auto px-4 sm:px-6">
                       <p className="mt-4 font-display text-2xl font-bold tracking-tight text-zinc-900 px-10 pt-5">At Origin, we believe that our people are the foundation of our success. Our hiring process is designed to attract, select, and retain the best talent in the industry. We are committed to providing a fair, transparent, and inclusive hiring experience.</p>
                       <p className="mt-0 font-display text-2xl font-bold tracking-tight text-zinc-900 px-10 py-5">Here is what you can expect when you apply to join our team:</p>
-                      <p className="mt-0 mb-0 text-sm tracking-tight font-bold underline text-zinc-700 px-10 pt-0 pb-1">Hiring Process:</p>
+                      <p className="mt-0 mb-0 text-base tracking-tight font-bold underline text-zinc-700 px-10 pt-0 pb-1">Hiring Process:</p>
                       <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Application Submission:</b> Apply online with your updated resume and a cover letter detailing your experience and other qualifications.</p>
                       <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Initial Screening:</b> Our human resources team reviews applications and may request a VideoAsk pre-interview.</p>
                       <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Interviews:</b> Selected candidates will participate in a series of interviews, including Microsoft Teams and in-person meetings with team members and leadership.</p>
                       <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Assessment:</b> Depending on the role, you may be asked to complete skills assessments or practical exercises to demonstrate your expertise.</p>
                       <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Feedback and Offer:</b> We provide timely feedback to all candidates. Successful candidates will receive a comprehensive offer package outlining the role, compensation, and benefits.</p>
                       <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Background Investigation:</b> Due to the nature of our work, a thorough background investigation will be completed in accordance with laws and applicable guidelines.</p>
-                      <p className="mt-0 mb-0 text-sm tracking-tight font-bold underline text-zinc-700 px-10 pt-4 pb-1">Quality Benefits:</p>
+                      <p className="mt-0 mb-0 text-base tracking-tight font-bold underline text-zinc-700 px-10 pt-4 pb-1">Quality Benefits:</p>
                       <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1">We offer a competitive benefits package that reflects our commitment to the well-being and growth of our employees, including:</p>
                       <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Health and Wellness:</b> Comprehensive medical, dental, and vision insurance.</p>
                       <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Work-Life Balance:</b> Flexible schedule, paid time off, and remote work options.</p>
@@ -58,10 +58,10 @@ const JobSlideover = ({ open, onClose }) => {
                       <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Retirement Plans:</b> 401(k) plans to help you plan for your future.</p>
                       <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Life Insurance:</b> Company-provided life insurance to ensure peace of mind.</p>
                       <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Long-Term Disability:</b> Financial protection in case of illness or injury.</p>
-                      <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 font-bold underline px-10 pt-4 pb-1">Human Resources Support:</p>
+                      <p className="mt-0 mb-0 text-base tracking-tight text-zinc-700 font-bold underline px-10 pt-4 pb-1">Human Resources Support:</p>
                       <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1">Our dedicated human resources team is here to support you throughout your career journey. From onboarding to ongoing development, we ensure you have the resources and support needed to thrive at Origin. We foster a positive and inclusive workplace culture where every employee feels valued and empowered.</p>
-                      <p className="mt-0 mb-10 text-2xl tracking-tight text-zinc-900 font-bold px-10 py-5">Join us at Origin and be a part of a dynamic team that values excellence, innovation, and collaboration.</p>
-                        <p className="mt-0 mb-10 text-2xl tracking-tight text-zinc-900 font-bold px-10 py-5"><a href="https://jobs.gusto.com/boards/origin-careers-e5e7c0e6-d25a-4784-9966-aad2669ee730" target="_blank">Please click here to get started.</a></p>
+                      <p className="mt-0 mb-10 text-2xl tracking-tight text-zinc-900 font-bold px-10 py-4">Join us at Origin and be a part of a dynamic team that values excellence, innovation, and collaboration.</p>
+                        <p className="mt-0 mb-10 text-2xl tracking-tight text-zinc-900 font-bold px-10 py-0"><a href="https://jobs.gusto.com/boards/origin-careers-e5e7c0e6-d25a-4784-9966-aad2669ee730" target="_blank">Please click here to get started.</a></p>
                     </div>
                   </div>
                 </Dialog.Panel>
