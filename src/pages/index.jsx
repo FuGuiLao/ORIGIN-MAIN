@@ -125,9 +125,7 @@ export default function Home() {
       <Pricing />
       
       <Testimonials />
-      <OurPeople />
-      <Team />
-            <Testimonial id="testimonial-from-gerardo-stark" author={{}}>
+        <Testimonial id="testimonial-from-gerardo-stark" author={{}}>
         <title>JOIN OUR TEAM</title>
         <p className={`${openHeyflow ? 'pr-[17px] sm:pr-0' : ''}`}>
           Origin is always looking for talented individuals to join our growing team. 
@@ -170,6 +168,8 @@ export default function Home() {
         </Button>
         <HeyflowSlideover open={openHeyflow} onClose={() => setOpenHeyflow(false)} title="Order Specialized Data Now" flowId="specialized-data-request" /> */}
       </Testimonial>
+      <OurPeople />
+      <Team />
       <Contact />
       <Footer />
     </>
