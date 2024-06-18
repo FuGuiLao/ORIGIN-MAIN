@@ -24,6 +24,7 @@ import SpecializedDataSlideover from '@/components/SpecializedDataSlideover'
 
 export default function Home() {
   const [openSchedule, setOpenSchedule] = useState(false)
+  const [openJob, setOpenJob] = useState(false)
   const [openHeyflow, setOpenHeyflow] = useState(false)
   const [openSpecializedData, setOpenSpecializedData] = useState(false)
 
