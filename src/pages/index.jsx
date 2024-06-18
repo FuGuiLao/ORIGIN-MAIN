@@ -130,11 +130,6 @@ export default function Home() {
           Origin is always looking for talented individuals to join our growing team. 
           We are {' '} <b>actively recruiting</b> investigators with law enforcement and/or fraud investigation experience, 
           as well as intelligence analysts, case managers, and client relations professionals.
-          
-          Origin's specialized data services can{' '}
-          <b>uncover hidden information</b> that can be valuable in criminal and
-          civil cases. Our intelligence analysts can bring relevance to complex
-          information.
         </p>
         <p>&nbsp;</p>
         <p className={`${openHeyflow ? 'pr-[17px] sm:pr-0' : ''}`}>
@@ -167,7 +162,7 @@ export default function Home() {
           onClose={() => setOpenSpecializedData(false)}
         />
         {/* <Button color="red" onClick={() => setOpenHeyflow(true)}>
-          Order Specialized Data Now
+          Submit an Application
         </Button>
         <HeyflowSlideover open={openHeyflow} onClose={() => setOpenHeyflow(false)} title="Order Specialized Data Now" flowId="specialized-data-request" /> */}
       </Testimonial>
