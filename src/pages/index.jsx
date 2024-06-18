@@ -108,14 +108,14 @@ export default function Home() {
         <Button
           color="red"
           onClick={() => {
-            setOpenJob(true)
+            setOpenSpecializedData(true)
           }}
         >
           Order Specialized Data Now
         </Button>
         <JobSlideover
-          open={openJob}
-          onClose={() => setOpenJob(false)}
+          open={openSpecializedData}
+          onClose={() => setOpenSpecializedData(false)}
         />
         {/* <Button color="red" onClick={() => setOpenHeyflow(true)}>
           Order Specialized Data Now
@@ -156,14 +156,14 @@ export default function Home() {
         <Button
           color="red"
           onClick={() => {
-            setOpenSpecializedData(true)
+            setOpenJob(true)
           }}
         >
           Submit an Application
         </Button>
         <SpecializedDataSlideover
-          open={openSpecializedData}
-          onClose={() => setOpenSpecializedData(false)}
+          open={openJob}
+          onClose={() => setOpenjob(false)}
         />
         {/* <Button color="red" onClick={() => setOpenHeyflow(true)}>
           Submit an Application
