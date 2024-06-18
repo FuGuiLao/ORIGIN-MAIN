@@ -47,7 +47,7 @@ const JobSlideover = ({ open, onClose }) => {
 <p className="mt-0 font-display text-2xl font-bold tracking-tight text-zinc-900 px-10 py-5">Here is what you can expect when you apply to join our team:</p>
 		
 	<p className="mt-0 mb-0 text-base tracking-tight text-zinc-700 px-10 pt-0 pb-1"><b>Hiring Process:</b></p>
-	<p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b></b>Application Submission:</b> Apply online with your updated resume and a cover letter detailing your experience and other qualifications.</p>
+	<p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Application Submission:</b> Apply online with your updated resume and a cover letter detailing your experience and other qualifications.</p>
 	<p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Initial Screening:</b> Our human resources team reviews applications and may request a VideoAsk pre-interview.</p>
 	<p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Interviews:</b> Selected candidates will participate in a series of interviews, including Microsoft Teams and in-person meetings with team members and leadership.</p>
 	<p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Assessment:</b> Depending on the role, you may be asked to complete skills assessments or practical exercises to demonstrate your expertise.</p>
