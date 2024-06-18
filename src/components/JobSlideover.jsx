@@ -44,11 +44,7 @@ const JobSlideover = ({ open, onClose }) => {
                     </div>
                    
                       <a href="https://jobs.gusto.com/boards/origin-careers-e5e7c0e6-d25a-4784-9966-aad2669ee730" target="_blank">Apply on Gusto</a>
-                    <section
-      id="resources"
-      aria-labelledby="resources-title"
-      className="scroll-mt-14 py-16 sm:scroll-mt-32 sm:py-20 lg:py-32"
-    >
+                    
       <Container>
        
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-zinc-900">
