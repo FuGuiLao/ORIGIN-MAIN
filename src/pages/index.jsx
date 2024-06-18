@@ -133,14 +133,7 @@ export default function Home() {
           Origin is always looking for talented individuals to join our growing team. 
           We are {' '} <b>actively recruiting</b> investigators with law enforcement or related experience, 
           as well as intelligence analysts, case managers, and client relations professionals.
-        </p>
-  {/*   <p>&nbsp;</p>
-        <p className={`${openHeyflow ? 'pr-[17px] sm:pr-0' : ''}`}>
-          We specialize in <b>impossible to get information</b>, including bank
-          and asset locates, insurance policy information, employment data,
-          medical records, travel information, and social media activity.
-        </p>
-  */}
+          </p>
         <p>&nbsp;</p>
         {/* <Button
           color="red"
@@ -163,7 +156,7 @@ export default function Home() {
         </Button>
         <JobSlideover
           open={openJob}
-          onClose={() => setOpenjob(false)}
+          onClose={() => setOpenJob(false)}
         />
         {/* <Button color="red" onClick={() => setOpenHeyflow(true)}>
           Submit an Application
