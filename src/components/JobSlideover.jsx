@@ -54,7 +54,7 @@ const JobSlideover = ({ open, onClose }) => {
           6) Background Investigation<br></br>
           7) Hired / Onboarding Process
             </p>
-          <p>Please click <a href="https://jobs.gusto.com/boards/origin-careers-e5e7c0e6-d25a-4784-9966-aad2669ee730" target="_blank"><b>here</b></a> to view available positions and begin the process.</p>
+          <p>Please click <a href="https://jobs.gusto.com/boards/origin-careers-e5e7c0e6-d25a-4784-9966-aad2669ee730" target="_blank"><b>here</b></a> to view available positions and begin the process.
         </p>
    
   
