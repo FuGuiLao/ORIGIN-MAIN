@@ -1,8 +1,8 @@
 import { Expandable } from '@/components/Expandable'
 
 import teamImage2 from '@/images/avatars/avatar-passas.png'
-import teamImage3 from '@/images/avatars/avatar-vannoy.png'
-import teamImage4 from '@/images/avatars/avatar-wise.png'
+import teamImage3 from '@/images/avatars/avatar-enriquez.png'
+import teamImage4 from '@/images/avatars/avatar-cheng.png'
 import teamImage5 from '@/images/avatars/avatar-temp.png'
 import teamImage6 from '@/images/avatars/avatar-min.png'
 import teamImage7 from '@/images/avatars/avatar-sarco.png'
@@ -23,10 +23,16 @@ const people = [
   },
 
   {
-    name: 'Victoria Vannoy',
+    name: 'Melissa Enriquez',
     role: 'Director / Intelligence Division',
     image: teamImage3,
-    bio: 'Victoria serves as our lead analyst and provides strategic oversight of our intelligence staff. As a veteran of the United States Army and two law enforcment agencies, her expertise provides unmatched insight into our cases.',
+    bio: 'Melissa serves as our lead analyst and provides strategic oversight of our intelligence staff. As a veteran law enforcment officer and intelligence professional, her expertise provides unmatched insight into our cases.',
+  },
+  {
+    name: 'Vanessa Sarco',
+    role: 'Director / Case Management Division',
+    image: teamImage7,
+    bio: 'Vanessa supervises our case management staff, and oversees scheduling, travel planning, and client accounting. Her experience in business administration and customer service is critical to providing our clients with a high level of support.',
   },
   {
     name: 'Abram Popham',
@@ -35,23 +41,23 @@ const people = [
     bio: 'Abram connects our diverse client base with our comprehensive investigative resources, and supervisors our marketing efforts and client relations personnel. Abram is a professional account executive, but also has experience as a law enforcment officer.',
   },
   {
-    name: 'Vanessa Sarco',
-    role: 'Director / Case Management Division',
-    image: teamImage7,
-    bio: 'Vanessa supervises our administrative and case management staff, and handles client accounting. Her experience in business administration, customer service, and bookeeping is critical to providing our clients with a high level of support.',
-  },
-  {
     name: 'Yi Min',
     role: 'Director / Technology Services Division',
     image: teamImage6,
+    bio: 'Lok serves as our admin director and supervises our general office staff. She coordinates human resources, recruiting, and strategic planning initiatives. Lok has an MBA and undergraduate degree from The University of Amsterdam.',
+  },
+    {
+    name: 'Lok Cheng',
+    role: 'Director / Administrative Services Division',
+    image: teamImage4,
     bio: 'Yi supervises our technical services and data forensics staff. His professional law enforcement and military experience, coupled with advanced degrees in technology, has provided him with a broad range of qualifications and skills.',
   },
-  {
-    name: 'Join our Team',
-    role: 'Submit an Application',
-     image: teamImage9,
-    bio: 'Origin is always looking for talented individuals to join our growing team. We are actively recruiting investigators with law enforcement and/or fraud investigation experience, as well as intelligence analysts, case managers, and client relations professionals.',
-  },
+  //  {
+   // name: 'Join our Team',
+   // role: 'Submit an Application',
+    // image: teamImage9,
+   // bio: 'Origin is always looking for talented individuals to join our growing team. We are actively recruiting investigators with law enforcement and/or fraud investigation experience, as well as intelligence analysts, case managers, and client relations professionals.',
+ // },
   // More people...
 ]
 
