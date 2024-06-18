@@ -54,7 +54,7 @@ const JobSlideover = ({ open, onClose }) => {
 	<p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Feedback and Offer:</b> We provide timely feedback to all candidates. Successful candidates will receive a comprehensive offer package outlining the role, compensation, and benefits.</p>
   	<p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Background Investigation:</b> Due to the nature of our work, a thorough background investigation will be completed in accordance with laws and applicable guidelines.</p>
 
- <p className="mt-0 mb-0 text-lg tracking-tight font-bold underline text-zinc-700 px-10 pt-4 pb-1">Quality Benefits:</p>
+ <p className="mt-0 mb-0 text-sm tracking-tight font-bold underline text-zinc-700 px-10 pt-4 pb-1">Quality Benefits:</p>
 	 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1">We offer a competitive benefits package that reflects our commitment to the well-being and growth of our employees, including:</p>
 	 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Health and Wellness:</b> Comprehensive medical, dental, and vision insurance plans.</p>
 	 <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1"><b>Work-Life Balance:</b> Flexible schedule, paid time off, and remote work options.</p>
