@@ -61,7 +61,7 @@ const JobSlideover = ({ open, onClose }) => {
                       <p className="mt-0 mb-0 text-base tracking-tight text-zinc-700 font-bold underline px-10 pt-4 pb-1">Human Resources Support:</p>
                       <p className="mt-0 mb-0 text-sm tracking-tight text-zinc-700 px-10 py-1">Our dedicated human resources team is here to support you throughout your career journey. From onboarding to ongoing development, we ensure you have the resources and support needed to thrive at Origin. We foster a positive and inclusive workplace culture where every employee feels valued and empowered.</p>
                       <p className="mt-0 mb-0 font-display text-2xl tracking-tight text-zinc-900 font-bold px-10 py-4">Join us at Origin and be a part of a dynamic team that values excellence, innovation, and collaboration.</p>
-                        <p className="mt-0 mb-10 text-2xl tracking-tight text-red-800 hover:text-red-700 font-bold px-10 py-1"><a href="https://jobs.gusto.com/boards/origin-careers-e5e7c0e6-d25a-4784-9966-aad2669ee730" target="_blank">Please click here to get started.</a></p>
+                        <p className="mt-0 mb-10 font-display text-2xl tracking-tight text-red-800 hover:text-red-700 font-bold px-10 py-1"><a href="https://jobs.gusto.com/boards/origin-careers-e5e7c0e6-d25a-4784-9966-aad2669ee730" target="_blank">Please click here to get started.</a></p>
                     </div>
                   </div>
                 </Dialog.Panel>
