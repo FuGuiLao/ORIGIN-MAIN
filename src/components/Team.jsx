@@ -44,7 +44,7 @@ const people = [
     name: 'Yi Min',
     role: 'Director / Technical Services Division',
     image: teamImage6,
-    bio: 'Yi supervises our technical services and data forensics staff. His extensive professional law enforcement and military experience, coupled with advanced degrees in techn	ology, has provided Yi with a broad range of qualifications and skills to support our staff and clients..',
+    bio: 'Yi supervises our technical services and data forensics staff. His extensive professional law enforcement and military experience, coupled with advanced degrees in techn	ology, has provided Yi with a broad range of qualifications and skills to support our staff and clients.',
   },
     {
     name: 'Lok Cheng',
