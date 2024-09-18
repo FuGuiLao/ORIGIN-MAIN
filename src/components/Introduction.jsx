@@ -33,7 +33,7 @@ export function Introduction() {
           ))}
         </ul>
         <p className="mt-8">
-          Origin is a registered United States federal government prime contractor (7R8N0) and provides private investigation services in all 50 states.
+          Origin is a registered United States federal government prime contractor (7R8N0) and provides private investigation services in all 50 states and abroad.
         </p>
         <p className="mt-10">
           <Link
