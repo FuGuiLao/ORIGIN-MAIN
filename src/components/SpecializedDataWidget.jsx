@@ -24,7 +24,7 @@ function SpecializedDataWidget() {
     //   style={{ minWidth: '320px', height: '100%' }}
     // />
     <iframe
-      src="https://get-in-touch-733c19.zapier.app/specialized-data-request"
+      src="https://origin-specialized-data.zapier.app"
       width="100%"
       height="100%"
     />
