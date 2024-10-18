@@ -13,7 +13,7 @@ export function GridPattern(props) {
           patternUnits="userSpaceOnUse"
           {...props}
         >
-          <path d="M0 128V.5H128" fill="none" stroke="currentColor" />
+          <path d="M0 128V.5H128" fill="none" stroke="red" />
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill={`url(#${patternId})`} />
