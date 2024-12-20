@@ -23,7 +23,7 @@ export function FreeChapters() {
   const handleChangeEmail = (e) => {
     setEmailAddress(e.target.value);
     if (!!e.target.value && !validateEmail(e.target.value)) {
-      setErrorText('Invalid email address');
+      setErrorText('Invalid Email Address');
     } else {
       setErrorText('');
     }
@@ -57,11 +57,11 @@ export function FreeChapters() {
       .send(serviceID, templateID, { emailAddress }, userID)
       .then((response) => {
         setIsSent(true);
-        setEmailAddress('Information sent');
+        setEmailAddress('Information Sent');
         console.log('Email sent successfully!', response);
       })
       .catch((error) => {
-        setErrorText('Error sending email');
+        setErrorText('Error Sending Email');
       });
   };
 
