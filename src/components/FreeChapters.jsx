@@ -88,7 +88,7 @@ export function FreeChapters() {
           <form onSubmit={handleSubmit} className="lg:pl-16">
             <input
               type="text"
-              name="honeypot"
+              name="user_phone"
               value={honeypot}
               onChange={(e) => setHoneypot(e.target.value)}
               style={{ display: 'none' }} // Hidden field
