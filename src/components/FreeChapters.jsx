@@ -1,39 +1,58 @@
-﻿import { useState } from 'react'
-import { Button } from '@/components/Button'
-import { Container } from '@/components/Container'
-import { Pattern } from '@/components/Pattern'
+import { useState, useEffect } from 'react';
+import { Button } from '@/components/Button';
+import { Container } from '@/components/Container';
+import { Pattern } from '@/components/Pattern';
 import emailjs from 'emailjs-com';
 
 export function FreeChapters() {
   const [emailAddress, setEmailAddress] = useState('');
   const [isSent, setIsSent] = useState(false);
   const [errorText, setErrorText] = useState('');
+  const [formStartTime, setFormStartTime] = useState(Date.now()); // Track form start time
+  const [honeypot, setHoneypot] = useState(''); // Honeypot field state
+
+  useEffect(() => {
+    setFormStartTime(Date.now());
+  }, []);
 
   const validateEmail = (email) => {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return regex.test(email);
-  }
+  };
 
   const handleChangeEmail = (e) => {
     setEmailAddress(e.target.value);
     if (!!e.target.value && !validateEmail(e.target.value)) {
       setErrorText('Invalid email address');
     } else {
-      setErrorText(''); 
+      setErrorText('');
     }
-  }
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // Honeypot validation
+    if (honeypot) {
+      console.log('Spam bot detected via honeypot!');
+      return;
+    }
+
+    // Time-based validation
+    const timeElapsed = Date.now() - formStartTime;
+    if (timeElapsed < 2000) { // 2 seconds
+      setErrorText('Form submission too fast. Please try again.');
+      return;
+    }
+
     if (!validateEmail(emailAddress)) {
       return;
     }
-  
-    // 使用您的 EmailJS 服务 ID、模板 ID 和用户 ID 更新以下值   https://www.emailjs.com/
+
     const serviceID = 'service_9eddj4w';
     const templateID = 'template_0jjieaz';
     const userID = 'njnJ53uqzX5AysTcD';
-  
+
     emailjs
       .send(serviceID, templateID, { emailAddress }, userID)
       .then((response) => {
@@ -67,6 +86,13 @@ export function FreeChapters() {
             </p>
           </div>
           <form onSubmit={handleSubmit} className="lg:pl-16">
+            <input
+              type="text"
+              name="honeypot"
+              value={honeypot}
+              onChange={(e) => setHoneypot(e.target.value)}
+              style={{ display: 'none' }} // Hidden field
+            />
             <h3 className="text-base font-medium tracking-tight text-white">
               Get more information straight to your inbox{' '}
               <span aria-hidden="true">&rarr;</span>
@@ -83,9 +109,15 @@ export function FreeChapters() {
                   value={emailAddress}
                   onChange={handleChangeEmail}
                 />
-                <div className={`absolute inset-0 rounded-md border ${!!errorText ? "border-red-800" : "border-white/20"} peer-focus:border-white/50 peer-focus:bg-zinc-800 peer-focus:ring-1 peer-focus:ring-white/50 sm:rounded-xl`} />
+                <div
+                  className={`absolute inset-0 rounded-md border ${
+                    !!errorText ? 'border-red-800' : 'border-white/20'
+                  } peer-focus:border-white/50 peer-focus:bg-zinc-800 peer-focus:ring-1 peer-focus:ring-white/50 sm:rounded-xl`}
+                />
                 {!!errorText && (
-                  <span className="absolute left-4 bottom-[-32px] text-sm text-red-800">{errorText}</span>
+                  <span className="absolute left-4 bottom-[-32px] text-sm text-red-800">
+                    {errorText}
+                  </span>
                 )}
               </div>
               <Button
@@ -94,12 +126,12 @@ export function FreeChapters() {
                 className="mt-4 w-full sm:relative sm:z-10 sm:mt-0 sm:w-auto sm:flex-none disabled:opacity-100"
                 disabled={isSent}
               >
-                {isSent ? "Thank You" : "Learn More"}
+                {isSent ? 'Thank You' : 'Learn More'}
               </Button>
             </div>
           </form>
         </Container>
       </div>
     </section>
-  )
+  );
 }
