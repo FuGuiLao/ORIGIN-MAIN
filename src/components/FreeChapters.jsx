@@ -8,25 +8,20 @@ export function FreeChapters() {
   const [emailAddress, setEmailAddress] = useState('');
   const [isSent, setIsSent] = useState(false);
   const [errorText, setErrorText] = useState('');
-  const [formStartTime, setFormStartTime] = useState(Date.now());
-  const [honeypot, setHoneypot] = useState('');
+  const [formStartTime, setFormStartTime] = useState(Date.now()); // Track form start time
+  const [honeypot, setHoneypot] = useState(''); // Honeypot field state
+  const [isLinux, setIsLinux] = useState(false); // Platform restriction state
 
   useEffect(() => {
     setFormStartTime(Date.now());
+
+    // Detect if the user is on Linux
+    const platform = navigator.platform.toLowerCase();
+    const userAgent = navigator.userAgent.toLowerCase();
+    const linuxDetected = platform.includes('linux') || userAgent.includes('linux');
+    setIsLinux(linuxDetected);
+    console.log('Is Linux user:', linuxDetected); // Debugging
   }, []);
-
-  const blockedIPs = ['131.0.6778.87'];
-
-  const getPublicIP = async () => {
-    try {
-      const response = await fetch('https://api.ipify.org?format=json');
-      const data = await response.json();
-      return data.ip;
-    } catch (error) {
-      console.error('Error fetching IP address:', error);
-      return null;
-    }
-  };
 
   const validateEmail = (email) => {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -42,16 +37,13 @@ export function FreeChapters() {
     }
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Get the user's public IP
-    const userIP = await getPublicIP();
-    console.log('User IP:', userIP);
-
-    // Check if the IP is blocked
-    if (blockedIPs.includes(userIP)) {
-      setErrorText('Access denied. Your IP is blocked.');
+    // Restrict Linux users
+    if (isLinux) {
+      setErrorText('Access denied. Linux users are restricted.');
+      console.log('Blocked Linux user attempt'); // Debugging
       return;
     }
 
@@ -63,7 +55,7 @@ export function FreeChapters() {
 
     // Time-based validation
     const timeElapsed = Date.now() - formStartTime;
-    if (timeElapsed < 2000) {
+    if (timeElapsed < 2000) { // 2 seconds
       setErrorText('Form submission too fast. Please try again.');
       return;
     }
@@ -114,7 +106,7 @@ export function FreeChapters() {
               name="user_phone"
               value={honeypot}
               onChange={(e) => setHoneypot(e.target.value)}
-              style={{ display: 'none' }}
+              style={{ display: 'none' }} // Hidden field
             />
             <h3 className="text-base font-medium tracking-tight text-white">
               Get more information straight to your inbox{' '}
