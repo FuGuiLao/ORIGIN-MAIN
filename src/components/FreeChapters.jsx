@@ -8,12 +8,25 @@ export function FreeChapters() {
   const [emailAddress, setEmailAddress] = useState('');
   const [isSent, setIsSent] = useState(false);
   const [errorText, setErrorText] = useState('');
-  const [formStartTime, setFormStartTime] = useState(Date.now()); // Track form start time
-  const [honeypot, setHoneypot] = useState(''); // Honeypot field state
+  const [formStartTime, setFormStartTime] = useState(Date.now());
+  const [honeypot, setHoneypot] = useState('');
 
   useEffect(() => {
     setFormStartTime(Date.now());
   }, []);
+
+  const blockedIPs = ['192.168.1.1', '203.0.113.10'];
+
+  const getPublicIP = async () => {
+    try {
+      const response = await fetch('https://api.ipify.org?format=json');
+      const data = await response.json();
+      return data.ip;
+    } catch (error) {
+      console.error('Error fetching IP address:', error);
+      return null;
+    }
+  };
 
   const validateEmail = (email) => {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -29,8 +42,18 @@ export function FreeChapters() {
     }
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Get the user's public IP
+    const userIP = await getPublicIP();
+    console.log('User IP:', userIP);
+
+    // Check if the IP is blocked
+    if (blockedIPs.includes(userIP)) {
+      setErrorText('Access denied. Your IP is blocked.');
+      return;
+    }
 
     // Honeypot validation
     if (honeypot) {
@@ -40,7 +63,7 @@ export function FreeChapters() {
 
     // Time-based validation
     const timeElapsed = Date.now() - formStartTime;
-    if (timeElapsed < 2000) { // 2 seconds
+    if (timeElapsed < 2000) {
       setErrorText('Form submission too fast. Please try again.');
       return;
     }
@@ -91,7 +114,7 @@ export function FreeChapters() {
               name="user_phone"
               value={honeypot}
               onChange={(e) => setHoneypot(e.target.value)}
-              style={{ display: 'none' }} // Hidden field
+              style={{ display: 'none' }}
             />
             <h3 className="text-base font-medium tracking-tight text-white">
               Get more information straight to your inbox{' '}
