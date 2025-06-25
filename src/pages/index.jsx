@@ -31,21 +31,27 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>ORIGIN / Investigation / Intelligence</title>
-        <meta
-          name="description"
-          content="Origin is a private investigation and intelligence agency. We assist governments, corporations, law firms, and individuals."
-        />
-        <meta name="apple-mobile-web-app-title" content="ORIGIN" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function(a,b,c,d,e,f,g){c[d]=c[d]||function(){(c[d].q=c[d].q||[]).push(arguments)};c['_lsAlias']=c[d];e=a.createElement(b);e.type='text/javascript';e.async=true;e.src='https://app.chatsupport.co/api/client/get/script/LS-42bf8cb7';f=function(){g=a.getElementsByTagName(b)[0];g.parentNode.insertBefore(e,g)};c.addEventListener('load',f)})(document,'script',window,'_ls');_ls('init',{'projectId':'LS-42bf8cb7'});
-            `,
-          }}
-        />
-        <script src="https://static.heyflow.app/widget/latest/webview.js"></script>
-      </Head>
+  <title>ORIGIN / Investigation / Intelligence</title>
+  <meta
+    name="description"
+    content="Origin is a private investigation and intelligence agency. We assist governments, corporations, law firms, and individuals."
+  />
+  <meta name="apple-mobile-web-app-title" content="ORIGIN" />
+  <script
+    dangerouslySetInnerHTML={{
+      __html: `
+        window.SMITH={},window.SMITH.smithChatAccount="48464277-cea0-4c6d-93f1-6d09d07b1315",window.SMITH.baseUrl="https://app.smith.ai";
+        var script=document.createElement("script");
+        script.async=!0;
+        script.type="text/javascript";
+        script.src="https://app.smith.ai/chat/widget-latest.js";
+        document.getElementsByTagName("HEAD").item(0).appendChild(script);
+      `,
+    }}
+  />
+  <script src="https://static.heyflow.app/widget/latest/webview.js"></script>
+</Head>
+
       <Banner />
       <Hero />
       <Introduction />
