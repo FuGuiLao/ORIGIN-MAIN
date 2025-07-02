@@ -17,7 +17,7 @@ export function Contact() {
           Contact Us
         </SectionHeading>
           <p className="mt-8 text-lg leading-8 text-zinc-100">
-           Our offices are open 24 hours a day - 365 days a year to serve our clients. Connect with us on social media to learn more.
+           Our offices are open 24 hours a day - 365 days a year to serve our clients.  Connect with our <a href="https://press.origininvestigations.com" target="_blank" rel="noopener noreferrer" className="underline text-red-400 hover:text-red-300">press team</a> or follow us on social media to learn more.
           </p>
         </div>
         <div className="mx-auto mt-6 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 sm:grid-cols-2 sm:gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-4">
