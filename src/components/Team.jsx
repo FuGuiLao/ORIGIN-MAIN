@@ -6,7 +6,7 @@ import teamImage4 from '@/images/avatars/avatar-cheng.png'
 import teamImage5 from '@/images/avatars/avatar-temp.png'
 import teamImage6 from '@/images/avatars/avatar-min.png'
 import teamImage7 from '@/images/avatars/avatar-sarco.png'
-import teamImage8 from '@/images/avatars/avatar-popham.png'
+import teamImage8 from '@/images/avatars/avatar-walker.png'
 import teamImage9 from '@/images/avatars/avatar-new.png'
 
 import React, { useState } from 'react';
