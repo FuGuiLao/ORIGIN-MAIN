@@ -35,10 +35,10 @@ const people = [
     bio: 'Vanessa supervises our case management staff and oversees scheduling, travel planning, and client accounting. Her experience in business administration and customer service is critical to providing our clients with a high level of case insight and support.',
   },
   {
-    name: 'Abram Popham',
+    name: 'Emily Walker',
     role: 'Director / Client Relations Division',
     image: teamImage8,
-    bio: 'Abram connects our diverse client base with our comprehensive investigative resources, and supervisors our marketing efforts and client relations personnel. Abram is a professional account executive, but also has experience as a law enforcment officer.',
+    bio: 'Emily connects our diverse client base with our comprehensive investigative resources, and supervisors our marketing efforts and client relations personnel. Emily is a experienced account executive, with a background federal government contracting.',
   },
   {
     name: 'Yi Min',
